@@ -1,45 +1,30 @@
-﻿group id,id,id2,-,-,name,-,price,price2,0,1
-a,1,1,,,Keuze brood,,0,0,0,1
-b,2,2,,,Verpakking,,0.15,0.15,0,1
-c,3,3,,,Vegan?,,0,0,0,1
-d,4,4,,,Verpakking,,0.5,0.5,0,1
-e,5,5,,,Vegan?,,0,0,0,1
-f,6,6,,,Verpakking,,0.5,0.5,0,1
-g,7,7,,,Vegan?,,0,0,0,1
-h,8,8,,,Verpakking,,0.5,0.5,0,1
-i,9,9,,,Verpakking,,0.15,0.15,0,1
-j,10,10,,,Topping,,0,0,0,1
-k,11,11,,,Wat wil je erbij drinken?,,28.25,28.25,0,1
-l,12,12,,,Verpakking,,0.05,0.05,0,1
-m,13,13,,,Wat wil je erbij drinken?,,28.25,28.25,0,1
-n,14,14,,,Verpakking,,0.15,0.15,0,1
-o,15,15,,,Welke topping wil je hierbij?,,0,0,0,1
-p,16,16,,,Wat wil je erbij drinken?,,28.25,28.25,0,1
-q,17,17,,,Verpakking,,0.05,0.05,0,1
-r,18,18,,,Keuze brood,,0,0,0,1
-s,19,19,,,Wat wil je erbij drinken?,,28.25,28.25,0,1
-t,20,20,,,Verpakking,,0.15,0.15,0,1
-u,21,21,,,Extra toevoeging,,2,2,0,1
-v,22,22,,,Wat wil je erbij drinken?,,28.25,28.25,0,1
-w,23,23,,,Verpakking,,0.15,0.15,0,1
-x,24,24,,,Extra toevoeging,,1.5,1.5,0,1
-y,25,25,,,Wat wil je erbij drinken?,,28.25,28.25,0,1
-z,26,26,,,Verpakking,,0.15,0.15,0,1
-aa,27,27,,,Extra toevoeging,,2,2,0,1
-ab,28,28,,,Wat wil je erbij drinken?,,28.25,28.25,0,1
-ac,29,29,,,Verpakking,,0.15,0.15,0,1
-ad,30,30,,,Wat wil je erbij drinken?,,28.25,28.25,0,1
-ae,31,31,,,Verpakking,,0.05,0.05,0,1
-af,32,32,,,Wat wil je daarbij drinken?,,3.5,3.5,0,1
-ag,33,33,,,Verpakking,,0.05,0.05,0,1
-ah,34,34,,,Wat wil je daarbij drinken?,,3.5,3.5,0,1
-ai,35,35,,,Verpakking,,0.15,0.15,0,1
-aj,36,36,,,Kies je topping,,0,0,0,1
-ak,37,37,,,Wat wil je daarbij drinken?,,3.5,3.5,0,1
-al,38,38,,,Verpakking,,0.15,0.15,0,1
-am,39,39,,,Wat wil je erbij drinken?,,11.8,11.8,0,1
-an,40,40,,,Maak er zelf thee bij,,17.5,17.5,0,1
-ao,41,41,,,Verpakking,,0.15,0.15,0,1
-ap,42,42,,,Verpakking,,0.15,0.15,0,1
-aq,43,43,,,Verpakking,,0.15,0.15,0,1
-ar,44,44,,,Verpakking,,0.15,0.15,0,1
+﻿group id,id,id2,-,-,name,-,price,price2,-,-,-,-,-,-,-,-
+a,1,1,,,Blond desembrood,,0,0,0,0,0,0,0,"delivery,takeaway",1,9
+a,2,2,,,Volkoren desembrood,,0,0,0,0,0,0,0,"delivery,takeaway",1,9
+b,3,3,,,Wegwerp plastic,,0.15,0.15,0.15,0,0,0,0,"delivery,takeaway",1,9
+c,4,4,,,Ik bestel graag de vegan box,,0,0,0,0,0,0,0,"delivery,takeaway",1,9
+c,5,5,,,Ik bestel graag de reguliere box,,0,0,0,0,0,0,0,"delivery,takeaway",1,9
+c,6,6,,,Ik bestel graag de vegetarische box,,0,0,0,0,0,0,0,"delivery,takeaway",1,9
+d,7,7,,,Bacon,,0,0,0,0,0,0,0,"delivery,takeaway",1,9
+d,8,8,,,Warmgerookte zalm,,0,0,0,0,0,0,0,"delivery,takeaway",1,9
+d,9,9,,,Geen - vegetarisch,,0,0,0,0,0,0,0,"delivery,takeaway",1,9
+e,10,10,,,"Energie, incl. wegwerp plastic toeslag EUR 0,15",,5.65,5.65,5.65,0,0,0,0,"delivery,takeaway",1,9
+e,11,11,,,"Zomergroen, incl. wegwerp plastic toeslag EUR 0,15",,5.65,5.65,5.65,0,0,0,0,"delivery,takeaway",1,9
+e,12,12,,,"Alles-in-één, incl. wegwerp plastic toeslag EUR 0,15",,5.65,5.65,5.65,0,0,0,0,"delivery,takeaway",1,9
+e,13,13,,,"Oppepper, incl. wegwerp plastic toeslag EUR 0,15",,6.15,6.15,6.15,0,0,0,0,"delivery,takeaway",1,9
+e,14,14,,,"Verse sinaasappelsap, incl. wegwerp plastic toeslag EUR 0,15",,5.15,5.15,5.15,0,0,0,0,"delivery,takeaway",1,9
+f,15,15,,,Boter,,0,0,0,0,0,0,0,"delivery,takeaway",1,9
+f,16,16,,,Fruitcompote,,0,0,0,0,0,0,0,"delivery,takeaway",1,9
+g,17,17,,,Met gedroogde scharrelham,,2,2,2,0,0,0,0,"delivery,takeaway",1,9
+g,18,18,,,Met gesmolten kaas,,1.5,1.5,1.5,0,0,0,0,"delivery,takeaway",1,9
+h,19,19,,,Schulp appelsap,,3.5,3.5,3.5,0,0,0,0,"delivery,takeaway",1,9
+i,20,20,,,Kaas,,0,0,0,0,0,0,0,"delivery,takeaway",1,9
+i,21,21,,,Jam,,0,0,0,0,0,0,0,"delivery,takeaway",1,9
+i,22,22,,,Pure chocoladestukjes,,0,0,0,0,0,0,0,"delivery,takeaway",1,9
+e,23,23,,,"IJsthee, incl. wegwerp plastic toeslag EUR 0,15",,4.15,4.15,4.15,0,0,0,0,"delivery,takeaway",1,9
+e,24,24,,,"Groene ijsthee, incl. wegwerp plastic toeslag EUR 0,15",,4.15,4.15,4.15,0,0,0,0,"delivery,takeaway",1,9
+j,25,25,,,Vandaag blijf ik binnen,,3.5,3.5,3.5,0,0,0,0,"delivery,takeaway",1,9
+j,26,26,,,Een wijs besluit,,3.5,3.5,3.5,0,0,0,0,"delivery,takeaway",1,9
+j,27,27,,,Even niks,,3.5,3.5,3.5,0,0,0,0,"delivery,takeaway",1,9
+j,28,28,,,Een beetje geluk,,3.5,3.5,3.5,0,0,0,0,"delivery,takeaway",1,9
+j,29,29,,,Held in een mok,,3.5,3.5,3.5,0,0,0,0,"delivery,takeaway",1,9

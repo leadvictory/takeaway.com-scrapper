@@ -12,7 +12,7 @@ def index_to_letters(index):
         index -= 1
     return result
 
-# Load group ids from options_config.csv
+# Load group IDs from options_config.csv
 group_id_map = {}
 with open("options_config.csv", "r", encoding="utf-8-sig") as f:
     reader = csv.DictReader(f)
@@ -21,65 +21,73 @@ with open("options_config.csv", "r", encoding="utf-8-sig") as f:
         group_id = row["group id"]
         group_id_map[name] = group_id
 
-# Load HTML and extract JSON blocks
+# Load annemax_menu.html content
 with open("annemax_menu.html", "r", encoding="utf-8") as f:
     html = f.read()
 
+# Extract JSON blocks
 match_groups = re.search(r'"modifierGroups"\s*:\s*(\[\{.*?\}])', html, re.DOTALL)
 if not match_groups:
     print("❌ Could not find 'modifierGroups' block.")
     exit()
-modifier_groups_raw = match_groups.group(1)
+modifier_groups = json.loads(match_groups.group(1))
 
 match_sets = re.search(r'"modifierSets"\s*:\s*(\[\{.*?\}])', html, re.DOTALL)
 if not match_sets:
     print("❌ Could not find 'modifierSets' block.")
     exit()
-modifier_sets_raw = match_sets.group(1)
+modifier_sets = json.loads(match_sets.group(1))
 
-try:
-    modifier_groups = json.loads(modifier_groups_raw)
-    modifier_sets = json.loads(modifier_sets_raw)
+# Create lookups
+modifier_lookup = {str(m["id"]): m["modifier"] for m in modifier_sets}
+modifier_id_to_group_name = {}
+for group in modifier_groups:
+    group_name = group.get("name", "").strip()
+    for mod_id in group.get("modifiers", []):
+        modifier_id_to_group_name[str(mod_id)] = group_name
 
-    modifier_lookup = {
-        str(mod["id"]): mod["modifier"]
-        for mod in modifier_sets
-    }
+# Write CSV without duplicates
+seen_names = set()
 
-    with open("options.csv", "w", newline="", encoding="utf-8-sig") as csvfile:
-        writer = csv.writer(csvfile)
-        writer.writerow(["group id", "id", "id2", "-", "-", "name", "-", "price", "price2", "0", "1"])
+with open("options.csv", "w", newline="", encoding="utf-8-sig") as csvfile:
+    writer = csv.writer(csvfile)
+    writer.writerow(["group id", "id", "id2", "-", "-", "name", "-", "price", "price2","-", "-", "-", "-", "-", "-",  "-", "-"])
 
-        option_id = 1
-        for group in modifier_groups:
-            name = group.get("name", "").strip()
-            group_letter = group_id_map.get(name)
-            if not group_letter:
-                continue  # Skip if not found in config
+    option_id = 1
+    for mod_id, mod_data in modifier_lookup.items():
+        name = mod_data.get("name", "").strip()
+        if not name or name in seen_names:
+            continue
+        seen_names.add(name)
 
-            price = 0
-            for mod_id in group.get("modifiers", []):
-                mod_data = modifier_lookup.get(str(mod_id))
-                if not mod_data:
-                    continue
-                price += mod_data.get("additionPrice", 0)
+        group_name = modifier_id_to_group_name.get(mod_id)
+        if not group_name:
+            continue
+        group_id = group_id_map.get(group_name)
+        if not group_id:
+            continue
 
-            writer.writerow([
-                group_letter,
-                option_id,
-                option_id,
-                "",
-                "",
-                name,
-                "",
-                price,
-                price,
-                "0",
-                "1"
-            ])
-            option_id += 1
+        price = mod_data.get("additionPrice", 0)
 
-    print(f"💾 Saved {option_id - 1} options to options.csv")
+        writer.writerow([
+            group_id,
+            option_id,
+            option_id,
+            "",
+            "",
+            name,
+            "",
+            price,
+            price,
+            price,
+            "0",
+            "0",
+            "0",
+            "0",
+            "delivery,takeaway",
+            "1",
+            "9"
+        ])
+        option_id += 1
 
-except Exception as e:
-    print("❌ JSON parsing failed:", e)
+print(f"💾 Saved {option_id - 1} unique options to options.csv")
