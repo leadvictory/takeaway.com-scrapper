@@ -12,6 +12,16 @@ def index_to_letters(index):
         index -= 1
     return result
 
+# Load group ids from options_config.csv
+group_id_map = {}
+with open("options_config.csv", "r", encoding="utf-8-sig") as f:
+    reader = csv.DictReader(f)
+    for row in reader:
+        name = row["title"].strip()
+        group_id = row["group id"]
+        group_id_map[name] = group_id
+
+# Load HTML and extract JSON blocks
 with open("annemax_menu.html", "r", encoding="utf-8") as f:
     html = f.read()
 
@@ -27,7 +37,6 @@ if not match_sets:
     exit()
 modifier_sets_raw = match_sets.group(1)
 
-
 try:
     modifier_groups = json.loads(modifier_groups_raw)
     modifier_sets = json.loads(modifier_sets_raw)
@@ -42,30 +51,33 @@ try:
         writer.writerow(["group id", "id", "id2", "-", "-", "name", "-", "price", "price2", "0", "1"])
 
         option_id = 1
-        for group_index, group in enumerate(modifier_groups):
-            group_letter = index_to_letters(group_index)
+        for group in modifier_groups:
+            name = group.get("name", "").strip()
+            group_letter = group_id_map.get(name)
+            if not group_letter:
+                continue  # Skip if not found in config
+
+            price = 0
             for mod_id in group.get("modifiers", []):
                 mod_data = modifier_lookup.get(str(mod_id))
                 if not mod_data:
                     continue
+                price += mod_data.get("additionPrice", 0)
 
-                name = mod_data.get("name", "").strip()
-                price = mod_data.get("additionPrice", 0)
-
-                writer.writerow([
-                    group_letter,
-                    option_id,
-                    option_id,
-                    "",
-                    "",
-                    name,
-                    "",
-                    price,
-                    price,
-                    "0",
-                    "1"
-                ])
-                option_id += 1
+            writer.writerow([
+                group_letter,
+                option_id,
+                option_id,
+                "",
+                "",
+                name,
+                "",
+                price,
+                price,
+                "0",
+                "1"
+            ])
+            option_id += 1
 
     print(f"💾 Saved {option_id - 1} options to options.csv")
 

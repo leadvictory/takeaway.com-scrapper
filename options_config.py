@@ -2,7 +2,6 @@ import re
 import json
 import csv
 
-# ---------- helper to convert 0-based index → a, b, …, z, aa, ab, … ----------
 def index_to_letters(idx: int) -> str:
     """0 → a, 1 → b … 25 → z, 26 → aa, 27 → ab, … (lower-case)."""
     letters = []
@@ -11,42 +10,46 @@ def index_to_letters(idx: int) -> str:
         letters.append(chr(ord('a') + rem))
         if idx == 0:
             break
-        idx -= 1          # Excel-style carry
+        idx -= 1
     return ''.join(reversed(letters))
-# -----------------------------------------------------------------------------
 
-
-# ---------- read HTML --------------------------------------------------------
 with open("annemax_menu.html", "r", encoding="utf-8") as fh:
     html = fh.read()
 
-m = re.search(r'"modifierSets"\s*:\s*(\[\{.*?}])', html, re.DOTALL)
+# Updated regex to find "modifierGroups"
+m = re.search(r'"modifierGroups"\s*:\s*(\[\{.*?}])', html, re.DOTALL)
 if not m:
-    print("❌ Could not find 'modifierSets' block.")
+    print("❌ Could not find 'modifierGroups' block.")
     raise SystemExit
 
 raw_json = m.group(1)
 
-# ---------- parse JSON -------------------------------------------------------
 try:
-    modifier_sets = json.loads(raw_json)
+    modifier_groups = json.loads(raw_json)
 except json.JSONDecodeError as e:
     print("❌ JSON parsing failed:", e)
     raise SystemExit
 
-print(f"✅ Found {len(modifier_sets)} modifier sets.")
+print(f"✅ Found {len(modifier_groups)} modifier groups.")
 
-# ---------- write CSV --------------------------------------------------------
+name_to_group_id = {}
+group_counter = 0
+
 with open("options_config.csv", "w", newline='', encoding="utf-8-sig") as csvfile:
     writer = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
     writer.writerow(["group id", "group type", "title"])
 
-    for i, item in enumerate(modifier_sets):
-        mod = item.get("modifier", {})
-        group_id      = index_to_letters(i)                  # a, b, …, aa, ab …
-        max_choices   = mod.get("maxChoices", 1)
-        group_type    = 1 if max_choices == 1 else 2         # 1 = mandatory (select), 2 = optional (checkbox)
-        title         = mod.get("name", "").strip()
+    for group in modifier_groups:
+        title = group.get("name", "").strip()
+        if not title or title in name_to_group_id:
+            continue  # Skip duplicates or empty titles
+
+        max_choices = group.get("maxChoices", 1)
+        group_type = 1 if max_choices == 1 else 2
+
+        group_id = index_to_letters(group_counter)
+        name_to_group_id[title] = group_id
+        group_counter += 1
 
         writer.writerow([group_id, group_type, title])
 
