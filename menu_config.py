@@ -21,7 +21,7 @@ def save_menu_config(menu_name):
         with open(filename, "w", newline='', encoding="utf-8") as csvfile:
             writer = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
 
-            writer.writerow(["id", "category name", "-", "-", "subtitle", "id2", "-"])
+            # writer.writerow(["id", "category name", "-", "-", "subtitle", "id2", "-"])
 
             for idx, cat in enumerate(categories, start=1):
                 writer.writerow([

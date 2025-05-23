@@ -38,7 +38,7 @@ def save_option_config(menu_name):
     filename = f"options_config_{menu_name}.csv"
     with open(filename, "w", newline='', encoding="utf-8") as csvfile:
         writer = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-        writer.writerow(["group id", "group type", "title"])
+        # writer.writerow(["group id", "group type", "title"])
 
         for group in modifier_groups:
             title = group.get("name", "").strip()

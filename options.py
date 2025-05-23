@@ -49,7 +49,7 @@ def save_options(menu_name):
     filename = f"options_{menu_name}.csv"
     with open(filename, "w", newline="", encoding="utf-8-sig") as csvfile:
         writer = csv.writer(csvfile)
-        writer.writerow(["group id", "id", "id2", "-", "-", "name", "-", "price", "price2","-", "-", "-", "-", "-", "-",  "-", "-"])
+        # writer.writerow(["group id", "id", "id2", "-", "-", "name", "-", "price", "price2","-", "-", "-", "-", "-", "-",  "-", "-"])
 
         option_id = 1
         for mod_id, mod_data in modifier_lookup.items():

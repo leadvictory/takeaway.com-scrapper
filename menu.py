@@ -39,10 +39,10 @@ def save_menu(menu_name):
         filename = f"menu_{menu_name}.csv"
         with open(filename, "w", newline='', encoding="utf-8-sig") as csvfile:
             writer = csv.writer(csvfile)
-            writer.writerow([
-                "id", "id2", "-", "-", "-", "-", "name", "-", "description", "price", "price2",
-                "-", "-", "-", "option groups", "-", "-", "-", "-", "photo", "-", "-", "-", "category", "-"
-            ])
+            # writer.writerow([
+            #     "id", "id2", "-", "-", "-", "-", "name", "-", "description", "price", "price2",
+            #     "-", "-", "-", "option groups", "-", "-", "-", "-", "photo", "-", "-", "-", "category", "-"
+            # ])
 
             for idx, (item_id, item) in enumerate(parsed_obj.items(), start=1):
                 name = item.get("name", "").strip()
