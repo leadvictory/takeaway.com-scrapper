@@ -46,7 +46,7 @@ def save_options(menu_name):
             modifier_id_to_group_name[str(mod_id)] = group_name
 
     seen_names = set()
-    filename = f"options{menu_name}.csv"
+    filename = f"options_{menu_name}.csv"
     with open(filename, "w", newline="", encoding="utf-8-sig") as csvfile:
         writer = csv.writer(csvfile)
         writer.writerow(["group id", "id", "id2", "-", "-", "name", "-", "price", "price2","-", "-", "-", "-", "-", "-",  "-", "-"])
