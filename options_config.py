@@ -1,9 +1,9 @@
 import re
 import json
 import csv
+import os
 
 def index_to_letters(idx: int) -> str:
-    """0 → a, 1 → b … 25 → z, 26 → aa, 27 → ab, … (lower-case)."""
     letters = []
     while True:
         idx, rem = divmod(idx, 26)
@@ -14,36 +14,40 @@ def index_to_letters(idx: int) -> str:
     return ''.join(reversed(letters))
 
 def save_option_config(menu_name):
-    source_name = menu_name + ".html"
-    with open(source_name, "r", encoding="utf-8") as fh:
-        html = fh.read()
+    base_dir = "downloads"
+    source_name = os.path.join(base_dir, f"{menu_name}.html")
+    filename = os.path.join(base_dir, f"options_config_{menu_name}.csv")
+
+    try:
+        with open(source_name, "r", encoding="utf-8") as fh:
+            html = fh.read()
+    except FileNotFoundError:
+        print(f"File not found: {source_name}")
+        return
 
     m = re.search(r'"modifierGroups"\s*:\s*(\[\{.*?}])', html, re.DOTALL)
     if not m:
-        print("❌ Could not find 'modifierGroups' block.")
-        raise SystemExit
+        print("No 'modifierGroups' block found in the HTML.")
+        modifier_groups = []
+    else:
+        try:
+            modifier_groups = json.loads(m.group(1))
+        except json.JSONDecodeError as e:
+            print("JSON parsing failed:", e)
+            return
 
-    raw_json = m.group(1)
-
-    try:
-        modifier_groups = json.loads(raw_json)
-    except json.JSONDecodeError as e:
-        print("❌ JSON parsing failed:", e)
-        raise SystemExit
-
-    print(f"✅ Found {len(modifier_groups)} modifier groups.")
+    print(f"Found {len(modifier_groups)} modifier groups.")
 
     name_to_group_id = {}
     group_counter = 0
-    filename = f"options_config_{menu_name}.csv"
+
     with open(filename, "w", newline='', encoding="utf-8") as csvfile:
         writer = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-        # writer.writerow(["group id", "group type", "title"])
 
         for group in modifier_groups:
             title = group.get("name", "").strip()
             if not title or title in name_to_group_id:
-                continue  # Skip duplicates or empty titles
+                continue
 
             max_choices = group.get("maxChoices", 1)
             group_type = 1 if max_choices == 1 else 2
@@ -52,6 +56,6 @@ def save_option_config(menu_name):
             name_to_group_id[title] = group_id
             group_counter += 1
 
-            writer.writerow([group_id, group_type, title])
+            writer.writerow([group_id, group_type, title, ""])
 
-    print(f"💾 Saved to {filename}")
+    print(f"Saved to {filename}")

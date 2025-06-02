@@ -3,13 +3,16 @@ from selenium.webdriver.common.by import By
 from urllib.parse import urlparse
 import os
 
-def save_html():
-    URL="https://www.thuisbezorgd.nl/menu/annemax-14"
-    # URL = input("Enter menu URL: ").strip()
-
+def save_html(URL):
     parsed_url = urlparse(URL)
     menu_name = os.path.basename(parsed_url.path)
-    filename = os.path.basename(parsed_url.path) + ".html" 
+
+    output_dir = "downloads"
+    os.makedirs(output_dir, exist_ok=True)
+
+    filename = f"{menu_name}.html"
+    filepath = os.path.join(output_dir, filename)
+
     with SB(uc=True) as sb:
     # with SB(uc=True, headless=True) as sb:
         sb.maximize_window()
@@ -18,8 +21,9 @@ def save_html():
         sb.sleep(3)
 
         html = sb.get_page_source()
-        with open(filename, "w", encoding="utf-8") as f:
+        with open(filepath, "w", encoding="utf-8") as f:
             f.write(html)
 
-        print(f"✅ Page source saved to {filename}")
+        print(f" Page source saved to {filepath}")
+
     return menu_name
