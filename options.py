@@ -15,8 +15,8 @@ def index_to_letters(index):
 
 def save_options(menu_name):
     base_dir = "downloads"
-    source_name = os.path.join(base_dir, f"{menu_name}.html")
-    config_name = os.path.join(base_dir, f"options_config_{menu_name}.csv")
+    source_name = os.path.join("uploads", f"{menu_name}.html")
+    config_name = os.path.join("uploads", f"options_config_{menu_name}.csv")
     output_name = os.path.join(base_dir, f"options_{menu_name}.csv")
 
     group_id_map = {}
