@@ -1,13 +1,59 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Run Scraper</title>
-</head>
-<body>
-  <h2>Enter URL to Scrape:</h2>
-  <form action="/run" method="POST">
-    <input type="text" name="url" placeholder="https://example.com" required>
-    <button type="submit">Run</button>
-  </form>
-</body>
+  <head>
+    <title>Run Scraper</title>
+    <style>
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f5f5f5;
+      }
+
+      .container {
+        width: 100%;
+        max-width: 700px;
+        padding: 20px;
+        background: white;
+        border: 1px solid #ccc;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        text-align: center;
+      }
+
+      input[type="text"] {
+        width: 90%;
+        padding: 10px;
+        font-size: 16px;
+        margin-bottom: 15px;
+      }
+
+      button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Enter URL to Scrape:</h2>
+      <form action="/run" method="POST">
+        <input
+          type="text"
+          name="url"
+          placeholder="https://example.com"
+          required
+        />
+        <br />
+        <button type="submit">Run</button>
+      </form>
+    </div>
+  </body>
 </html>
