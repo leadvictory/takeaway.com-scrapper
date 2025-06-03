@@ -12,8 +12,9 @@ def save_html(URL):
 
     filename = f"{menu_name}.html"
     filepath = os.path.join(output_dir, filename)
+    CHROME_PATH = "/usr/bin/google-chrome"  # This is where Chrome installs on Debian/Ubuntu
 
-    with SB(uc=True) as sb:
+    with SB(uc=True, headless=True, binary_location=CHROME_PATH) as sb:
     # with SB(uc=True, headless=True) as sb:
         sb.maximize_window()
         sb.timeout = 1
