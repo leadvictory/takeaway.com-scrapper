@@ -115,7 +115,9 @@ def save_options(menu_name):
                 "0",
                 "delivery,takeaway",
                 "1",
-                "9"
+                "9",
+                "",
+                ""
             ])
             option_id += 1
             written += 1
