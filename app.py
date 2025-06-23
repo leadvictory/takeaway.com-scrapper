@@ -22,7 +22,7 @@ def run_scraper():
     file.save(upload_path)
 
     try:
-        output = subprocess.check_output(['python', 'scraper.py', upload_path], stderr=subprocess.STDOUT, text=True)
+        output = subprocess.check_output(['python', 'test.py', upload_path], stderr=subprocess.STDOUT, text=True)
 
         file_links = [
             f'<a href="/download/{slug}.html"><button class="btn">HTML</button></a>',

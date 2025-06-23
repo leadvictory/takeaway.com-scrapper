@@ -210,7 +210,7 @@ def save_all(menu_name):
 
     with open(full_menu_csv, "w", newline='', encoding="utf-8-sig") as csvfile:
         writer = csv.writer(csvfile)
-        print(full_modifiergroup_id_to_groupid)
+        # print(full_modifiergroup_id_to_groupid)
         for idx, (item_id, item) in enumerate(parsed_items.items(), start=1):
             name = item.get("name", "").strip()
             desc = (item.get("description") or "").strip()
