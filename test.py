@@ -10,8 +10,6 @@ if len(sys.argv) < 2:
 file_path = sys.argv[1].strip()
 menu = os.path.splitext(os.path.basename(file_path))[0]
 output_dir = "downloads"
-print(f"{menu}")
-print(f"Processing: {file_path}")
 
 def index_to_letters(idx: int) -> str:
     letters = []
@@ -65,10 +63,10 @@ def save_all(menu_name):
     raw_sets = extract_json_array_block(html, "modifierSets")
     raw_categories = extract_json_array_block(html, "categories")
 
-    with open("modifiergroups.json", "w", encoding="utf-8") as dbg:
-        dbg.write(raw_groups)
-    with open("modifiersets.json", "w", encoding="utf-8") as dbg:
-        dbg.write(raw_sets)
+    # with open("modifiergroups.json", "w", encoding="utf-8") as dbg:
+    #     dbg.write(raw_groups)
+    # with open("modifiersets.json", "w", encoding="utf-8") as dbg:
+    #     dbg.write(raw_sets)
         
     match_items = re.search(r'"items"\s*:\s*({)', html)
     if not match_items:
