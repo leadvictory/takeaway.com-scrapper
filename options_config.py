@@ -15,7 +15,7 @@ def index_to_letters(idx: int) -> str:
 
 def save_option_config(menu_name):
     base_dir = "downloads"
-    source_name = os.path.join(base_dir, f"{menu_name}.html")
+    source_name = os.path.join("uploads", f"{menu_name}.html")
     filename = os.path.join(base_dir, f"options_config_{menu_name}.csv")
 
     try:

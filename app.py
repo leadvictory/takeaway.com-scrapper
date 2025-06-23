@@ -1,5 +1,6 @@
 from flask import Flask, request, render_template, send_from_directory
 import subprocess
+import os
 
 app = Flask(__name__)
 
@@ -13,11 +14,15 @@ def download_file(filename):
 
 @app.route('/run', methods=['POST'])
 def run_scraper():
-    url = request.form['url']
-    try:
-        output = subprocess.check_output(['python', 'scraper.py', url], stderr=subprocess.STDOUT, text=True)
+    file = request.files['html_file']
+    filename = file.filename
+    slug = filename.rsplit('.', 1)[0]
+    os.makedirs("uploads", exist_ok=True)
+    upload_path = f'uploads/{filename}'
+    file.save(upload_path)
 
-        slug = url.strip('/').split('/')[-1]
+    try:
+        output = subprocess.check_output(['python', 'scraper.py', upload_path], stderr=subprocess.STDOUT, text=True)
 
         file_links = [
             f'<a href="/download/{slug}.html"><button class="btn">HTML</button></a>',

@@ -5,7 +5,8 @@ import os
 
 def save_menu_config(menu_name):
     base_dir = "downloads"
-    source_name = os.path.join(base_dir, f"{menu_name}.html")
+    os.makedirs(base_dir, exist_ok=True)
+    source_name = os.path.join("uploads", f"{menu_name}.html")
     output_csv = os.path.join(base_dir, f"menu_config_{menu_name}.csv")
 
     try:

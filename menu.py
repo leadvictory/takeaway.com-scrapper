@@ -9,7 +9,7 @@ def save_menu(menu_name):
     base_dir = "downloads"
     os.makedirs(base_dir, exist_ok=True)
 
-    source_name = os.path.join(base_dir, f"{menu_name}.html")
+    source_name = os.path.join("uploads", f"{menu_name}.html")
     option_config_name = os.path.join(base_dir, f"options_config_{menu_name}.csv")
     output_csv = os.path.join(base_dir, f"menu_{menu_name}.csv")
     image_folder = os.path.join(base_dir, f"images_{menu_name}")
