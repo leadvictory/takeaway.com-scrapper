@@ -2,14 +2,15 @@ import re, json, csv, os, sys, shutil, requests
 
 # menu = 'koftecii'
 # menu = 'annemax-14'
+# menu = "oh-my-grill"
+menu = "Anne"
+# if len(sys.argv) < 2:
+#     print("No HTML file path provided.")
+#     sys.exit(1)
 
-if len(sys.argv) < 2:
-    print("No HTML file path provided.")
-    sys.exit(1)
-
-file_path = sys.argv[1].strip()
-menu = os.path.splitext(os.path.basename(file_path))[0]
-output_dir = "downloads"
+# file_path = sys.argv[1].strip()
+# menu = os.path.splitext(os.path.basename(file_path))[0]
+# output_dir = "downloads"
 
 def index_to_letters(idx: int) -> str:
     letters = []
@@ -63,8 +64,8 @@ def save_all(menu_name):
     raw_sets = extract_json_array_block(html, "modifierSets")
     raw_categories = extract_json_array_block(html, "categories")
 
-    # with open("modifiergroups.json", "w", encoding="utf-8") as dbg:
-    #     dbg.write(raw_groups)
+    with open("modifiergroups.json", "w", encoding="utf-8") as dbg:
+        dbg.write(raw_groups)
     # with open("modifiersets.json", "w", encoding="utf-8") as dbg:
     #     dbg.write(raw_sets)
         
