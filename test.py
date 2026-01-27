@@ -1,9 +1,9 @@
 import re, json, csv, os, sys, shutil, requests
 
 # menu = 'koftecii'
-# menu = 'annemax-14'
+menu = 'annemax-14'
 # menu = "oh-my-grill"
-menu = "Anne"
+# menu = "Anne"
 # if len(sys.argv) < 2:
 #     print("No HTML file path provided.")
 #     sys.exit(1)
@@ -66,10 +66,12 @@ def save_all(menu_name):
 
     with open("modifiergroups.json", "w", encoding="utf-8") as dbg:
         dbg.write(raw_groups)
-    # with open("modifiersets.json", "w", encoding="utf-8") as dbg:
-    #     dbg.write(raw_sets)
-        
+    with open("modifiersets.json", "w", encoding="utf-8") as dbg:
+        dbg.write(raw_sets)
+    with open("categories.json", "w", encoding="utf-8") as dbg:
+        dbg.write(raw_categories)        
     match_items = re.search(r'"items"\s*:\s*({)', html)
+      
     if not match_items:
         print("'items' block not found.")
         return
@@ -81,7 +83,8 @@ def save_all(menu_name):
     except json.JSONDecodeError as e:
         print("Failed to parse items JSON:", e)
         return
-
+    with open("itemdetails.json", "w", encoding="utf-8") as dbg:
+        dbg.write(parsed_items) 
     try:
         modifier_groups = json.loads(raw_groups) if raw_groups else []
         modifier_sets = json.loads(raw_sets) if raw_sets else []

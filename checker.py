@@ -1,7 +1,7 @@
 import requests
 import json
 
-url = "https://globalmenucdn.eu-central-1.production.jet-external.com/oh-my-grill_nl_itemDetails.json"
+url = "https://globalmenucdn.eu-central-1.production.jet-external.com/annemax-14_nl_manifest.json"
 
 headers = {
     "Accept": "application/json, text/plain, */*",
