@@ -1,564 +1,163 @@
 [
     {
-        "Id": "8c0e7036-7244-4ba0-9c63-4d4e917df484",
-        "Name": "Formaat",
-        "MinChoices": 1,
+        "Id": "e5b561a8-681a-4fc4-81ea-7bbba73c1de9",
+        "Name": "Extra toevoeging",
+        "MinChoices": 0,
         "MaxChoices": 1,
         "Modifiers": [
-            "1",
+            "1"
+        ]
+    },
+    {
+        "Id": "8861dc99-cb93-4c72-8158-19dce53e6c39",
+        "Name": "Wat wil je erbij drinken?",
+        "MinChoices": 0,
+        "MaxChoices": 3,
+        "Modifiers": [
             "2",
-            "3"
+            "3",
+            "4"
         ]
     },
     {
-        "Id": "7f201993-9bd9-49c3-915f-0044bb8fbb8d",
-        "Name": "Toppings",
-        "MinChoices": 0,
-        "MaxChoices": 21,
+        "Id": "247147b3-431b-4be9-8580-48731b1ac990",
+        "Name": "Verpakking",
+        "MinChoices": 1,
+        "MaxChoices": 1,
         "Modifiers": [
-            "4",
-            "5",
-            "6",
+            "5"
+        ]
+    },
+    {
+        "Id": "a45339ef-fac7-41ab-822f-55455550b567",
+        "Name": "Verpakking",
+        "MinChoices": 1,
+        "MaxChoices": 1,
+        "Modifiers": [
+            "6"
+        ]
+    },
+    {
+        "Id": "65bb16f0-e8bc-4b3a-a193-6b4ee6d9abc0",
+        "Name": "Wat wil je erbij drinken?",
+        "MinChoices": 0,
+        "MaxChoices": 3,
+        "Modifiers": [
             "7",
             "8",
-            "9",
+            "9"
+        ]
+    },
+    {
+        "Id": "e9fdac6f-7a6f-4819-bb26-0b80f145c755",
+        "Name": "Maak er zelf thee bij",
+        "MinChoices": 0,
+        "MaxChoices": 5,
+        "Modifiers": [
             "10",
             "11",
             "12",
             "13",
-            "14",
+            "14"
+        ]
+    },
+    {
+        "Id": "b94b3890-bea2-4e23-9ee3-65896a1110b2",
+        "Name": "Kies je topping",
+        "MinChoices": 1,
+        "MaxChoices": 1,
+        "Modifiers": [
             "15",
             "16",
-            "17",
+            "17"
+        ]
+    },
+    {
+        "Id": "42c61f84-800c-45e2-97f1-b885f2e4a46b",
+        "Name": "Wat wil je daarbij drinken?",
+        "MinChoices": 0,
+        "MaxChoices": 1,
+        "Modifiers": [
+            "9"
+        ]
+    },
+    {
+        "Id": "db53683e-9260-4fcb-8707-7d32f11de787",
+        "Name": "Keuze brood",
+        "MinChoices": 1,
+        "MaxChoices": 1,
+        "Modifiers": [
             "18",
-            "19",
+            "19"
+        ]
+    },
+    {
+        "Id": "5add7652-d828-484a-bfaa-57a5922cfc02",
+        "Name": "Topping",
+        "MinChoices": 1,
+        "MaxChoices": 1,
+        "Modifiers": [
             "20",
             "21",
-            "22",
-            "23",
+            "22"
+        ]
+    },
+    {
+        "Id": "19070bb6-9bf6-45c7-94cf-1d0d64f91eec",
+        "Name": "Vegan?",
+        "MinChoices": 0,
+        "MaxChoices": 1,
+        "Modifiers": [
+            "23"
+        ]
+    },
+    {
+        "Id": "098a48f0-d7ac-4664-88e3-730867a110d9",
+        "Name": "Verpakking",
+        "MinChoices": 1,
+        "MaxChoices": 1,
+        "Modifiers": [
             "24"
         ]
     },
     {
-        "Id": "972e2edc-c314-416e-bed9-0fd1509aaf4a",
-        "Name": "Sausje erbij?",
-        "MinChoices": 0,
-        "MaxChoices": 6,
+        "Id": "3235cbc3-ca1a-4a87-a331-bdb070274106",
+        "Name": "Welke topping wil je hierbij?",
+        "MinChoices": 1,
+        "MaxChoices": 1,
         "Modifiers": [
             "25",
-            "26",
-            "27",
+            "26"
+        ]
+    },
+    {
+        "Id": "8d5ace20-c8bd-4990-8b77-130f88d0404f",
+        "Name": "Extra toevoeging",
+        "MinChoices": 0,
+        "MaxChoices": 1,
+        "Modifiers": [
+            "27"
+        ]
+    },
+    {
+        "Id": "4a7175b6-61e9-4ea6-ac11-e294a44f61b5",
+        "Name": "Vegan?",
+        "MinChoices": 1,
+        "MaxChoices": 1,
+        "Modifiers": [
             "28",
             "29",
-            "30"
+            "23"
         ]
     },
     {
-        "Id": "6392d0e7-6ccf-4179-b3f8-4070a309d1de",
-        "Name": "Drankje erbij?",
-        "MinChoices": 0,
-        "MaxChoices": 16,
-        "Modifiers": [
-            "31",
-            "32",
-            "33",
-            "34",
-            "35",
-            "36",
-            "37",
-            "38",
-            "39",
-            "40",
-            "41",
-            "42",
-            "43",
-            "44",
-            "45",
-            "46"
-        ]
-    },
-    {
-        "Id": "b82e91e6-81ab-40f6-86c4-6c0b7c1fc22e",
-        "Name": "Dessert erbij?",
-        "MinChoices": 0,
-        "MaxChoices": 1,
-        "Modifiers": [
-            "47"
-        ]
-    },
-    {
-        "Id": "37f923ed-bba2-456a-a013-63f9b1f3195d",
-        "Name": "Formaat",
+        "Id": "c9eb0c12-c916-4097-87e7-58248181b6b7",
+        "Name": "Plat of bruisend?",
         "MinChoices": 1,
         "MaxChoices": 1,
         "Modifiers": [
-            "1",
-            "48",
-            "49"
-        ]
-    },
-    {
-        "Id": "6fd31dd5-3b5d-4d66-842a-08f108d5d53e",
-        "Name": "Toppings",
-        "MinChoices": 0,
-        "MaxChoices": 22,
-        "Modifiers": [
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15",
-            "50",
-            "51",
-            "52",
-            "53",
-            "54",
-            "55",
-            "56",
-            "57",
-            "58",
-            "59"
-        ]
-    },
-    {
-        "Id": "7bea4754-b47a-405b-9962-5807b95fa728",
-        "Name": "Toppings",
-        "MinChoices": 0,
-        "MaxChoices": 22,
-        "Modifiers": [
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "60",
-            "61",
-            "62",
-            "59",
-            "16",
-            "17",
-            "18",
-            "19",
-            "20",
-            "21",
-            "22",
-            "23",
-            "58"
-        ]
-    },
-    {
-        "Id": "1f566c70-ddcb-4166-b9cf-3c804a51adf3",
-        "Name": "Extra saus",
-        "MinChoices": 0,
-        "MaxChoices": 6,
-        "Modifiers": [
-            "63",
-            "26",
-            "27",
-            "28",
-            "29",
-            "30"
-        ]
-    },
-    {
-        "Id": "3117e26d-3d7a-4fce-9d5f-b1fe70e1b774",
-        "Name": "Kies je pasta",
-        "MinChoices": 1,
-        "MaxChoices": 1,
-        "Modifiers": [
-            "64",
-            "65"
-        ]
-    },
-    {
-        "Id": "d9d468f5-985d-4fd6-8907-cf13c0a62a10",
-        "Name": "Wil je er extra toppings bij?",
-        "MinChoices": 0,
-        "MaxChoices": 22,
-        "Modifiers": [
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15",
-            "16",
-            "17",
-            "18",
-            "19",
-            "20",
-            "21",
-            "22",
-            "23",
-            "24",
-            "59"
-        ]
-    },
-    {
-        "Id": "86d49f8b-8e9a-44b6-ad87-ed83e2180dda",
-        "Name": "Wil je er saus bij?",
-        "MinChoices": 0,
-        "MaxChoices": 6,
-        "Modifiers": [
-            "25",
-            "26",
-            "27",
-            "28",
-            "29",
-            "30"
-        ]
-    },
-    {
-        "Id": "f72446f8-ead3-4313-bf9c-59f518fc0fb0",
-        "Name": "Wil je er een drankje bij?",
-        "MinChoices": 0,
-        "MaxChoices": 16,
-        "Modifiers": [
-            "31",
-            "32",
-            "33",
-            "34",
-            "35",
-            "36",
-            "37",
-            "66",
-            "67",
-            "40",
-            "41",
-            "42",
-            "43",
-            "44",
-            "45",
-            "46"
-        ]
-    },
-    {
-        "Id": "eb93bd48-0166-4d0c-b051-cb0fd622124f",
-        "Name": "Wil je er een dessert bij?",
-        "MinChoices": 0,
-        "MaxChoices": 1,
-        "Modifiers": [
-            "47"
-        ]
-    },
-    {
-        "Id": "b11e8a10-911b-45f1-bf0e-4febdc41201c",
-        "Name": "Formaat",
-        "MinChoices": 1,
-        "MaxChoices": 1,
-        "Modifiers": [
-            "1",
-            "68",
-            "3"
-        ]
-    },
-    {
-        "Id": "be51209d-9072-4b93-b253-efcaf5ab3e37",
-        "Name": "Toppings",
-        "MinChoices": 0,
-        "MaxChoices": 22,
-        "Modifiers": [
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15",
-            "59",
-            "50",
-            "51",
-            "52",
-            "53",
-            "54",
-            "55",
-            "56",
-            "57",
-            "24"
-        ]
-    },
-    {
-        "Id": "aca91517-cb44-4aea-98d9-b9eab4da47aa",
-        "Name": "Bijgerecht",
-        "MinChoices": 1,
-        "MaxChoices": 1,
-        "Modifiers": [
-            "69"
-        ]
-    },
-    {
-        "Id": "3b5842c1-3a8e-483e-87f4-96933e5b8848",
-        "Name": "Drinken",
-        "MinChoices": 1,
-        "MaxChoices": 1,
-        "Modifiers": [
-            "70",
-            "71",
-            "72",
-            "73",
-            "74",
-            "75",
-            "76",
-            "77",
-            "78"
-        ]
-    },
-    {
-        "Id": "68babf8c-275d-4940-81b5-59392976f9b7",
-        "Name": "Extra saus",
-        "MinChoices": 0,
-        "MaxChoices": 4,
-        "Modifiers": [
-            "79",
-            "29",
-            "80",
-            "81"
-        ]
-    },
-    {
-        "Id": "e1c1071a-7401-4d6a-9b12-5ee6390b4c03",
-        "Name": "Formaat",
-        "MinChoices": 1,
-        "MaxChoices": 1,
-        "Modifiers": [
-            "1",
-            "68",
-            "49"
-        ]
-    },
-    {
-        "Id": "6156e1c4-7f5d-408c-a996-f703eff1542c",
-        "Name": "Toppings",
-        "MinChoices": 0,
-        "MaxChoices": 21,
-        "Modifiers": [
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15",
-            "50",
-            "51",
-            "52",
-            "53",
-            "54",
-            "55",
-            "56",
-            "57",
-            "58"
-        ]
-    },
-    {
-        "Id": "10bf10e2-963f-4925-ab3c-5cd7a906677c",
-        "Name": "Formaat",
-        "MinChoices": 1,
-        "MaxChoices": 1,
-        "Modifiers": [
-            "1",
-            "82",
-            "83"
-        ]
-    },
-    {
-        "Id": "12e6184f-e60f-42b8-9aba-d4ceffffc340",
-        "Name": "Toppings",
-        "MinChoices": 0,
-        "MaxChoices": 22,
-        "Modifiers": [
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15",
-            "16",
-            "17",
-            "18",
-            "19",
-            "20",
-            "21",
-            "22",
-            "23",
-            "58",
-            "59"
-        ]
-    },
-    {
-        "Id": "87cde09f-4f5e-4913-b153-0f5fb650b8dc",
-        "Name": "Formaat",
-        "MinChoices": 1,
-        "MaxChoices": 1,
-        "Modifiers": [
-            "1",
-            "84",
-            "85"
-        ]
-    },
-    {
-        "Id": "18ce220a-cb18-48fe-a710-e49a593cb04a",
-        "Name": "Formaat",
-        "MinChoices": 1,
-        "MaxChoices": 1,
-        "Modifiers": [
-            "1",
-            "68",
-            "83"
-        ]
-    },
-    {
-        "Id": "bcc4a209-a807-4d98-8e1c-78e4b890fee9",
-        "Name": "Toppings",
-        "MinChoices": 0,
-        "MaxChoices": 21,
-        "Modifiers": [
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15",
-            "16",
-            "17",
-            "18",
-            "19",
-            "20",
-            "21",
-            "22",
-            "23",
-            "58"
-        ]
-    },
-    {
-        "Id": "39c45400-9df3-4388-b16d-3c0a480e967b",
-        "Name": "Formaat",
-        "MinChoices": 1,
-        "MaxChoices": 1,
-        "Modifiers": [
-            "1",
-            "84",
-            "83"
-        ]
-    },
-    {
-        "Id": "8ec24857-0f41-4728-8037-68a6c16708d4",
-        "Name": "Formaat",
-        "MinChoices": 1,
-        "MaxChoices": 1,
-        "Modifiers": [
-            "1",
-            "84",
-            "3"
-        ]
-    },
-    {
-        "Id": "7c8bf090-4398-45ed-a5f4-08fc49198bd6",
-        "Name": "Toppings",
-        "MinChoices": 0,
-        "MaxChoices": 21,
-        "Modifiers": [
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15",
-            "50",
-            "51",
-            "52",
-            "53",
-            "54",
-            "55",
-            "56",
-            "57",
-            "24"
-        ]
-    },
-    {
-        "Id": "657f7035-ad00-462b-aaec-56bed4fb03c4",
-        "Name": "Kies je saus",
-        "MinChoices": 1,
-        "MaxChoices": 1,
-        "Modifiers": [
-            "86",
-            "87",
-            "88"
-        ]
-    },
-    {
-        "Id": "ec8ce67b-6624-412a-be1c-7c210595c9fd",
-        "Name": "Toppings",
-        "MinChoices": 0,
-        "MaxChoices": 22,
-        "Modifiers": [
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15",
-            "16",
-            "17",
-            "18",
-            "19",
-            "20",
-            "21",
-            "22",
-            "23",
-            "24",
-            "59"
+            "30",
+            "31"
         ]
     }
 ]

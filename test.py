@@ -5,13 +5,7 @@ from urllib.parse import urlparse
 menu = 'annemax-14'
 # menu = "oh-my-grill"
 # menu = "Anne"
-# if len(sys.argv) < 2:
-#     print("No HTML file path provided.")
-#     sys.exit(1)
 
-# file_path = sys.argv[1].strip()
-# menu = os.path.splitext(os.path.basename(file_path))[0]
-# output_dir = "downloads"
 # menu_url = "https://www.thuisbezorgd.nl/menu/annemax-14"
 menu_url = "https://www.thuisbezorgd.nl/menu/de-la-roma"
 # fetch_and_save_json(url)
@@ -334,4 +328,11 @@ def save_all(menu_url):
         shutil.make_archive(zip_path[:-4], 'zip', images_folder)
         print(f"Zipped image folder as {zip_path}")
 
-save_all(menu_url)
+# save_all(menu_url)
+if __name__ == "__main__":
+    if len(sys.argv) < 2:
+        print("Usage: python test.py <menu_url>")
+        sys.exit(1)
+
+    menu_url = sys.argv[1]
+    save_all(menu_url)
