@@ -1,6 +1,8 @@
 from flask import Flask, request, render_template, send_from_directory
 import subprocess
 import os
+import hashlib
+from urllib.parse import urlparse
 
 app = Flask(__name__)
 
@@ -14,16 +16,22 @@ def download_file(filename):
 
 @app.route('/run', methods=['POST'])
 def run_scraper():
-    file = request.files['html_file']
-    filename = file.filename
-    slug = filename.rsplit('.', 1)[0]
-    os.makedirs("uploads", exist_ok=True)
-    upload_path = f'uploads/{filename}'
-    file.save(upload_path)
+    # 1️⃣ Get menu URL from form
+    menu_url = request.form.get('menu_url')
+    if not menu_url:
+        return "Error: menu_url is required", 400
 
+    # 2️⃣ Create a safe slug from URL (deterministic)
+    slug = urlparse(menu_url).path.rstrip("/").split("/")[-1]
     try:
-        output = subprocess.check_output(['python', 'test.py', upload_path], stderr=subprocess.STDOUT, text=True)
+        # 3️⃣ Run scraper with URL
+        output = subprocess.check_output(
+            ['python', 'test.py', menu_url],
+            stderr=subprocess.STDOUT,
+            text=True
+        )
 
+        # 4️⃣ Expected output files (unchanged naming logic)
         file_links = [
             f'<a href="/download/{slug}.html"><button class="btn">HTML</button></a>',
             f'<a href="/download/menu_config_{slug}.csv"><button class="btn">Menu Config</button></a>',
@@ -80,7 +88,7 @@ def run_scraper():
         """
 
     except subprocess.CalledProcessError as e:
-        return f"<pre>Error:\n{e.output}</pre>"
+        return f"<pre>Error:\n{e.output}</pre>", 500
 
 if __name__ == '__main__':
     app.run(debug=True, use_reloader=False)

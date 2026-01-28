@@ -1,4 +1,5 @@
 import re, json, csv, os, sys, shutil, requests
+from urllib.parse import urlparse
 
 # menu = 'koftecii'
 menu = 'annemax-14'
@@ -11,6 +12,93 @@ menu = 'annemax-14'
 # file_path = sys.argv[1].strip()
 # menu = os.path.splitext(os.path.basename(file_path))[0]
 # output_dir = "downloads"
+# menu_url = "https://www.thuisbezorgd.nl/menu/annemax-14"
+menu_url = "https://www.thuisbezorgd.nl/menu/de-la-roma"
+# fetch_and_save_json(url)
+# ---------------- CDN HELPERS ----------------
+def extract_menu_from_url(menu_url: str) -> str:
+    return urlparse(menu_url).path.rstrip("/").split("/")[-1]
+
+def generate_thuisbezorgd_cdn_urls(menu_url, locale="nl"):
+    slug = urlparse(menu_url).path.rstrip("/").split("/")[-1]
+    base = "https://globalmenucdn.eu-central-1.production.jet-external.com"
+
+    return {
+        "manifest": f"{base}/{slug}_{locale}_manifest.json",
+        "items": f"{base}/{slug}_{locale}_items.json",
+        "itemDetails": f"{base}/{slug}_{locale}_itemDetails.json",
+    }
+
+def fetch_and_save_json(url, output_file="itemDetails.json"):
+    headers = {
+        "Accept": "application/json, text/plain, */*",
+        "Referer": "https://www.thuisbezorgd.nl/",
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/142.0.0.0 Safari/537.36"
+        ),
+        "sec-ch-ua": '"Chromium";v="142", "Google Chrome";v="142", "Not_A Brand";v="99"',
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": '"Windows"',
+    }
+
+    response = requests.get(url, headers=headers, timeout=30)
+
+    if response.status_code != 200:
+        raise RuntimeError(
+            f"Request failed: {response.status_code} - {response.text}"
+        )
+
+    data = response.json()
+
+    with open(output_file, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=4, ensure_ascii=False)
+
+    return data
+
+def load_json(path):
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+def save_json(data, path):
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=4, ensure_ascii=False)
+
+def extract_categories(manifest_path, output_path="categories.json"):
+    manifest = load_json(manifest_path)
+
+    categories = []
+    for menu in manifest.get("Menus", []):
+        categories.extend(menu.get("Categories", []))
+
+    save_json(categories, output_path)
+
+
+# ---------- 2. items.json → items_clean.json ----------
+
+def clean_items(items_path, output_path="items_clean.json"):
+    with open(items_path, "r", encoding="utf-8") as f:
+        items_data = json.load(f)
+
+    cleaned_items = items_data.get("Items", [])
+
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(cleaned_items, f, indent=4, ensure_ascii=False)
+
+
+# ---------- 3. itemDetails.json → modifierGroups + modifierSets ----------
+
+def extract_modifiers(item_details_path,
+                      groups_out="modifierGroups.json",
+                      sets_out="modifierSets.json"):
+    data = load_json(item_details_path)
+
+    modifier_groups = data.get("ModifierGroups", [])
+    modifier_sets = data.get("ModifierSets", [])
+
+    save_json(modifier_groups, groups_out)
+    save_json(modifier_sets, sets_out)
 
 def index_to_letters(idx: int) -> str:
     letters = []
@@ -41,7 +129,8 @@ def extract_json_array_block(text, key):
                 return text[array_start:i+1]
     return None
 
-def save_all(menu_name):
+def save_all(menu_url):
+    menu_name = extract_menu_from_url(menu_url)
     base_dir = "downloads"
     os.makedirs(base_dir, exist_ok=True)
     source_name = os.path.join("uploads", f"{menu_name}.html")
@@ -53,45 +142,21 @@ def save_all(menu_name):
     os.makedirs(images_folder, exist_ok=True)
     zip_path = os.path.join(base_dir, f"images_{menu_name}.zip")
 
-    try:
-        with open(source_name, "r", encoding="utf-8") as f:
-            html = f.read()
-    except FileNotFoundError:
-        print(f"Source HTML file not found: {source_name}")
-        return
+    urls = generate_thuisbezorgd_cdn_urls(menu_url)
 
-    raw_groups = extract_json_array_block(html, "modifierGroups")
-    raw_sets = extract_json_array_block(html, "modifierSets")
-    raw_categories = extract_json_array_block(html, "categories")
+    for name, cdn_url in urls.items():
+        filename = f"{name}.json"
+        fetch_and_save_json(cdn_url, filename)
 
-    with open("modifiergroups.json", "w", encoding="utf-8") as dbg:
-        dbg.write(raw_groups)
-    with open("modifiersets.json", "w", encoding="utf-8") as dbg:
-        dbg.write(raw_sets)
-    with open("categories.json", "w", encoding="utf-8") as dbg:
-        dbg.write(raw_categories)        
-    match_items = re.search(r'"items"\s*:\s*({)', html)
-      
-    if not match_items:
-        print("'items' block not found.")
-        return
-    
-    start_index = match_items.start(1)
-    decoder = json.JSONDecoder()
-    try:
-        parsed_items, _ = decoder.raw_decode(html[start_index:])
-    except json.JSONDecodeError as e:
-        print("Failed to parse items JSON:", e)
-        return
-    with open("itemdetails.json", "w", encoding="utf-8") as dbg:
-        dbg.write(parsed_items) 
-    try:
-        modifier_groups = json.loads(raw_groups) if raw_groups else []
-        modifier_sets = json.loads(raw_sets) if raw_sets else []
-        categories = json.loads(raw_categories) if raw_categories else []
-    except json.JSONDecodeError as e:
-        print("Failed to parse modifierGroups or modifierSets or categories:", e)
-        return
+
+    extract_categories("manifest.json")
+    clean_items("items.json")
+    extract_modifiers("itemDetails.json")
+
+    categories = load_json("categories.json")
+    items = load_json("items_clean.json")
+    modifier_groups = load_json("modifiergroups.json")
+    modifier_sets = load_json("modifierSets.json")
 
     try:
 
@@ -101,10 +166,10 @@ def save_all(menu_name):
             for idx, cat in enumerate(categories, start=1):
                 writer.writerow([
                     idx,
-                    cat.get("name", "").strip(),
-                    cat.get("description", "").strip(),
+                    cat.get("Name", "").strip(),
+                    cat.get("Description", "").strip(),
                     idx,
-                    len(cat.get("itemIds", [])),
+                    len(cat.get("ItemIds", [])),
                     "", "", ""
                 ])
 
@@ -113,7 +178,7 @@ def save_all(menu_name):
     except json.JSONDecodeError as e:
         print("Failed to parse categories JSON:", e)
 
-    modifier_lookup = {str(m["id"]): m["modifier"] for m in modifier_sets if "modifier" in m}
+    modifier_lookup = {str(m["Id"]): m["Modifier"] for m in modifier_sets if "Modifier" in m}
     
     name_to_group_id = {}
     modifier_id_to_group_id = {}
@@ -125,9 +190,9 @@ def save_all(menu_name):
         writer = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
 
         for group in modifier_groups:
-            group_id_value = group.get("id")
-            title = group.get("name", "").strip()
-            modifiers = group.get("modifiers", [])
+            group_id_value = group.get("Id")
+            title = group.get("Name", "").strip()
+            modifiers = group.get("Modifiers", [])
             if not modifiers:
                 continue  # Skip empty modifier groups
 
@@ -135,7 +200,7 @@ def save_all(menu_name):
             for mod_id in modifiers:
                 mod = modifier_lookup.get(str(mod_id))
                 if mod:
-                    modifier_names.append(mod.get("name", "").strip())
+                    modifier_names.append(mod.get("Name", "").strip())
             modifier_names_sorted = sorted(modifier_names)
 
             # Check if the group is a duplicate
@@ -157,8 +222,8 @@ def save_all(menu_name):
                     "group_id": group_id
                 })
 
-                max_choices = group.get("maxChoices", 1)
-                min_choices = group.get("minChoices", 1)
+                max_choices = group.get("MaxChoices", 1)
+                min_choices = group.get("MinChoices", 1)
                 group_type = 2 if min_choices == 0 else 1
 
                 writer.writerow([group_id, group_type, title, ""])
@@ -185,13 +250,13 @@ def save_all(menu_name):
                 # print(mod_id)
                 continue
 
-            name = mod_data.get("name", "").strip()
+            name = mod_data.get("Name", "").strip()
             # if not name or name in seen_names:
             #     continue
             # seen_names.add(name)
 
             group_id = modifier_id_to_group_id[mod_id]
-            price = mod_data.get("additionPrice", 0)
+            price = mod_data.get("AdditionPrice", 0)
 
             writer.writerow([
                 group_id, option_id, option_id, "", "", name, "", price, price, price,
@@ -207,18 +272,19 @@ def save_all(menu_name):
 
     item_to_category = {}
     for cat in categories:
-        for item_id in cat.get("itemIds", []):
-            item_to_category[str(item_id)] = cat.get("name", "")
+        for item_id in cat.get("ItemIds", []):
+            item_to_category[str(item_id)] = cat.get("Name", "")
 
     with open(full_menu_csv, "w", newline='', encoding="utf-8-sig") as csvfile:
         writer = csv.writer(csvfile)
         # print(full_modifiergroup_id_to_groupid)
-        for idx, (item_id, item) in enumerate(parsed_items.items(), start=1):
-            name = item.get("name", "").strip()
-            desc = (item.get("description") or "").strip()
-            variations = item.get("variations", [])
-            base_price = variations[0].get("basePrice", "") if variations else ""
-            modifiers = variations[0].get("modifierGroupsIds", []) if variations else []
+        for idx, item in enumerate(items, start=1):
+            item_id = item.get("Id")
+            name = item.get("Name", "").strip()
+            desc = (item.get("Description") or "").strip()
+            variations = item.get("Variations", [])
+            base_price = variations[0].get("BasePrice", "") if variations else ""
+            modifiers = variations[0].get("ModifierGroupsIds", []) if variations else []
 
             group_ids = []
             for mod_group_id in modifiers:
@@ -231,8 +297,8 @@ def save_all(menu_name):
             modifier_str = ",".join(group_ids)
 
             image_name = ""
-            if item.get("imageSources"):
-                image_path = item["imageSources"][0].get("path", "")
+            if item.get("ImageSources"):
+                image_path = item["ImageSources"][0].get("Path", "")
                 if image_path:
                     image_id = image_path.split("/")[-1].rsplit(".", 1)[0]
                     image_name = f"{image_id}.png"
@@ -268,4 +334,4 @@ def save_all(menu_name):
         shutil.make_archive(zip_path[:-4], 'zip', images_folder)
         print(f"Zipped image folder as {zip_path}")
 
-save_all(menu)
+save_all(menu_url)

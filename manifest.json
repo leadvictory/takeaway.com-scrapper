@@ -1,0 +1,1394 @@
+{
+    "MenuVersion": "80XPMOW47cXPqZv0uNdb9OEksCcTRIeo",
+    "RestaurantId": "10561253",
+    "CountryCode": "nl",
+    "MessageSentTimestamp": "2026-01-25T00:30:31.203059Z",
+    "RestaurantInfo": {
+        "Name": "Orderking Pizza's",
+        "SeoName": "de-la-roma",
+        "Email": null,
+        "Description": "",
+        "LogoUrl": "https://res.cloudinary.com/tkwy-prod-eu/image/upload/c_pad,h_100,w_100/v1/static-takeaway-com/images/restaurants/nl/R573QP13/logo_465x320.png",
+        "BannerUrl": "https://res.cloudinary.com/tkwy-prod-eu/image/upload/{transformations}/v1/static-takeaway-com/images/restaurants/nl/R573QP13/headers/header.jpg",
+        "HeaderInfo": {
+            "Images": {
+                "10561253": {
+                    "UrlTemplate": "https://res.cloudinary.com/tkwy-prod-eu/image/upload/{transformations}/v1/static-takeaway-com/images/restaurants/nl/R573QP13/headers/header.jpg",
+                    "AltText": null
+                }
+            },
+            "DefaultImageRefs": [
+                "10561253"
+            ],
+            "ScheduledHeaders": {}
+        },
+        "AlcoholLicenseId": null,
+        "IsOffline": false,
+        "AllergenPhoneNumber": "0681752708",
+        "AllergenUrl": null,
+        "Location": {
+            "Address": "Impuls 145",
+            "PostCode": "1446 WE",
+            "City": "Purmerend",
+            "Latitude": 52.511215,
+            "Longitude": 5.005557
+        },
+        "Colophon": {
+            "RestaurantName": "Orderking Pizza's",
+            "CustomerFacingEmail": "",
+            "LegalAddress": {
+                "Address": "Impuls 145",
+                "PostCode": "1446 WE",
+                "City": "Purmerend",
+                "Latitude": 0.0,
+                "Longitude": 0.0
+            },
+            "TraderStatusLink": "https://www.thuisbezorgd.nl/klantenservice/artikel/wat-is-de-status-van-restaurants-welke-samenwerken"
+        },
+        "TimeZone": "Europe/Warsaw",
+        "NewUntilDate": "2025-05-23T11:31:11+00:00",
+        "Tags": [],
+        "CuisineTypes": [
+            {
+                "Id": "74",
+                "Name": "Italiaanse pizza",
+                "SeoName": "italiaanse-pizza",
+                "Language": "nl"
+            },
+            {
+                "Id": "13",
+                "Name": "100% Halal",
+                "SeoName": "100-procent-halal",
+                "Language": "nl"
+            },
+            {
+                "Id": "90",
+                "Name": "Pasta",
+                "SeoName": "pasta",
+                "Language": "nl"
+            }
+        ],
+        "IsHalal": false,
+        "RestaurantOpeningTimes": [
+            {
+                "ServiceType": "delivery",
+                "TimesPerDay": [
+                    {
+                        "DayOfWeek": "Sunday",
+                        "Times": [
+                            {
+                                "FromLocalTime": "14:00",
+                                "ToLocalTime": "22:00"
+                            }
+                        ]
+                    },
+                    {
+                        "DayOfWeek": "Monday",
+                        "Times": []
+                    },
+                    {
+                        "DayOfWeek": "Tuesday",
+                        "Times": [
+                            {
+                                "FromLocalTime": "12:15",
+                                "ToLocalTime": "22:00"
+                            }
+                        ]
+                    },
+                    {
+                        "DayOfWeek": "Wednesday",
+                        "Times": [
+                            {
+                                "FromLocalTime": "12:00",
+                                "ToLocalTime": "22:00"
+                            }
+                        ]
+                    },
+                    {
+                        "DayOfWeek": "Thursday",
+                        "Times": [
+                            {
+                                "FromLocalTime": "12:00",
+                                "ToLocalTime": "22:00"
+                            }
+                        ]
+                    },
+                    {
+                        "DayOfWeek": "Friday",
+                        "Times": [
+                            {
+                                "FromLocalTime": "12:00",
+                                "ToLocalTime": "01:00"
+                            }
+                        ]
+                    },
+                    {
+                        "DayOfWeek": "Saturday",
+                        "Times": [
+                            {
+                                "FromLocalTime": "15:00",
+                                "ToLocalTime": "01:45"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ServiceType": "collection",
+                "TimesPerDay": [
+                    {
+                        "DayOfWeek": "Sunday",
+                        "Times": [
+                            {
+                                "FromLocalTime": "13:45",
+                                "ToLocalTime": "22:00"
+                            }
+                        ]
+                    },
+                    {
+                        "DayOfWeek": "Monday",
+                        "Times": []
+                    },
+                    {
+                        "DayOfWeek": "Tuesday",
+                        "Times": [
+                            {
+                                "FromLocalTime": "12:30",
+                                "ToLocalTime": "22:00"
+                            }
+                        ]
+                    },
+                    {
+                        "DayOfWeek": "Wednesday",
+                        "Times": [
+                            {
+                                "FromLocalTime": "12:15",
+                                "ToLocalTime": "22:00"
+                            }
+                        ]
+                    },
+                    {
+                        "DayOfWeek": "Thursday",
+                        "Times": [
+                            {
+                                "FromLocalTime": "12:00",
+                                "ToLocalTime": "22:00"
+                            }
+                        ]
+                    },
+                    {
+                        "DayOfWeek": "Friday",
+                        "Times": [
+                            {
+                                "FromLocalTime": "12:00",
+                                "ToLocalTime": "01:00"
+                            }
+                        ]
+                    },
+                    {
+                        "DayOfWeek": "Saturday",
+                        "Times": [
+                            {
+                                "FromLocalTime": "15:00",
+                                "ToLocalTime": "01:45"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "EnergyUnits": "none",
+        "StoreFrontType": "Restaurant",
+        "IsTestRestaurant": false,
+        "IsCertifiedPharmacy": false,
+        "Features": [
+            "ItemLevelNotes"
+        ],
+        "ShareableLink": "https://www.thuisbezorgd.nl/menu/de-la-roma",
+        "HideOfflineItems": false
+    },
+    "Menus": [
+        {
+            "MenuGroupId": "EAB06EE52881EB105AF5A703541495F0",
+            "Description": "",
+            "ServiceTypes": [
+                "delivery"
+            ],
+            "Schedules": [
+                {
+                    "DayOfWeek": "Sunday",
+                    "Times": [
+                        {
+                            "FromLocalTime": "00:00:00",
+                            "ToLocalTime": "01:44:59"
+                        },
+                        {
+                            "FromLocalTime": "14:00:00",
+                            "ToLocalTime": "21:59:59"
+                        }
+                    ],
+                    "BaseWorkingTimeMinutes": 45,
+                    "OrderTimeSchedule": [
+                        {
+                            "StartTime": "00:00:00",
+                            "EndTime": "1.00:00:00",
+                            "LowerBound": 35,
+                            "UpperBound": 50
+                        }
+                    ]
+                },
+                {
+                    "DayOfWeek": "Tuesday",
+                    "Times": [
+                        {
+                            "FromLocalTime": "12:15:00",
+                            "ToLocalTime": "21:59:59"
+                        }
+                    ],
+                    "BaseWorkingTimeMinutes": 45,
+                    "OrderTimeSchedule": [
+                        {
+                            "StartTime": "00:00:00",
+                            "EndTime": "1.00:00:00",
+                            "LowerBound": 35,
+                            "UpperBound": 50
+                        }
+                    ]
+                },
+                {
+                    "DayOfWeek": "Wednesday",
+                    "Times": [
+                        {
+                            "FromLocalTime": "12:00:00",
+                            "ToLocalTime": "21:59:59"
+                        }
+                    ],
+                    "BaseWorkingTimeMinutes": 45,
+                    "OrderTimeSchedule": [
+                        {
+                            "StartTime": "00:00:00",
+                            "EndTime": "1.00:00:00",
+                            "LowerBound": 35,
+                            "UpperBound": 50
+                        }
+                    ]
+                },
+                {
+                    "DayOfWeek": "Thursday",
+                    "Times": [
+                        {
+                            "FromLocalTime": "12:00:00",
+                            "ToLocalTime": "21:59:59"
+                        }
+                    ],
+                    "BaseWorkingTimeMinutes": 45,
+                    "OrderTimeSchedule": [
+                        {
+                            "StartTime": "00:00:00",
+                            "EndTime": "1.00:00:00",
+                            "LowerBound": 35,
+                            "UpperBound": 50
+                        }
+                    ]
+                },
+                {
+                    "DayOfWeek": "Friday",
+                    "Times": [
+                        {
+                            "FromLocalTime": "12:00:00",
+                            "ToLocalTime": "23:59:59"
+                        }
+                    ],
+                    "BaseWorkingTimeMinutes": 45,
+                    "OrderTimeSchedule": [
+                        {
+                            "StartTime": "00:00:00",
+                            "EndTime": "1.00:00:00",
+                            "LowerBound": 35,
+                            "UpperBound": 50
+                        }
+                    ]
+                },
+                {
+                    "DayOfWeek": "Saturday",
+                    "Times": [
+                        {
+                            "FromLocalTime": "00:00:00",
+                            "ToLocalTime": "00:59:59"
+                        },
+                        {
+                            "FromLocalTime": "15:00:00",
+                            "ToLocalTime": "23:59:59"
+                        }
+                    ],
+                    "BaseWorkingTimeMinutes": 45,
+                    "OrderTimeSchedule": [
+                        {
+                            "StartTime": "00:00:00",
+                            "EndTime": "1.00:00:00",
+                            "LowerBound": 35,
+                            "UpperBound": 50
+                        }
+                    ]
+                }
+            ],
+            "Categories": [
+                {
+                    "Id": "bd988968-7ebf-48c7-8a50-a22c1338b3d0",
+                    "Name": "Specials",
+                    "Description": "Onze gerechten zijn 100% halal",
+                    "Preview": "Kipburger Alberto",
+                    "ItemIds": [
+                        "f5818ba9-8f50-4d41-836d-e45f19f6dbd2"
+                    ],
+                    "ParentIds": null,
+                    "ImageSources": []
+                },
+                {
+                    "Id": "256302f8-9653-491e-9d31-af892f86ee8d",
+                    "Name": "Pizza deal",
+                    "Description": "Pizza 26 cm, Patat en drinken naar keuze.",
+                    "Preview": "Pizza deal Funghi, Pizza deal Hete Kip, Pizza deal Shoarma, Pizza deal Peperoni, Pizza deal Salami",
+                    "ItemIds": [
+                        "d909841b-4394-4a17-83da-a8fa8e5ef40b",
+                        "af5f20a9-427e-44a6-ac60-373a698eabec",
+                        "b2bb985f-68d8-4cba-8118-e189acdcbd44",
+                        "0b111453-f923-4d9b-8c1f-50ee099bc83d",
+                        "5b1b8aa3-aa1d-477c-bdf3-75b976e60ea3"
+                    ],
+                    "ParentIds": null,
+                    "ImageSources": [
+                        {
+                            "Path": "https://just-eat-prod-eu-res.cloudinary.com/image/upload/{transformations}/v1/nl/dishes/10561253/beef21ae99e6f585c64cdf02c7d6b04e",
+                            "Source": "Cloudinaryv2"
+                        }
+                    ]
+                },
+                {
+                    "Id": "8a1ccf59-5809-49b7-8195-b8ca93b9a33f",
+                    "Name": "Pizza's 26 cm",
+                    "Description": "Alle pizza's van 26 cm kosten €10!",
+                    "Preview": "Pizza Parma, Pizza Rucola, Pizza Mario, Pizza Salami, Pizza Hete Kip Speciaal",
+                    "ItemIds": [
+                        "7b2c2355-7881-48ad-aee1-668578c0e31a",
+                        "b3537963-5ac8-4775-9a66-8ebe11676857",
+                        "af5a422f-02de-423e-b2a4-aee4c92d6afe",
+                        "147d649f-d5c9-4fca-b7cb-1a63863b522d",
+                        "bab9979c-b7ff-4814-a046-34cab6af053e",
+                        "35451740-ec3a-4f68-a108-c3eddce21fe3",
+                        "5dec12cd-c663-46d3-b886-c404ac21a4ef",
+                        "b478c8d0-4d35-467b-8cc3-bba497362ead",
+                        "bdf8b732-56e6-4dd9-b149-b7dcc84d06fc",
+                        "c3657aec-b87a-4bca-98f7-a3b8f6a290d2",
+                        "275870b1-f158-4766-9993-d41c400e0db4",
+                        "99c1d3cc-d4c3-4978-9042-863a7f338707",
+                        "ffc8f7ac-8143-4474-9ebe-8f739815d80f",
+                        "5cc7c9da-6303-4c5b-92c3-0362b884e9fb",
+                        "ad792f93-78c9-431f-9efd-a2a4fc56ffc4",
+                        "7eb058a3-0d9f-4c9a-95e3-8473aa290065",
+                        "2963e848-4405-48fa-9b00-5ae694674643",
+                        "4b2c95ea-7bfc-4744-9614-d3a2c6e45066",
+                        "6aaf9347-82be-4639-8af1-ed6b47ab6733",
+                        "dd8eb469-49b1-4ac9-ad7f-393220c33258",
+                        "71671511-0a01-449c-9cf5-0917847151f3",
+                        "feb3e9ec-ed51-4147-bf92-4b5557c497a2",
+                        "2f4b4bf4-dc1c-4910-b829-8931d1586737",
+                        "57e55457-05f5-41e4-9518-9d4e87ab2197",
+                        "372deb84-28e6-4249-b531-db6317184a6f",
+                        "0296d075-f870-41d9-9799-94259ea19672",
+                        "cd975e7d-8562-4fb2-8a7c-c5ed646e9a3c",
+                        "b3b025dc-2fd6-4fb9-9553-edac668094ab",
+                        "652d8872-c8b7-4607-b421-3c5715561b16",
+                        "8f3fe41a-39c9-4820-a6f8-00d2b872e5be",
+                        "500260e5-9d3b-40ac-820a-62312cab8b82",
+                        "7e968c5e-3121-44fa-9859-a9b883ac11a2",
+                        "4cd9c2a0-1d5e-4342-80b3-fedd069e8404",
+                        "dff1e766-58cb-4a8e-b2a6-df572f70bd47",
+                        "7a840ec7-e9e6-4688-9ea3-c55ff5e00375",
+                        "81628271-9093-4012-8b93-159022254a8e",
+                        "bd48b6ab-d4b3-4af2-93fc-2e47936775c3",
+                        "96c28cf7-ffa4-4b3d-b491-39a9bbdbfc59",
+                        "cda0a5aa-6f0c-4002-8568-e70d2ec9d193"
+                    ],
+                    "ParentIds": null,
+                    "ImageSources": [
+                        {
+                            "Path": "https://just-eat-prod-eu-res.cloudinary.com/image/upload/{transformations}/v1/nl/dishes/10561253/b8c37ad40c3116acd428dcbf7ba8cf9e",
+                            "Source": "Cloudinaryv2"
+                        }
+                    ]
+                },
+                {
+                    "Id": "a140d167-fa07-452f-a60e-964ec1e9b8ce",
+                    "Name": "Pizza's vanaf 30 cm",
+                    "Description": "Vanaf 30 cm. Onze gerechten zijn 100% halal",
+                    "Preview": "Pizza porto bello, Maak je eigen pizza, Pizza quatro formaggi, Pizza cipolla, Pizza dello chef",
+                    "ItemIds": [
+                        "fca9d25e-dad8-4d1e-9f96-302a213c8896",
+                        "7e1c0a4a-3f38-431d-8222-21bab8fb73be",
+                        "99c3100a-7037-4468-af8a-bd4710f9054f",
+                        "3b6969a4-127f-422e-8df0-554b181b42cf",
+                        "daf66230-75f6-44de-8f53-18b888ea9587",
+                        "fc0d304d-65d7-4427-a9df-e6ed3fe79183",
+                        "1151706b-41a6-4636-b405-eb7f67cf039e",
+                        "2e5d10bf-427a-4c52-8bb8-05d6f6409956",
+                        "f2e88a27-2481-4d19-9ce2-a6d38bc9c4bb",
+                        "3ef99880-f8fe-4fd3-96d2-f4928b2e4323",
+                        "09768ed5-7a27-4d9f-932c-3765fab58c9b",
+                        "b059fdd9-7101-4bce-91eb-115be26ed041",
+                        "b5217551-fe95-476e-8d7f-36fb03caa74e",
+                        "13b9f5e5-1287-498b-9a10-c4ece9748252",
+                        "bc7223da-ad36-4833-98cd-5efa204ed626",
+                        "40491c07-4ecc-4260-8b81-339e5926485e",
+                        "65c83ea9-53ce-4191-8dfa-e2761a734e80",
+                        "2b814019-c147-42e4-901c-fec401dc45c5",
+                        "7e24d77d-f037-4a10-bb37-d51f775225dc",
+                        "3fb8582c-3ee6-49c2-9d9f-6445bd8cac2f",
+                        "ad9a96de-a72b-43be-a1bc-6e7352b4d49b",
+                        "194e65d9-8ece-4546-9b04-fb43b57a7984",
+                        "6f89445e-230f-4b68-8e99-361dcb317e38",
+                        "5252635c-3870-4730-aabc-b2c1fc4a4ddb",
+                        "048f9d67-f07c-4b7f-b116-e1327c3d0960",
+                        "96a821f1-9300-4bfa-a604-d152f794846f",
+                        "5d516a7b-f318-4490-b603-4ccffc880bd4",
+                        "3e7db5d4-8289-4af2-9272-f15855874685",
+                        "059c2c64-3cef-4a14-916f-fef191abf5e3",
+                        "05b6568b-f91a-41cf-b370-d1b9fab34202",
+                        "e2a95d61-60ee-4fe6-8b72-e482a1f38f63",
+                        "209f6b23-1d09-4e2c-990e-4bc4af8c26e0",
+                        "6b618f91-7c88-4fc2-88fe-61da45c3f802",
+                        "46e9fbd9-3e46-4c81-9642-3ecdcac95b17",
+                        "7ce9368a-34e4-449f-a276-ecc425fd35ab",
+                        "5cd4c257-568c-481d-a498-508a0f4ccbe2",
+                        "214cfcf4-5ff7-4324-9712-da1aa6016baf",
+                        "7810553e-af6a-462d-89b5-5322b486df7a",
+                        "88645bd6-5011-4f4a-8bdf-32ced77e662b",
+                        "26f41ce8-ffd5-4d02-9a6d-c69df97b5e3c",
+                        "7a4aecce-a64e-4b88-98fa-df5a5251482d"
+                    ],
+                    "ParentIds": null,
+                    "ImageSources": [
+                        {
+                            "Path": "https://just-eat-prod-eu-res.cloudinary.com/image/upload/{transformations}/v1/nl/dishes/10561253/402bf37bce0fafbda213a7b57e5fcc2c",
+                            "Source": "Cloudinaryv2"
+                        }
+                    ]
+                },
+                {
+                    "Id": "452a65da-1b08-43fe-ab28-0b64fd6ea263",
+                    "Name": "Calzone",
+                    "Description": "Onze gerechten zijn 100% halal",
+                    "Preview": "Calzone tonno, Calzone shoarma, Calzone verdi, Calzone hete kip speciaal, Calzone vegetariano",
+                    "ItemIds": [
+                        "7590cb87-5cb8-4486-a08e-69f05ce2a1b3",
+                        "76d683b0-7581-45a3-a88b-4c7e2e7771a6",
+                        "d9da922c-d12c-4de7-8d82-9cb1ef2ec62e",
+                        "2bdd9938-5c3f-4624-852d-d55ce40b8634",
+                        "7f2ff4a3-c538-40e1-ba78-eb21cdc42f68",
+                        "2829539b-a85b-4f52-8ed1-808739e84f25",
+                        "bc19b9f0-0a50-436c-8256-cb85e5047591",
+                        "4ffe4f20-37b4-4547-b432-71c2b4c7adf6"
+                    ],
+                    "ParentIds": null,
+                    "ImageSources": [
+                        {
+                            "Path": "https://just-eat-prod-eu-res.cloudinary.com/image/upload/{transformations}/v1/nl/dishes/10561253/876f413f9a58eb4d5db3bb3f827c741f",
+                            "Source": "Cloudinaryv2"
+                        }
+                    ]
+                },
+                {
+                    "Id": "738f9ace-ee2e-4c10-a7cd-4abdcc7ccbf8",
+                    "Name": "Pasta's",
+                    "Description": "Keuze uit spaghetti of penne",
+                    "Preview": "Pasta kip speciaal, Pasta alfredo, Pasta quattro formaggi, Pasta aglio olio peperoncino, Pasta pesto kip",
+                    "ItemIds": [
+                        "a17755f7-3db2-4019-95a4-ae01c7de0695",
+                        "c7277929-e87c-427f-b27d-1ce16e3d8f4c",
+                        "08be2609-9b74-4eb5-9298-25ccd03c6bcb",
+                        "21bb7e75-3fcb-4e4c-bb50-d2fbbf25dc6c",
+                        "2fc7dc88-ced5-42b4-aced-6b96e3c5f983",
+                        "aecca284-aa05-414f-bb93-20edb412a547",
+                        "dbbc7ea6-3018-46f7-9f30-aabf472638e6",
+                        "947273d1-8c56-452b-af6b-61d6fecd392a",
+                        "be0a73d9-375c-4a56-95c4-40db09fb78d5",
+                        "1896066a-a10f-48e4-8cac-16c6e3d32618",
+                        "b9178e8a-69b7-4ff4-b155-bfc2b5c4f8f5",
+                        "0c91858e-ad4b-4239-b9bf-6c11f5088245",
+                        "af66b9d2-17c8-4ef3-b82e-15cca1fd787d",
+                        "10c4d327-59a5-4162-ae2a-fe6fd982ba61",
+                        "80da572e-7acf-46db-a22f-d7db8b1ae09d"
+                    ],
+                    "ParentIds": null,
+                    "ImageSources": []
+                },
+                {
+                    "Id": "0f970199-d455-4358-add9-bce005d830bb",
+                    "Name": "Kapsalon",
+                    "Description": "Onze gerechten zijn 100% halal",
+                    "Preview": "Kapsalon hete kip, Kapsalon mix, Kapsalon shoarma",
+                    "ItemIds": [
+                        "a7eefaa0-ad7b-4b50-8db6-9186d6744d02",
+                        "a1dbcc09-0aac-4a2b-bd54-d92caa99ec46",
+                        "646e06c0-0c54-405b-b1a1-8e3e47b010b2"
+                    ],
+                    "ParentIds": null,
+                    "ImageSources": [
+                        {
+                            "Path": "https://just-eat-prod-eu-res.cloudinary.com/image/upload/{transformations}/v1/nl/dishes/10561253/efa9cf4da31320ec8a8a4fde626f9adc",
+                            "Source": "Cloudinaryv2"
+                        }
+                    ]
+                },
+                {
+                    "Id": "de93ecdd-4cec-4d6d-9de2-86a90bff7c4e",
+                    "Name": "Panini",
+                    "Description": "Onze gerechten zijn 100% halal",
+                    "Preview": "Panini shoarma, Panini caprese, Panini pikante, Panini pesto, Panini quattro formaggi",
+                    "ItemIds": [
+                        "fe266f37-f892-45ce-9c76-8443320bf1bf",
+                        "328e80e7-7385-4f90-992d-0f62169af78d",
+                        "2fa701fe-188e-47bb-8566-820ba6a32a8c",
+                        "a3784f56-0d68-46e8-a24f-8c4e292bd848",
+                        "e08ffa9e-6536-4f8e-b960-fb8357952fa1",
+                        "92453bf2-c53e-464f-b39d-5741a5b78f19",
+                        "aae016b5-239c-4e9c-ac3c-87ac9cdcdd8c",
+                        "f0369321-d34d-46a2-8de5-410fea9f63d7",
+                        "86ab0610-3a69-4fe5-88a4-5e8fb54fbb9d",
+                        "6900602c-1fd8-40d1-993a-a46cf90c4898"
+                    ],
+                    "ParentIds": null,
+                    "ImageSources": [
+                        {
+                            "Path": "https://just-eat-prod-eu-res.cloudinary.com/image/upload/{transformations}/v1/nl/dishes/10561253/cf9d9e2329ffac1773620bf879910cfa",
+                            "Source": "Cloudinaryv2"
+                        }
+                    ]
+                },
+                {
+                    "Id": "167be3e4-fc6f-4750-84cd-5535224cf1de",
+                    "Name": "Patat en snacks",
+                    "Description": "Onze gerechten zijn 100% halal",
+                    "Preview": "Kaassoufflé, Kipnuggets 12 stuks, Kipnuggets 6 stuks, Patat, Mexicano",
+                    "ItemIds": [
+                        "488c4204-5bd3-4372-bf70-30a1ad924003",
+                        "9b817590-25eb-4592-b475-288bb8e1dbf9",
+                        "757b4e3a-45b3-4d80-9eff-5c3b9cdd2d44",
+                        "fb35e3f8-ecdf-4c20-b383-cb16788932ee",
+                        "10dab6e8-0029-4fc6-9f01-635314a292f7",
+                        "876376ae-995f-4385-b06f-8bb37997ce53",
+                        "86d4a324-9ce2-4998-a2e4-b80b54cb2d49",
+                        "638568f0-b59b-4469-aabd-9fe800f5814a",
+                        "c7c80b4d-ad30-4224-b20c-a2e9bfda70c6",
+                        "0c93038e-d278-4b60-a95b-12abef242bcd"
+                    ],
+                    "ParentIds": null,
+                    "ImageSources": [
+                        {
+                            "Path": "https://just-eat-prod-eu-res.cloudinary.com/image/upload/{transformations}/v1/nl/dishes/10561253/8d5cf9186af2b6e61e84d02cfd473c6e",
+                            "Source": "Cloudinaryv2"
+                        }
+                    ]
+                },
+                {
+                    "Id": "f917cf70-d38c-4ac5-9ffc-38170ac786de",
+                    "Name": "Salades",
+                    "Description": "Onze gerechten zijn 100% halal",
+                    "Preview": "Gorgonzola salade, Mista al tonno salade, Rucola salade, Mista salade, Caprese salade",
+                    "ItemIds": [
+                        "ea0eabaa-c0f9-466d-9cd1-3f4d7f4f1331",
+                        "ef87cbba-f3d5-4c10-9396-bb109be44fa3",
+                        "028fd35d-ce81-49f8-9c09-5c65b31f61d6",
+                        "5e44f077-efab-4c8c-bd68-591ce5db9d2c",
+                        "3cbb2bb3-7e9c-41c7-a4f5-83f805fa4b29"
+                    ],
+                    "ParentIds": null,
+                    "ImageSources": [
+                        {
+                            "Path": "https://just-eat-prod-eu-res.cloudinary.com/image/upload/{transformations}/v1/nl/dishes/10561253/df07c1aaaaad2d90519fbcfa4e35d075",
+                            "Source": "Cloudinaryv2"
+                        }
+                    ]
+                },
+                {
+                    "Id": "a415d304-5f81-4b6d-8215-36daacf0dd78",
+                    "Name": "Desserts",
+                    "Description": "Huisgemaakte desserts",
+                    "Preview": "Tiramisu",
+                    "ItemIds": [
+                        "0026b263-b55e-4d34-a86b-82db630617f6"
+                    ],
+                    "ParentIds": null,
+                    "ImageSources": [
+                        {
+                            "Path": "https://just-eat-prod-eu-res.cloudinary.com/image/upload/{transformations}/v1/nl/dishes/10561253/a0032e4c8ad27f184d52cb63dc7bf91c",
+                            "Source": "Cloudinaryv2"
+                        }
+                    ]
+                },
+                {
+                    "Id": "78ca40ad-8539-4927-bc6d-8a460bb0e3c8",
+                    "Name": "Sauzen",
+                    "Description": "",
+                    "Preview": "Mayonaise, Ketchup, BBQ saus, Sambal, Knoflook saus",
+                    "ItemIds": [
+                        "079ced65-579e-48cf-a5bb-b656ffbe5a54",
+                        "fba64e18-ddfc-44be-a725-75e14e1ebda4",
+                        "d855ef2a-2594-4c81-ac4b-3ea6303125aa",
+                        "c9b9b52d-5b70-4922-b6dd-9a583e0be05d",
+                        "a0af1f3f-a484-41c8-9691-33774cfca608",
+                        "522705a7-eb06-467b-8e2a-52e966a3bdbf"
+                    ],
+                    "ParentIds": null,
+                    "ImageSources": []
+                },
+                {
+                    "Id": "07b90e37-befe-4aeb-a848-f91157ae1077",
+                    "Name": "Dranken",
+                    "Description": "",
+                    "Preview": "Fristi 250ml, Lipton Ice Tea Sparkling 330ml, Fernandes Green Punch 330ml, Spa blauw 500ml, Coca-Cola Zero Sugar 330ml",
+                    "ItemIds": [
+                        "d8c25b28-fd00-4aed-ac04-9672ae3028a9",
+                        "c21ae4b9-f927-42ba-aa4d-a48aabe988ca",
+                        "3ed9734c-fcb9-4bca-bcf1-f321d8290d24",
+                        "4693e604-bf8f-467e-aeaa-64669d5fbd95",
+                        "dc12aa11-9495-4e3f-ab61-c0bfdc935ed9",
+                        "9f258ae9-a9e0-4571-9b75-c4c3771decec",
+                        "eb489bea-d107-4827-8006-03c611008cc9",
+                        "906ca15f-c3c8-48d6-aa1f-cefa8a8591a5",
+                        "13505e3a-1aef-4d2e-b050-0af1ffa52eac",
+                        "2783c6c6-4697-4dd7-9aac-bdc39525be3b",
+                        "973200fe-9761-4354-b317-20c210007896",
+                        "a4147b28-b406-4c59-b5a2-50369e1e9558",
+                        "7ebc8db1-d9f1-44d4-aaae-f535be36b123",
+                        "3954cbe0-47af-4c6f-b091-e5bec295ffb5",
+                        "9a2140d5-376a-4c15-b405-ef085b353d0b",
+                        "7a1bb13d-8472-46fc-8991-a21f2cdd7b2f",
+                        "725ffbe6-dbe9-491d-9386-e7be34794be1"
+                    ],
+                    "ParentIds": null,
+                    "ImageSources": [
+                        {
+                            "Path": "https://just-eat-prod-eu-res.cloudinary.com/image/upload/{transformations}/v1/nl/dishes/10561253/4a026cd376a9a486f58cecf456d5ebe4",
+                            "Source": "Cloudinaryv2"
+                        }
+                    ]
+                },
+                {
+                    "Id": "4faaa107-9de6-4a2a-9caa-9c3a749ee4ab",
+                    "Name": "Wijn",
+                    "Description": "",
+                    "Preview": "Rode wijn 750ml, Witte wijn 750ml",
+                    "ItemIds": [
+                        "31a4edb0-918e-4c59-9fd7-468a2a8bd30f",
+                        "040a5544-0244-4ea6-be51-95f4ca9ed87f"
+                    ],
+                    "ParentIds": null,
+                    "ImageSources": []
+                },
+                {
+                    "Id": "7c8d259b-2e6f-418f-876f-e69418adf776",
+                    "Name": "Bier",
+                    "Description": "",
+                    "Preview": "Heineken Premium Pilsener Bier 330ml",
+                    "ItemIds": [
+                        "cebaa025-70f3-45f0-b968-6c57748eec01"
+                    ],
+                    "ParentIds": null,
+                    "ImageSources": [
+                        {
+                            "Path": "https://just-eat-prod-eu-res.cloudinary.com/image/upload/{transformations}/v1/nl/dishes/10561253/1ad67496ab575b9350a9880be9d713d9",
+                            "Source": "Cloudinaryv2"
+                        }
+                    ]
+                }
+            ],
+            "PreOrderEnabledTimes": [
+                {
+                    "DayOfWeek": "Sunday",
+                    "Times": [
+                        {
+                            "FromLocalTime": "01:45:00",
+                            "ToLocalTime": "13:59:59"
+                        },
+                        {
+                            "FromLocalTime": "22:00:00",
+                            "ToLocalTime": "23:59:59"
+                        }
+                    ]
+                },
+                {
+                    "DayOfWeek": "Monday",
+                    "Times": [
+                        {
+                            "FromLocalTime": "00:00:00",
+                            "ToLocalTime": "23:59:59"
+                        }
+                    ]
+                },
+                {
+                    "DayOfWeek": "Tuesday",
+                    "Times": [
+                        {
+                            "FromLocalTime": "00:00:00",
+                            "ToLocalTime": "12:14:59"
+                        },
+                        {
+                            "FromLocalTime": "22:00:00",
+                            "ToLocalTime": "23:59:59"
+                        }
+                    ]
+                },
+                {
+                    "DayOfWeek": "Wednesday",
+                    "Times": [
+                        {
+                            "FromLocalTime": "00:00:00",
+                            "ToLocalTime": "11:59:59"
+                        },
+                        {
+                            "FromLocalTime": "22:00:00",
+                            "ToLocalTime": "23:59:59"
+                        }
+                    ]
+                },
+                {
+                    "DayOfWeek": "Thursday",
+                    "Times": [
+                        {
+                            "FromLocalTime": "00:00:00",
+                            "ToLocalTime": "11:59:59"
+                        },
+                        {
+                            "FromLocalTime": "22:00:00",
+                            "ToLocalTime": "23:59:59"
+                        }
+                    ]
+                },
+                {
+                    "DayOfWeek": "Friday",
+                    "Times": [
+                        {
+                            "FromLocalTime": "00:00:00",
+                            "ToLocalTime": "11:59:59"
+                        }
+                    ]
+                },
+                {
+                    "DayOfWeek": "Saturday",
+                    "Times": [
+                        {
+                            "FromLocalTime": "01:00:00",
+                            "ToLocalTime": "14:59:59"
+                        }
+                    ]
+                }
+            ],
+            "HasManyCategoryImages": true,
+            "HasManyProductImages": false
+        },
+        {
+            "MenuGroupId": "5ACFDDCBA2FCE51F282D04EB396C5FE4",
+            "Description": "",
+            "ServiceTypes": [
+                "collection"
+            ],
+            "Schedules": [
+                {
+                    "DayOfWeek": "Sunday",
+                    "Times": [
+                        {
+                            "FromLocalTime": "00:00:00",
+                            "ToLocalTime": "01:44:59"
+                        },
+                        {
+                            "FromLocalTime": "13:45:00",
+                            "ToLocalTime": "21:59:59"
+                        }
+                    ],
+                    "BaseWorkingTimeMinutes": 15,
+                    "OrderTimeSchedule": [
+                        {
+                            "StartTime": "00:00:00",
+                            "EndTime": "1.00:00:00",
+                            "LowerBound": 15,
+                            "UpperBound": 20
+                        }
+                    ]
+                },
+                {
+                    "DayOfWeek": "Tuesday",
+                    "Times": [
+                        {
+                            "FromLocalTime": "12:30:00",
+                            "ToLocalTime": "21:59:59"
+                        }
+                    ],
+                    "BaseWorkingTimeMinutes": 15,
+                    "OrderTimeSchedule": [
+                        {
+                            "StartTime": "00:00:00",
+                            "EndTime": "1.00:00:00",
+                            "LowerBound": 15,
+                            "UpperBound": 20
+                        }
+                    ]
+                },
+                {
+                    "DayOfWeek": "Wednesday",
+                    "Times": [
+                        {
+                            "FromLocalTime": "12:15:00",
+                            "ToLocalTime": "21:59:59"
+                        }
+                    ],
+                    "BaseWorkingTimeMinutes": 15,
+                    "OrderTimeSchedule": [
+                        {
+                            "StartTime": "00:00:00",
+                            "EndTime": "1.00:00:00",
+                            "LowerBound": 15,
+                            "UpperBound": 20
+                        }
+                    ]
+                },
+                {
+                    "DayOfWeek": "Thursday",
+                    "Times": [
+                        {
+                            "FromLocalTime": "12:00:00",
+                            "ToLocalTime": "21:59:59"
+                        }
+                    ],
+                    "BaseWorkingTimeMinutes": 15,
+                    "OrderTimeSchedule": [
+                        {
+                            "StartTime": "00:00:00",
+                            "EndTime": "1.00:00:00",
+                            "LowerBound": 15,
+                            "UpperBound": 20
+                        }
+                    ]
+                },
+                {
+                    "DayOfWeek": "Friday",
+                    "Times": [
+                        {
+                            "FromLocalTime": "12:00:00",
+                            "ToLocalTime": "23:59:59"
+                        }
+                    ],
+                    "BaseWorkingTimeMinutes": 15,
+                    "OrderTimeSchedule": [
+                        {
+                            "StartTime": "00:00:00",
+                            "EndTime": "1.00:00:00",
+                            "LowerBound": 15,
+                            "UpperBound": 20
+                        }
+                    ]
+                },
+                {
+                    "DayOfWeek": "Saturday",
+                    "Times": [
+                        {
+                            "FromLocalTime": "00:00:00",
+                            "ToLocalTime": "00:59:59"
+                        },
+                        {
+                            "FromLocalTime": "15:00:00",
+                            "ToLocalTime": "23:59:59"
+                        }
+                    ],
+                    "BaseWorkingTimeMinutes": 15,
+                    "OrderTimeSchedule": [
+                        {
+                            "StartTime": "00:00:00",
+                            "EndTime": "1.00:00:00",
+                            "LowerBound": 15,
+                            "UpperBound": 20
+                        }
+                    ]
+                }
+            ],
+            "Categories": [
+                {
+                    "Id": "bd988968-7ebf-48c7-8a50-a22c1338b3d0",
+                    "Name": "Specials",
+                    "Description": "Onze gerechten zijn 100% halal",
+                    "Preview": "Kipburger Alberto",
+                    "ItemIds": [
+                        "f5818ba9-8f50-4d41-836d-e45f19f6dbd2"
+                    ],
+                    "ParentIds": null,
+                    "ImageSources": []
+                },
+                {
+                    "Id": "256302f8-9653-491e-9d31-af892f86ee8d",
+                    "Name": "Pizza deal",
+                    "Description": "Pizza 26 cm, Patat en drinken naar keuze.",
+                    "Preview": "Pizza deal Funghi, Pizza deal Hete Kip, Pizza deal Shoarma, Pizza deal Peperoni, Pizza deal Salami",
+                    "ItemIds": [
+                        "d909841b-4394-4a17-83da-a8fa8e5ef40b",
+                        "af5f20a9-427e-44a6-ac60-373a698eabec",
+                        "b2bb985f-68d8-4cba-8118-e189acdcbd44",
+                        "0b111453-f923-4d9b-8c1f-50ee099bc83d",
+                        "5b1b8aa3-aa1d-477c-bdf3-75b976e60ea3"
+                    ],
+                    "ParentIds": null,
+                    "ImageSources": [
+                        {
+                            "Path": "https://just-eat-prod-eu-res.cloudinary.com/image/upload/{transformations}/v1/nl/dishes/10561253/beef21ae99e6f585c64cdf02c7d6b04e",
+                            "Source": "Cloudinaryv2"
+                        }
+                    ]
+                },
+                {
+                    "Id": "8a1ccf59-5809-49b7-8195-b8ca93b9a33f",
+                    "Name": "Pizza's 26 cm",
+                    "Description": "Alle pizza's van 26 cm kosten €10!",
+                    "Preview": "Pizza Parma, Pizza Rucola, Pizza Mario, Pizza Salami, Pizza Hete Kip Speciaal",
+                    "ItemIds": [
+                        "7b2c2355-7881-48ad-aee1-668578c0e31a",
+                        "b3537963-5ac8-4775-9a66-8ebe11676857",
+                        "af5a422f-02de-423e-b2a4-aee4c92d6afe",
+                        "147d649f-d5c9-4fca-b7cb-1a63863b522d",
+                        "bab9979c-b7ff-4814-a046-34cab6af053e",
+                        "35451740-ec3a-4f68-a108-c3eddce21fe3",
+                        "5dec12cd-c663-46d3-b886-c404ac21a4ef",
+                        "b478c8d0-4d35-467b-8cc3-bba497362ead",
+                        "bdf8b732-56e6-4dd9-b149-b7dcc84d06fc",
+                        "c3657aec-b87a-4bca-98f7-a3b8f6a290d2",
+                        "275870b1-f158-4766-9993-d41c400e0db4",
+                        "99c1d3cc-d4c3-4978-9042-863a7f338707",
+                        "ffc8f7ac-8143-4474-9ebe-8f739815d80f",
+                        "5cc7c9da-6303-4c5b-92c3-0362b884e9fb",
+                        "ad792f93-78c9-431f-9efd-a2a4fc56ffc4",
+                        "7eb058a3-0d9f-4c9a-95e3-8473aa290065",
+                        "2963e848-4405-48fa-9b00-5ae694674643",
+                        "4b2c95ea-7bfc-4744-9614-d3a2c6e45066",
+                        "6aaf9347-82be-4639-8af1-ed6b47ab6733",
+                        "dd8eb469-49b1-4ac9-ad7f-393220c33258",
+                        "71671511-0a01-449c-9cf5-0917847151f3",
+                        "feb3e9ec-ed51-4147-bf92-4b5557c497a2",
+                        "2f4b4bf4-dc1c-4910-b829-8931d1586737",
+                        "57e55457-05f5-41e4-9518-9d4e87ab2197",
+                        "372deb84-28e6-4249-b531-db6317184a6f",
+                        "0296d075-f870-41d9-9799-94259ea19672",
+                        "cd975e7d-8562-4fb2-8a7c-c5ed646e9a3c",
+                        "b3b025dc-2fd6-4fb9-9553-edac668094ab",
+                        "652d8872-c8b7-4607-b421-3c5715561b16",
+                        "8f3fe41a-39c9-4820-a6f8-00d2b872e5be",
+                        "500260e5-9d3b-40ac-820a-62312cab8b82",
+                        "7e968c5e-3121-44fa-9859-a9b883ac11a2",
+                        "4cd9c2a0-1d5e-4342-80b3-fedd069e8404",
+                        "dff1e766-58cb-4a8e-b2a6-df572f70bd47",
+                        "7a840ec7-e9e6-4688-9ea3-c55ff5e00375",
+                        "81628271-9093-4012-8b93-159022254a8e",
+                        "bd48b6ab-d4b3-4af2-93fc-2e47936775c3",
+                        "96c28cf7-ffa4-4b3d-b491-39a9bbdbfc59",
+                        "cda0a5aa-6f0c-4002-8568-e70d2ec9d193"
+                    ],
+                    "ParentIds": null,
+                    "ImageSources": [
+                        {
+                            "Path": "https://just-eat-prod-eu-res.cloudinary.com/image/upload/{transformations}/v1/nl/dishes/10561253/b8c37ad40c3116acd428dcbf7ba8cf9e",
+                            "Source": "Cloudinaryv2"
+                        }
+                    ]
+                },
+                {
+                    "Id": "a140d167-fa07-452f-a60e-964ec1e9b8ce",
+                    "Name": "Pizza's vanaf 30 cm",
+                    "Description": "Vanaf 30 cm. Onze gerechten zijn 100% halal",
+                    "Preview": "Pizza porto bello, Maak je eigen pizza, Pizza quatro formaggi, Pizza cipolla, Pizza dello chef",
+                    "ItemIds": [
+                        "fca9d25e-dad8-4d1e-9f96-302a213c8896",
+                        "7e1c0a4a-3f38-431d-8222-21bab8fb73be",
+                        "99c3100a-7037-4468-af8a-bd4710f9054f",
+                        "3b6969a4-127f-422e-8df0-554b181b42cf",
+                        "daf66230-75f6-44de-8f53-18b888ea9587",
+                        "fc0d304d-65d7-4427-a9df-e6ed3fe79183",
+                        "1151706b-41a6-4636-b405-eb7f67cf039e",
+                        "2e5d10bf-427a-4c52-8bb8-05d6f6409956",
+                        "f2e88a27-2481-4d19-9ce2-a6d38bc9c4bb",
+                        "3ef99880-f8fe-4fd3-96d2-f4928b2e4323",
+                        "09768ed5-7a27-4d9f-932c-3765fab58c9b",
+                        "b059fdd9-7101-4bce-91eb-115be26ed041",
+                        "b5217551-fe95-476e-8d7f-36fb03caa74e",
+                        "13b9f5e5-1287-498b-9a10-c4ece9748252",
+                        "bc7223da-ad36-4833-98cd-5efa204ed626",
+                        "40491c07-4ecc-4260-8b81-339e5926485e",
+                        "65c83ea9-53ce-4191-8dfa-e2761a734e80",
+                        "2b814019-c147-42e4-901c-fec401dc45c5",
+                        "7e24d77d-f037-4a10-bb37-d51f775225dc",
+                        "3fb8582c-3ee6-49c2-9d9f-6445bd8cac2f",
+                        "ad9a96de-a72b-43be-a1bc-6e7352b4d49b",
+                        "194e65d9-8ece-4546-9b04-fb43b57a7984",
+                        "6f89445e-230f-4b68-8e99-361dcb317e38",
+                        "5252635c-3870-4730-aabc-b2c1fc4a4ddb",
+                        "048f9d67-f07c-4b7f-b116-e1327c3d0960",
+                        "96a821f1-9300-4bfa-a604-d152f794846f",
+                        "5d516a7b-f318-4490-b603-4ccffc880bd4",
+                        "3e7db5d4-8289-4af2-9272-f15855874685",
+                        "059c2c64-3cef-4a14-916f-fef191abf5e3",
+                        "05b6568b-f91a-41cf-b370-d1b9fab34202",
+                        "e2a95d61-60ee-4fe6-8b72-e482a1f38f63",
+                        "209f6b23-1d09-4e2c-990e-4bc4af8c26e0",
+                        "6b618f91-7c88-4fc2-88fe-61da45c3f802",
+                        "46e9fbd9-3e46-4c81-9642-3ecdcac95b17",
+                        "7ce9368a-34e4-449f-a276-ecc425fd35ab",
+                        "5cd4c257-568c-481d-a498-508a0f4ccbe2",
+                        "214cfcf4-5ff7-4324-9712-da1aa6016baf",
+                        "7810553e-af6a-462d-89b5-5322b486df7a",
+                        "88645bd6-5011-4f4a-8bdf-32ced77e662b",
+                        "26f41ce8-ffd5-4d02-9a6d-c69df97b5e3c",
+                        "7a4aecce-a64e-4b88-98fa-df5a5251482d"
+                    ],
+                    "ParentIds": null,
+                    "ImageSources": [
+                        {
+                            "Path": "https://just-eat-prod-eu-res.cloudinary.com/image/upload/{transformations}/v1/nl/dishes/10561253/402bf37bce0fafbda213a7b57e5fcc2c",
+                            "Source": "Cloudinaryv2"
+                        }
+                    ]
+                },
+                {
+                    "Id": "452a65da-1b08-43fe-ab28-0b64fd6ea263",
+                    "Name": "Calzone",
+                    "Description": "Onze gerechten zijn 100% halal",
+                    "Preview": "Calzone tonno, Calzone shoarma, Calzone verdi, Calzone hete kip speciaal, Calzone vegetariano",
+                    "ItemIds": [
+                        "7590cb87-5cb8-4486-a08e-69f05ce2a1b3",
+                        "76d683b0-7581-45a3-a88b-4c7e2e7771a6",
+                        "d9da922c-d12c-4de7-8d82-9cb1ef2ec62e",
+                        "2bdd9938-5c3f-4624-852d-d55ce40b8634",
+                        "7f2ff4a3-c538-40e1-ba78-eb21cdc42f68",
+                        "2829539b-a85b-4f52-8ed1-808739e84f25",
+                        "bc19b9f0-0a50-436c-8256-cb85e5047591",
+                        "4ffe4f20-37b4-4547-b432-71c2b4c7adf6"
+                    ],
+                    "ParentIds": null,
+                    "ImageSources": [
+                        {
+                            "Path": "https://just-eat-prod-eu-res.cloudinary.com/image/upload/{transformations}/v1/nl/dishes/10561253/876f413f9a58eb4d5db3bb3f827c741f",
+                            "Source": "Cloudinaryv2"
+                        }
+                    ]
+                },
+                {
+                    "Id": "738f9ace-ee2e-4c10-a7cd-4abdcc7ccbf8",
+                    "Name": "Pasta's",
+                    "Description": "Keuze uit spaghetti of penne",
+                    "Preview": "Pasta kip speciaal, Pasta alfredo, Pasta quattro formaggi, Pasta aglio olio peperoncino, Pasta pesto kip",
+                    "ItemIds": [
+                        "a17755f7-3db2-4019-95a4-ae01c7de0695",
+                        "c7277929-e87c-427f-b27d-1ce16e3d8f4c",
+                        "08be2609-9b74-4eb5-9298-25ccd03c6bcb",
+                        "21bb7e75-3fcb-4e4c-bb50-d2fbbf25dc6c",
+                        "2fc7dc88-ced5-42b4-aced-6b96e3c5f983",
+                        "aecca284-aa05-414f-bb93-20edb412a547",
+                        "dbbc7ea6-3018-46f7-9f30-aabf472638e6",
+                        "947273d1-8c56-452b-af6b-61d6fecd392a",
+                        "be0a73d9-375c-4a56-95c4-40db09fb78d5",
+                        "1896066a-a10f-48e4-8cac-16c6e3d32618",
+                        "b9178e8a-69b7-4ff4-b155-bfc2b5c4f8f5",
+                        "0c91858e-ad4b-4239-b9bf-6c11f5088245",
+                        "af66b9d2-17c8-4ef3-b82e-15cca1fd787d",
+                        "10c4d327-59a5-4162-ae2a-fe6fd982ba61",
+                        "80da572e-7acf-46db-a22f-d7db8b1ae09d"
+                    ],
+                    "ParentIds": null,
+                    "ImageSources": []
+                },
+                {
+                    "Id": "0f970199-d455-4358-add9-bce005d830bb",
+                    "Name": "Kapsalon",
+                    "Description": "Onze gerechten zijn 100% halal",
+                    "Preview": "Kapsalon hete kip, Kapsalon mix, Kapsalon shoarma",
+                    "ItemIds": [
+                        "a7eefaa0-ad7b-4b50-8db6-9186d6744d02",
+                        "a1dbcc09-0aac-4a2b-bd54-d92caa99ec46",
+                        "646e06c0-0c54-405b-b1a1-8e3e47b010b2"
+                    ],
+                    "ParentIds": null,
+                    "ImageSources": [
+                        {
+                            "Path": "https://just-eat-prod-eu-res.cloudinary.com/image/upload/{transformations}/v1/nl/dishes/10561253/efa9cf4da31320ec8a8a4fde626f9adc",
+                            "Source": "Cloudinaryv2"
+                        }
+                    ]
+                },
+                {
+                    "Id": "de93ecdd-4cec-4d6d-9de2-86a90bff7c4e",
+                    "Name": "Panini",
+                    "Description": "Onze gerechten zijn 100% halal",
+                    "Preview": "Panini shoarma, Panini caprese, Panini pikante, Panini pesto, Panini quattro formaggi",
+                    "ItemIds": [
+                        "fe266f37-f892-45ce-9c76-8443320bf1bf",
+                        "328e80e7-7385-4f90-992d-0f62169af78d",
+                        "2fa701fe-188e-47bb-8566-820ba6a32a8c",
+                        "a3784f56-0d68-46e8-a24f-8c4e292bd848",
+                        "e08ffa9e-6536-4f8e-b960-fb8357952fa1",
+                        "92453bf2-c53e-464f-b39d-5741a5b78f19",
+                        "aae016b5-239c-4e9c-ac3c-87ac9cdcdd8c",
+                        "f0369321-d34d-46a2-8de5-410fea9f63d7",
+                        "86ab0610-3a69-4fe5-88a4-5e8fb54fbb9d",
+                        "6900602c-1fd8-40d1-993a-a46cf90c4898"
+                    ],
+                    "ParentIds": null,
+                    "ImageSources": [
+                        {
+                            "Path": "https://just-eat-prod-eu-res.cloudinary.com/image/upload/{transformations}/v1/nl/dishes/10561253/cf9d9e2329ffac1773620bf879910cfa",
+                            "Source": "Cloudinaryv2"
+                        }
+                    ]
+                },
+                {
+                    "Id": "167be3e4-fc6f-4750-84cd-5535224cf1de",
+                    "Name": "Patat en snacks",
+                    "Description": "Onze gerechten zijn 100% halal",
+                    "Preview": "Kaassoufflé, Kipnuggets 12 stuks, Kipnuggets 6 stuks, Patat, Mexicano",
+                    "ItemIds": [
+                        "488c4204-5bd3-4372-bf70-30a1ad924003",
+                        "9b817590-25eb-4592-b475-288bb8e1dbf9",
+                        "757b4e3a-45b3-4d80-9eff-5c3b9cdd2d44",
+                        "fb35e3f8-ecdf-4c20-b383-cb16788932ee",
+                        "10dab6e8-0029-4fc6-9f01-635314a292f7",
+                        "876376ae-995f-4385-b06f-8bb37997ce53",
+                        "86d4a324-9ce2-4998-a2e4-b80b54cb2d49",
+                        "638568f0-b59b-4469-aabd-9fe800f5814a",
+                        "c7c80b4d-ad30-4224-b20c-a2e9bfda70c6",
+                        "0c93038e-d278-4b60-a95b-12abef242bcd"
+                    ],
+                    "ParentIds": null,
+                    "ImageSources": [
+                        {
+                            "Path": "https://just-eat-prod-eu-res.cloudinary.com/image/upload/{transformations}/v1/nl/dishes/10561253/8d5cf9186af2b6e61e84d02cfd473c6e",
+                            "Source": "Cloudinaryv2"
+                        }
+                    ]
+                },
+                {
+                    "Id": "f917cf70-d38c-4ac5-9ffc-38170ac786de",
+                    "Name": "Salades",
+                    "Description": "Onze gerechten zijn 100% halal",
+                    "Preview": "Gorgonzola salade, Mista al tonno salade, Rucola salade, Mista salade, Caprese salade",
+                    "ItemIds": [
+                        "ea0eabaa-c0f9-466d-9cd1-3f4d7f4f1331",
+                        "ef87cbba-f3d5-4c10-9396-bb109be44fa3",
+                        "028fd35d-ce81-49f8-9c09-5c65b31f61d6",
+                        "5e44f077-efab-4c8c-bd68-591ce5db9d2c",
+                        "3cbb2bb3-7e9c-41c7-a4f5-83f805fa4b29"
+                    ],
+                    "ParentIds": null,
+                    "ImageSources": [
+                        {
+                            "Path": "https://just-eat-prod-eu-res.cloudinary.com/image/upload/{transformations}/v1/nl/dishes/10561253/df07c1aaaaad2d90519fbcfa4e35d075",
+                            "Source": "Cloudinaryv2"
+                        }
+                    ]
+                },
+                {
+                    "Id": "a415d304-5f81-4b6d-8215-36daacf0dd78",
+                    "Name": "Desserts",
+                    "Description": "Huisgemaakte desserts",
+                    "Preview": "Tiramisu",
+                    "ItemIds": [
+                        "0026b263-b55e-4d34-a86b-82db630617f6"
+                    ],
+                    "ParentIds": null,
+                    "ImageSources": [
+                        {
+                            "Path": "https://just-eat-prod-eu-res.cloudinary.com/image/upload/{transformations}/v1/nl/dishes/10561253/a0032e4c8ad27f184d52cb63dc7bf91c",
+                            "Source": "Cloudinaryv2"
+                        }
+                    ]
+                },
+                {
+                    "Id": "78ca40ad-8539-4927-bc6d-8a460bb0e3c8",
+                    "Name": "Sauzen",
+                    "Description": "",
+                    "Preview": "Mayonaise, Ketchup, BBQ saus, Sambal, Knoflook saus",
+                    "ItemIds": [
+                        "079ced65-579e-48cf-a5bb-b656ffbe5a54",
+                        "fba64e18-ddfc-44be-a725-75e14e1ebda4",
+                        "d855ef2a-2594-4c81-ac4b-3ea6303125aa",
+                        "c9b9b52d-5b70-4922-b6dd-9a583e0be05d",
+                        "a0af1f3f-a484-41c8-9691-33774cfca608",
+                        "522705a7-eb06-467b-8e2a-52e966a3bdbf"
+                    ],
+                    "ParentIds": null,
+                    "ImageSources": []
+                },
+                {
+                    "Id": "07b90e37-befe-4aeb-a848-f91157ae1077",
+                    "Name": "Dranken",
+                    "Description": "",
+                    "Preview": "Fristi 250ml, Lipton Ice Tea Sparkling 330ml, Fernandes Green Punch 330ml, Spa blauw 500ml, Coca-Cola Zero Sugar 330ml",
+                    "ItemIds": [
+                        "d8c25b28-fd00-4aed-ac04-9672ae3028a9",
+                        "c21ae4b9-f927-42ba-aa4d-a48aabe988ca",
+                        "3ed9734c-fcb9-4bca-bcf1-f321d8290d24",
+                        "4693e604-bf8f-467e-aeaa-64669d5fbd95",
+                        "dc12aa11-9495-4e3f-ab61-c0bfdc935ed9",
+                        "9f258ae9-a9e0-4571-9b75-c4c3771decec",
+                        "eb489bea-d107-4827-8006-03c611008cc9",
+                        "906ca15f-c3c8-48d6-aa1f-cefa8a8591a5",
+                        "13505e3a-1aef-4d2e-b050-0af1ffa52eac",
+                        "2783c6c6-4697-4dd7-9aac-bdc39525be3b",
+                        "973200fe-9761-4354-b317-20c210007896",
+                        "a4147b28-b406-4c59-b5a2-50369e1e9558",
+                        "7ebc8db1-d9f1-44d4-aaae-f535be36b123",
+                        "3954cbe0-47af-4c6f-b091-e5bec295ffb5",
+                        "9a2140d5-376a-4c15-b405-ef085b353d0b",
+                        "7a1bb13d-8472-46fc-8991-a21f2cdd7b2f",
+                        "725ffbe6-dbe9-491d-9386-e7be34794be1"
+                    ],
+                    "ParentIds": null,
+                    "ImageSources": [
+                        {
+                            "Path": "https://just-eat-prod-eu-res.cloudinary.com/image/upload/{transformations}/v1/nl/dishes/10561253/4a026cd376a9a486f58cecf456d5ebe4",
+                            "Source": "Cloudinaryv2"
+                        }
+                    ]
+                },
+                {
+                    "Id": "4faaa107-9de6-4a2a-9caa-9c3a749ee4ab",
+                    "Name": "Wijn",
+                    "Description": "",
+                    "Preview": "Rode wijn 750ml, Witte wijn 750ml",
+                    "ItemIds": [
+                        "31a4edb0-918e-4c59-9fd7-468a2a8bd30f",
+                        "040a5544-0244-4ea6-be51-95f4ca9ed87f"
+                    ],
+                    "ParentIds": null,
+                    "ImageSources": []
+                },
+                {
+                    "Id": "7c8d259b-2e6f-418f-876f-e69418adf776",
+                    "Name": "Bier",
+                    "Description": "",
+                    "Preview": "Heineken Premium Pilsener Bier 330ml",
+                    "ItemIds": [
+                        "cebaa025-70f3-45f0-b968-6c57748eec01"
+                    ],
+                    "ParentIds": null,
+                    "ImageSources": [
+                        {
+                            "Path": "https://just-eat-prod-eu-res.cloudinary.com/image/upload/{transformations}/v1/nl/dishes/10561253/1ad67496ab575b9350a9880be9d713d9",
+                            "Source": "Cloudinaryv2"
+                        }
+                    ]
+                }
+            ],
+            "PreOrderEnabledTimes": [
+                {
+                    "DayOfWeek": "Sunday",
+                    "Times": [
+                        {
+                            "FromLocalTime": "01:45:00",
+                            "ToLocalTime": "13:44:59"
+                        },
+                        {
+                            "FromLocalTime": "22:00:00",
+                            "ToLocalTime": "23:59:59"
+                        }
+                    ]
+                },
+                {
+                    "DayOfWeek": "Monday",
+                    "Times": [
+                        {
+                            "FromLocalTime": "00:00:00",
+                            "ToLocalTime": "23:59:59"
+                        }
+                    ]
+                },
+                {
+                    "DayOfWeek": "Tuesday",
+                    "Times": [
+                        {
+                            "FromLocalTime": "00:00:00",
+                            "ToLocalTime": "12:29:59"
+                        },
+                        {
+                            "FromLocalTime": "22:00:00",
+                            "ToLocalTime": "23:59:59"
+                        }
+                    ]
+                },
+                {
+                    "DayOfWeek": "Wednesday",
+                    "Times": [
+                        {
+                            "FromLocalTime": "00:00:00",
+                            "ToLocalTime": "12:14:59"
+                        },
+                        {
+                            "FromLocalTime": "22:00:00",
+                            "ToLocalTime": "23:59:59"
+                        }
+                    ]
+                },
+                {
+                    "DayOfWeek": "Thursday",
+                    "Times": [
+                        {
+                            "FromLocalTime": "00:00:00",
+                            "ToLocalTime": "11:59:59"
+                        },
+                        {
+                            "FromLocalTime": "22:00:00",
+                            "ToLocalTime": "23:59:59"
+                        }
+                    ]
+                },
+                {
+                    "DayOfWeek": "Friday",
+                    "Times": [
+                        {
+                            "FromLocalTime": "00:00:00",
+                            "ToLocalTime": "11:59:59"
+                        }
+                    ]
+                },
+                {
+                    "DayOfWeek": "Saturday",
+                    "Times": [
+                        {
+                            "FromLocalTime": "01:00:00",
+                            "ToLocalTime": "14:59:59"
+                        }
+                    ]
+                }
+            ],
+            "HasManyCategoryImages": true,
+            "HasManyProductImages": false
+        }
+    ],
+    "ItemsUrl": "de-la-roma_nl_items.json",
+    "ItemDetailsUrl": "de-la-roma_nl_itemDetails.json",
+    "TruncatedUrl": null,
+    "Language": "nl",
+    "FallbackLanguage": "en",
+    "SupportedLanguages": [
+        {
+            "Language": "nl",
+            "ManifestUrl": "de-la-roma_nl_manifest.json"
+        },
+        {
+            "Language": "de",
+            "ManifestUrl": "de-la-roma_nl_manifest_de.json"
+        },
+        {
+            "Language": "en",
+            "ManifestUrl": "de-la-roma_nl_manifest_en.json"
+        }
+    ],
+    "Layout": {
+        "CategoryViewLayout": "None",
+        "ItemViewLayout": "List",
+        "SingleCategoryView": false
+    }
+}

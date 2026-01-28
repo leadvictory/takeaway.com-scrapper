@@ -1,1 +1,1260 @@
-[{"id":"1","modifier":{"id":"18172390942","name":"Blond desembrood","additionPrice":0,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"2","modifier":{"id":"18172390952","name":"Volkoren desembrood","additionPrice":0,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"3","modifier":{"id":"18172390932","name":"Wegwerp plastic","additionPrice":0.15,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"4","modifier":{"id":"18172390962","name":"Ik bestel graag de vegan box","additionPrice":0,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"5","modifier":{"id":"18172390972","name":"Wegwerp plastic","additionPrice":0.5,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"6","modifier":{"id":"18172391002","name":"Ik bestel graag de reguliere box","additionPrice":0,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"7","modifier":{"id":"18172391012","name":"Ik bestel graag de vegetarische box","additionPrice":0,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"8","modifier":{"id":"18172390982","name":"Ik bestel graag de vegan box","additionPrice":0,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"9","modifier":{"id":"18172390992","name":"Wegwerp plastic","additionPrice":0.5,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"10","modifier":{"id":"18172391042","name":"Ik bestel graag de reguliere box","additionPrice":0,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"11","modifier":{"id":"18172391052","name":"Ik bestel graag de vegetarische box","additionPrice":0,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"12","modifier":{"id":"18172391022","name":"Ik bestel graag de vegan box","additionPrice":0,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"13","modifier":{"id":"18172391032","name":"Wegwerp plastic","additionPrice":0.5,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"14","modifier":{"id":"18172391142","name":"Wegwerp plastic","additionPrice":0.15,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"15","modifier":{"id":"18172391152","name":"Bacon","additionPrice":0,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"16","modifier":{"id":"18172391162","name":"Warmgerookte zalm","additionPrice":0,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"17","modifier":{"id":"18172391182","name":"Geen - vegetarisch","additionPrice":0,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"18","modifier":{"id":"18172391202","name":"Energie, incl. wegwerp plastic toeslag EUR 0,15","additionPrice":5.65,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"19","modifier":{"id":"18172391212","name":"Zomergroen, incl. wegwerp plastic toeslag EUR 0,15","additionPrice":5.65,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"20","modifier":{"id":"18172391192","name":"Alles-in-één, incl. wegwerp plastic toeslag EUR 0,15","additionPrice":5.65,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"21","modifier":{"id":"18172391222","name":"Oppepper, incl. wegwerp plastic toeslag EUR 0,15","additionPrice":6.15,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"22","modifier":{"id":"18172391232","name":"Verse sinaasappelsap, incl. wegwerp plastic toeslag EUR 0,15","additionPrice":5.15,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"23","modifier":{"id":"18172391172","name":"Wegwerp plastic","additionPrice":0.05,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"24","modifier":{"id":"18172391252","name":"Energie, incl. wegwerp plastic toeslag EUR 0,15","additionPrice":5.65,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"25","modifier":{"id":"18172391262","name":"Zomergroen, incl. wegwerp plastic toeslag EUR 0,15","additionPrice":5.65,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"26","modifier":{"id":"18172391242","name":"Alles-in-één, incl. wegwerp plastic toeslag EUR 0,15","additionPrice":5.65,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"27","modifier":{"id":"18172391272","name":"Oppepper, incl. wegwerp plastic toeslag EUR 0,15","additionPrice":6.15,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"28","modifier":{"id":"18172391282","name":"Verse sinaasappelsap, incl. wegwerp plastic toeslag EUR 0,15","additionPrice":5.15,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"29","modifier":{"id":"18172391292","name":"Wegwerp plastic","additionPrice":0.15,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"30","modifier":{"id":"18172391062","name":"Boter","additionPrice":0,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"31","modifier":{"id":"18172391072","name":"Fruitcompote","additionPrice":0,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"32","modifier":{"id":"18172391102","name":"Energie, incl. wegwerp plastic toeslag EUR 0,15","additionPrice":5.65,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"33","modifier":{"id":"18172391112","name":"Zomergroen, incl. wegwerp plastic toeslag EUR 0,15","additionPrice":5.65,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"34","modifier":{"id":"18172391092","name":"Alles-in-één, incl. wegwerp plastic toeslag EUR 0,15","additionPrice":5.65,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"35","modifier":{"id":"18172391122","name":"Oppepper, incl. wegwerp plastic toeslag EUR 0,15","additionPrice":6.15,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"36","modifier":{"id":"18172391132","name":"Verse sinaasappelsap, incl. wegwerp plastic toeslag EUR 0,15","additionPrice":5.15,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"37","modifier":{"id":"18172391082","name":"Wegwerp plastic","additionPrice":0.05,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"38","modifier":{"id":"18172391302","name":"Blond desembrood","additionPrice":0,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"39","modifier":{"id":"18172391312","name":"Volkoren desembrood","additionPrice":0,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"40","modifier":{"id":"18172391332","name":"Energie, incl. wegwerp plastic toeslag EUR 0,15","additionPrice":5.65,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"41","modifier":{"id":"18172391342","name":"Zomergroen, incl. wegwerp plastic toeslag EUR 0,15","additionPrice":5.65,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"42","modifier":{"id":"18172391322","name":"Alles-in-één, incl. wegwerp plastic toeslag EUR 0,15","additionPrice":5.65,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"43","modifier":{"id":"18172391352","name":"Oppepper, incl. wegwerp plastic toeslag EUR 0,15","additionPrice":6.15,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"44","modifier":{"id":"18172391362","name":"Verse sinaasappelsap, incl. wegwerp plastic toeslag EUR 0,15","additionPrice":5.15,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"45","modifier":{"id":"18172391372","name":"Wegwerp plastic","additionPrice":0.15,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"46","modifier":{"id":"18172391452","name":"Met gedroogde scharrelham","additionPrice":2,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"47","modifier":{"id":"18172391472","name":"Energie, incl. wegwerp plastic toeslag EUR 0,15","additionPrice":5.65,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"48","modifier":{"id":"18172391482","name":"Zomergroen, incl. wegwerp plastic toeslag EUR 0,15","additionPrice":5.65,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"49","modifier":{"id":"18172391462","name":"Alles-in-één, incl. wegwerp plastic toeslag EUR 0,15","additionPrice":5.65,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"50","modifier":{"id":"18172391492","name":"Oppepper, incl. wegwerp plastic toeslag EUR 0,15","additionPrice":6.15,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"51","modifier":{"id":"18172391502","name":"Verse sinaasappelsap, incl. wegwerp plastic toeslag EUR 0,15","additionPrice":5.15,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"52","modifier":{"id":"18172391512","name":"Wegwerp plastic","additionPrice":0.15,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"53","modifier":{"id":"18172391382","name":"Met gesmolten kaas","additionPrice":1.5,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"54","modifier":{"id":"18172391402","name":"Energie, incl. wegwerp plastic toeslag EUR 0,15","additionPrice":5.65,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"55","modifier":{"id":"18172391412","name":"Zomergroen, incl. wegwerp plastic toeslag EUR 0,15","additionPrice":5.65,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"56","modifier":{"id":"18172391392","name":"Alles-in-één, incl. wegwerp plastic toeslag EUR 0,15","additionPrice":5.65,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"57","modifier":{"id":"18172391422","name":"Oppepper, incl. wegwerp plastic toeslag EUR 0,15","additionPrice":6.15,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"58","modifier":{"id":"18172391432","name":"Verse sinaasappelsap, incl. wegwerp plastic toeslag EUR 0,15","additionPrice":5.15,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"59","modifier":{"id":"18172391442","name":"Wegwerp plastic","additionPrice":0.15,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"60","modifier":{"id":"18172391522","name":"Met gedroogde scharrelham","additionPrice":2,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"61","modifier":{"id":"18172391542","name":"Energie, incl. wegwerp plastic toeslag EUR 0,15","additionPrice":5.65,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"62","modifier":{"id":"18172391552","name":"Zomergroen, incl. wegwerp plastic toeslag EUR 0,15","additionPrice":5.65,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"63","modifier":{"id":"18172391532","name":"Alles-in-één, incl. wegwerp plastic toeslag EUR 0,15","additionPrice":5.65,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"64","modifier":{"id":"18172391562","name":"Oppepper, incl. wegwerp plastic toeslag EUR 0,15","additionPrice":6.15,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"65","modifier":{"id":"18172391572","name":"Verse sinaasappelsap, incl. wegwerp plastic toeslag EUR 0,15","additionPrice":5.15,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"66","modifier":{"id":"18172391582","name":"Wegwerp plastic","additionPrice":0.15,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"67","modifier":{"id":"18172391602","name":"Energie, incl. wegwerp plastic toeslag EUR 0,15","additionPrice":5.65,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"68","modifier":{"id":"18172391612","name":"Zomergroen, incl. wegwerp plastic toeslag EUR 0,15","additionPrice":5.65,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"69","modifier":{"id":"18172391592","name":"Alles-in-één, incl. wegwerp plastic toeslag EUR 0,15","additionPrice":5.65,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"70","modifier":{"id":"18172391622","name":"Oppepper, incl. wegwerp plastic toeslag EUR 0,15","additionPrice":6.15,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"71","modifier":{"id":"18172391632","name":"Verse sinaasappelsap, incl. wegwerp plastic toeslag EUR 0,15","additionPrice":5.15,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"72","modifier":{"id":"18172391642","name":"Wegwerp plastic","additionPrice":0.05,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"73","modifier":{"id":"18172391672","name":"Schulp appelsap","additionPrice":3.5,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"74","modifier":{"id":"18172391682","name":"Wegwerp plastic","additionPrice":0.05,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"75","modifier":{"id":"18172391652","name":"Schulp appelsap","additionPrice":3.5,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"76","modifier":{"id":"18172391662","name":"Wegwerp plastic","additionPrice":0.15,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"77","modifier":{"id":"18172391712","name":"Kaas","additionPrice":0,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"78","modifier":{"id":"18172391722","name":"Jam","additionPrice":0,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"79","modifier":{"id":"18172391732","name":"Pure chocoladestukjes","additionPrice":0,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"80","modifier":{"id":"18172391692","name":"Schulp appelsap","additionPrice":3.5,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"81","modifier":{"id":"18172391702","name":"Wegwerp plastic","additionPrice":0.15,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"82","modifier":{"id":"18172391742","name":"IJsthee, incl. wegwerp plastic toeslag EUR 0,15","additionPrice":4.15,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"83","modifier":{"id":"18172391752","name":"Groene ijsthee, incl. wegwerp plastic toeslag EUR 0,15","additionPrice":4.15,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"84","modifier":{"id":"18172391762","name":"Schulp appelsap","additionPrice":3.5,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"85","modifier":{"id":"18172391772","name":"Vandaag blijf ik binnen","additionPrice":3.5,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"86","modifier":{"id":"18172391782","name":"Een wijs besluit","additionPrice":3.5,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"87","modifier":{"id":"18172391792","name":"Even niks","additionPrice":3.5,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"88","modifier":{"id":"18172391802","name":"Een beetje geluk","additionPrice":3.5,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"89","modifier":{"id":"18172391812","name":"Held in een mok","additionPrice":3.5,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"90","modifier":{"id":"18172391822","name":"Wegwerp plastic","additionPrice":0.15,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"91","modifier":{"id":"18172391832","name":"Wegwerp plastic","additionPrice":0.15,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"92","modifier":{"id":"18172391842","name":"Wegwerp plastic","additionPrice":0.15,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}},{"id":"93","modifier":{"id":"18172391852","name":"Wegwerp plastic","additionPrice":0.15,"removePrice":0,"defaultChoices":0,"minChoices":0,"maxChoices":1,"nutritionalInfo":null,"numberOfServings":null}}]
+[
+    {
+        "Id": "1",
+        "Modifier": {
+            "Id": "dd6c0572-a64d-406e-ad99-49c46253692b",
+            "Name": "30 cm",
+            "AdditionPrice": 0.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "2",
+        "Modifier": {
+            "Id": "a6ed8de8-3417-41fc-a5f3-edee34fb35a7",
+            "Name": "36 cm",
+            "AdditionPrice": 5.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "3",
+        "Modifier": {
+            "Id": "af966698-dc1c-49d8-b6a0-44d19919fdfd",
+            "Name": "40 cm",
+            "AdditionPrice": 8.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "4",
+        "Modifier": {
+            "Id": "48af8bbe-6c95-494d-bf30-77ac9dc0a956",
+            "Name": "Champignons",
+            "AdditionPrice": 2.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "5",
+        "Modifier": {
+            "Id": "8e4d8358-9f9e-4afa-9067-2a0e2559200e",
+            "Name": "Ui",
+            "AdditionPrice": 2.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "6",
+        "Modifier": {
+            "Id": "212b2051-c949-4f99-9bfe-8fbbbbb3be47",
+            "Name": "Paprika",
+            "AdditionPrice": 2.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "7",
+        "Modifier": {
+            "Id": "ed4d5852-96ab-4128-99ed-67315ef6388f",
+            "Name": "Olijven",
+            "AdditionPrice": 2.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "8",
+        "Modifier": {
+            "Id": "73767a05-635f-4165-9d99-8de08d67cf60",
+            "Name": "Mais",
+            "AdditionPrice": 2.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "9",
+        "Modifier": {
+            "Id": "0f468622-1c08-411d-8127-f7d84fc42d2c",
+            "Name": "Jalapeños",
+            "AdditionPrice": 2.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "10",
+        "Modifier": {
+            "Id": "99deb333-67a4-4d46-8b5c-5b2076e41b76",
+            "Name": "Courgette",
+            "AdditionPrice": 2.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "11",
+        "Modifier": {
+            "Id": "cfe9ad88-ba56-434e-87eb-426a4e11ecbe",
+            "Name": "Aubergine",
+            "AdditionPrice": 2.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "12",
+        "Modifier": {
+            "Id": "cad15fb8-68e3-434a-adac-e83a05e04969",
+            "Name": "Tomaat",
+            "AdditionPrice": 2.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "13",
+        "Modifier": {
+            "Id": "904cf82d-b29b-4b10-af8d-da0f2459ff21",
+            "Name": "Artisjok",
+            "AdditionPrice": 2.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "14",
+        "Modifier": {
+            "Id": "7d40bded-9a21-4e0d-8ed6-74b061b6f8a5",
+            "Name": "Spinazie",
+            "AdditionPrice": 2.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "15",
+        "Modifier": {
+            "Id": "3d5e7e47-2080-4449-aa37-b2fbe720ae95",
+            "Name": "Rucola",
+            "AdditionPrice": 2.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "16",
+        "Modifier": {
+            "Id": "7f218551-ecad-4ec9-b970-ed072057d54b",
+            "Name": "Gorgonzola",
+            "AdditionPrice": 1.5,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "17",
+        "Modifier": {
+            "Id": "4bce1d29-f59e-47c8-95b2-88f7ab17994b",
+            "Name": "Mozzarella",
+            "AdditionPrice": 1.5,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "18",
+        "Modifier": {
+            "Id": "51905f0f-7170-432f-a914-db7627928246",
+            "Name": "Tonijn",
+            "AdditionPrice": 2.5,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "19",
+        "Modifier": {
+            "Id": "eee372bd-fdfb-4107-adff-8367f734e806",
+            "Name": "Ansjovis",
+            "AdditionPrice": 2.5,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "20",
+        "Modifier": {
+            "Id": "3a4eb89f-c82c-4c4b-8fd4-7178230da6a4",
+            "Name": "Groene pesto",
+            "AdditionPrice": 2.5,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "21",
+        "Modifier": {
+            "Id": "79e4f06d-4544-4fde-ba28-24ec151e82fc",
+            "Name": "Ham",
+            "AdditionPrice": 2.5,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "22",
+        "Modifier": {
+            "Id": "44627765-5d46-4311-b317-ff4ffe72b01c",
+            "Name": "Salami",
+            "AdditionPrice": 2.5,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "23",
+        "Modifier": {
+            "Id": "1630ee9f-49be-4e08-9e95-322900b69c6a",
+            "Name": "Pepperoni",
+            "AdditionPrice": 2.5,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "24",
+        "Modifier": {
+            "Id": "5bb2c220-05da-4dbb-a4e9-0b5f37304779",
+            "Name": "Hete kip shoarma",
+            "AdditionPrice": 2.5,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "25",
+        "Modifier": {
+            "Id": "8879ad76-7cb4-44ae-8936-e29fade7192e",
+            "Name": "Knoflooksaus",
+            "AdditionPrice": 1.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "26",
+        "Modifier": {
+            "Id": "abc53810-74bd-46c9-8a91-9fe35f0f4e24",
+            "Name": "Sambal",
+            "AdditionPrice": 1.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "27",
+        "Modifier": {
+            "Id": "bec5fbb3-9115-4850-8ff0-9c5272bb3fd4",
+            "Name": "Mayonaise",
+            "AdditionPrice": 1.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "28",
+        "Modifier": {
+            "Id": "10575597-7896-4d2f-8a6b-f8fb95c269d2",
+            "Name": "BBQ saus",
+            "AdditionPrice": 1.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "29",
+        "Modifier": {
+            "Id": "da4c0f73-43ab-4e82-b298-c8b9fa4115b1",
+            "Name": "Ketchup",
+            "AdditionPrice": 1.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "30",
+        "Modifier": {
+            "Id": "4b9379da-2e43-4fe4-8603-7476e61fcf4f",
+            "Name": "Alberto saus",
+            "AdditionPrice": 1.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "31",
+        "Modifier": {
+            "Id": "703b8310-7060-4f62-b112-6fbd368d0178",
+            "Name": "Coca-Cola 300ml",
+            "AdditionPrice": 2.5,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "32",
+        "Modifier": {
+            "Id": "237e0231-6255-4f03-babd-30c3010b4414",
+            "Name": "Coca-Cola Zero Sugar 300ml",
+            "AdditionPrice": 2.5,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "33",
+        "Modifier": {
+            "Id": "ddf0a2e4-6599-494f-840a-ed9294ac003e",
+            "Name": "Sprite Zero Sugar 300ml",
+            "AdditionPrice": 2.5,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "34",
+        "Modifier": {
+            "Id": "7047554f-db5a-4f15-9a98-1267c5135b97",
+            "Name": "Fanta Orange 300ml",
+            "AdditionPrice": 2.5,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "35",
+        "Modifier": {
+            "Id": "13cde432-57fb-443b-948a-6f040b7e79a5",
+            "Name": "Fanta Exotic Zero Sugar 300ml",
+            "AdditionPrice": 2.5,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "36",
+        "Modifier": {
+            "Id": "9530a63e-1562-4c7d-8c47-923fdd0daafe",
+            "Name": "Fernandes Cherry Bouquet 300ml",
+            "AdditionPrice": 2.5,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "37",
+        "Modifier": {
+            "Id": "9fbc5614-72dc-41e0-ba98-f62ac0fcb40b",
+            "Name": "Fernandes Super Pineapple 300ml",
+            "AdditionPrice": 2.5,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "38",
+        "Modifier": {
+            "Id": "37ca92a0-cd19-4145-b6b0-096dcba35127",
+            "Name": "Fernandes Green Punch 330ml",
+            "AdditionPrice": 2.35,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null,
+            "InitialProductInformation": {
+                "Deposit": {
+                    "Value": 0.15,
+                    "Type": "exclusive"
+                }
+            },
+            "Gtin": "8710642037303"
+        }
+    },
+    {
+        "Id": "39",
+        "Modifier": {
+            "Id": "9b06cfde-5aed-484a-94c6-795155af8f6c",
+            "Name": "Fernandes Red Grape 330ml",
+            "AdditionPrice": 2.35,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null,
+            "InitialProductInformation": {
+                "Deposit": {
+                    "Value": 0.15,
+                    "Type": "exclusive"
+                }
+            },
+            "Gtin": "8710642037365"
+        }
+    },
+    {
+        "Id": "40",
+        "Modifier": {
+            "Id": "fecfa286-9011-489f-8b06-dddc3156d679",
+            "Name": "Fuze Tea Sparkling 300ml",
+            "AdditionPrice": 2.5,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "41",
+        "Modifier": {
+            "Id": "e505f9a3-52bf-4369-88f4-9cb1099b4b71",
+            "Name": "Spa blauw 300ml",
+            "AdditionPrice": 2.5,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "42",
+        "Modifier": {
+            "Id": "819084af-0556-4b11-a7e1-1f8354722f33",
+            "Name": "Red Bull Energy Drink 250ml",
+            "AdditionPrice": 3.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "43",
+        "Modifier": {
+            "Id": "0b65cda7-524c-4f73-92c2-6dbb86628f60",
+            "Name": "AA Drink 300ml",
+            "AdditionPrice": 3.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "44",
+        "Modifier": {
+            "Id": "8bb0aa34-9a80-4361-be5d-d4b683668551",
+            "Name": "Capri-Sun orange 200ml",
+            "AdditionPrice": 1.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "45",
+        "Modifier": {
+            "Id": "8f95a112-e0c3-4d89-917c-d72bd2b4a827",
+            "Name": "Chocomel 250ml",
+            "AdditionPrice": 2.5,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "46",
+        "Modifier": {
+            "Id": "67c21180-c592-493f-8446-d2ddba73aa08",
+            "Name": "Fristi 250ml",
+            "AdditionPrice": 2.5,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "47",
+        "Modifier": {
+            "Id": "0433abae-a765-43a6-a456-6ea5b0a7ef52",
+            "Name": "Tiramisu",
+            "AdditionPrice": 7.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "48",
+        "Modifier": {
+            "Id": "140e035d-92a1-44bb-8c1d-73b67d7bcd53",
+            "Name": "36 cm",
+            "AdditionPrice": 3.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "49",
+        "Modifier": {
+            "Id": "cd9aa4e6-36d2-4a37-9ed9-6c8f4d8fa87d",
+            "Name": "40 cm",
+            "AdditionPrice": 7.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "50",
+        "Modifier": {
+            "Id": "fdaa1c52-f32d-4622-ba88-1012de3f26bc",
+            "Name": "Gorgonzola",
+            "AdditionPrice": 1.5,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "51",
+        "Modifier": {
+            "Id": "c6278407-5230-484d-90be-9d4b09edb529",
+            "Name": "Mozzarella",
+            "AdditionPrice": 1.5,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "52",
+        "Modifier": {
+            "Id": "8b5768b0-218e-4e8b-b1c3-b734ee1e5779",
+            "Name": "Tonijn",
+            "AdditionPrice": 2.5,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "53",
+        "Modifier": {
+            "Id": "e6a4cf9d-e5cb-4b44-97e6-33a576029575",
+            "Name": "Ansjovis",
+            "AdditionPrice": 2.5,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "54",
+        "Modifier": {
+            "Id": "c379fa14-6ada-4931-ae03-9dc6f6342c1b",
+            "Name": "Groene pesto",
+            "AdditionPrice": 2.5,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "55",
+        "Modifier": {
+            "Id": "b955e5cf-80c0-4716-a9ed-42da83515897",
+            "Name": "Ham",
+            "AdditionPrice": 2.5,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "56",
+        "Modifier": {
+            "Id": "15a6dde9-bc1f-450e-9530-b8a44476c216",
+            "Name": "Salami",
+            "AdditionPrice": 2.5,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "57",
+        "Modifier": {
+            "Id": "c95aa83b-c98a-4bba-b3ff-4e45c64bd9e1",
+            "Name": "Pepperoni",
+            "AdditionPrice": 2.5,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "58",
+        "Modifier": {
+            "Id": "15ce7361-2aa8-4658-9504-d3c635077f06",
+            "Name": "Hete kip shoarma",
+            "AdditionPrice": 3.5,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "59",
+        "Modifier": {
+            "Id": "6babcc09-1031-4668-b43c-1a3f9c35fed7",
+            "Name": "Cheddar kaas",
+            "AdditionPrice": 1.5,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "60",
+        "Modifier": {
+            "Id": "b5ae7c65-0d96-46d1-b966-1cc7d111cea3",
+            "Name": "Artisjok",
+            "AdditionPrice": 1.5,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "61",
+        "Modifier": {
+            "Id": "2ec50af2-e2c7-4dc4-91db-6da71bd22522",
+            "Name": "Spinazie",
+            "AdditionPrice": 1.5,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "62",
+        "Modifier": {
+            "Id": "054816c1-f1dd-4490-b4cc-b2b24edf976a",
+            "Name": "Rucola",
+            "AdditionPrice": 1.5,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "63",
+        "Modifier": {
+            "Id": "16df5098-9c5b-4173-b2d8-7f3a35135df8",
+            "Name": "Knoflook saus",
+            "AdditionPrice": 1.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "64",
+        "Modifier": {
+            "Id": "b48bd691-e3cb-4c09-bf5c-62543a18776f",
+            "Name": "Spaghetti",
+            "AdditionPrice": 0.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "65",
+        "Modifier": {
+            "Id": "8477869a-fab5-422e-a4f8-e02a2f99f23e",
+            "Name": "Penne",
+            "AdditionPrice": 0.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "66",
+        "Modifier": {
+            "Id": "22520316-4604-4316-95cf-641ce65c1084",
+            "Name": "Fernandes Green Punch 330ml",
+            "AdditionPrice": 2.35,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null,
+            "InitialProductInformation": {
+                "Deposit": {
+                    "Value": 0.15,
+                    "Type": "exclusive"
+                }
+            }
+        }
+    },
+    {
+        "Id": "67",
+        "Modifier": {
+            "Id": "fc37f4a2-6b81-408d-8d6b-f0b391d1cae0",
+            "Name": "Fernandes Red Grape 330ml",
+            "AdditionPrice": 2.35,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null,
+            "InitialProductInformation": {
+                "Deposit": {
+                    "Value": 0.15,
+                    "Type": "exclusive"
+                }
+            }
+        }
+    },
+    {
+        "Id": "68",
+        "Modifier": {
+            "Id": "59a2a3b8-4d4b-4aff-a982-f70d36d85dda",
+            "Name": "36 cm",
+            "AdditionPrice": 4.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "69",
+        "Modifier": {
+            "Id": "81102525-3acd-4ab4-adc5-1f8719a6c7f4",
+            "Name": "Patat",
+            "AdditionPrice": 0.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "70",
+        "Modifier": {
+            "Id": "5ef5fa07-8779-4c87-833f-24398a85d6d5",
+            "Name": "Coca-Cola 330 ml",
+            "AdditionPrice": 0.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "71",
+        "Modifier": {
+            "Id": "669f5921-d8f5-490a-acb2-fe9a00b26faa",
+            "Name": "Coca-Cola Zero 330ml",
+            "AdditionPrice": 0.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "72",
+        "Modifier": {
+            "Id": "5c96c146-ac4f-4f6c-8820-315555c3607a",
+            "Name": "Fanta Orange 330ml",
+            "AdditionPrice": 0.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "73",
+        "Modifier": {
+            "Id": "10f38b63-f6b6-4d3f-8a91-8161f8560622",
+            "Name": "Fanta Exotic Zero Sugar 330 ml",
+            "AdditionPrice": 0.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "74",
+        "Modifier": {
+            "Id": "889a9f25-f712-4c34-ab0e-9b18ec0ace55",
+            "Name": "Sprite Zero Sugar 330ml",
+            "AdditionPrice": 0.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "75",
+        "Modifier": {
+            "Id": "49fb3919-c815-4a76-81c9-6906054e5bb1",
+            "Name": "Fernandes Green Punch 330 ml",
+            "AdditionPrice": 0.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "76",
+        "Modifier": {
+            "Id": "916c81fd-81ce-4475-8486-f6f6b3815e68",
+            "Name": "Fernandes Cherry Bouquet 330ml",
+            "AdditionPrice": 0.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "77",
+        "Modifier": {
+            "Id": "97e8db89-3aec-416d-9733-592cd9d5ebd3",
+            "Name": "Lipton Ice Tea Peach 330ml",
+            "AdditionPrice": 0.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "78",
+        "Modifier": {
+            "Id": "a5bd880b-aa88-4632-bd2a-4ce56173d4c2",
+            "Name": "Lipton Ice Tea Sparkling 330ml",
+            "AdditionPrice": 0.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "79",
+        "Modifier": {
+            "Id": "23bb6fe6-9e98-4748-a747-8bd804ab4db7",
+            "Name": "Mayonaise",
+            "AdditionPrice": 1.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "80",
+        "Modifier": {
+            "Id": "d4eac883-fa17-4814-aeb1-10a90f3ac9e3",
+            "Name": "Knoflooksaus",
+            "AdditionPrice": 1.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "81",
+        "Modifier": {
+            "Id": "8224080f-0add-4db0-a35c-7ddb8bc35666",
+            "Name": "Sambal",
+            "AdditionPrice": 1.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "82",
+        "Modifier": {
+            "Id": "3c422cb5-552a-47fe-8192-aad494ba3eb9",
+            "Name": "36 cm",
+            "AdditionPrice": 3.5,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "83",
+        "Modifier": {
+            "Id": "0d7e535a-a662-435b-8485-097bca7873db",
+            "Name": "40 cm",
+            "AdditionPrice": 7.5,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "84",
+        "Modifier": {
+            "Id": "62443b5e-a311-487d-a603-701f3c4c5599",
+            "Name": "36 cm",
+            "AdditionPrice": 4.5,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "85",
+        "Modifier": {
+            "Id": "6f73276a-06cd-49dc-bebc-98d0e6a734a7",
+            "Name": "40 cm",
+            "AdditionPrice": 8.5,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "86",
+        "Modifier": {
+            "Id": "7f2db77f-7e51-4df9-9a5e-b50d420b3dbf",
+            "Name": "Mayonaise",
+            "AdditionPrice": 0.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "87",
+        "Modifier": {
+            "Id": "790c0035-3aa7-4e29-bfd3-cd6e135dbe3d",
+            "Name": "Ketchup",
+            "AdditionPrice": 0.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    },
+    {
+        "Id": "88",
+        "Modifier": {
+            "Id": "cba882fe-ec19-4e6f-9e38-b4eef8c336b5",
+            "Name": "Speciaal",
+            "AdditionPrice": 0.0,
+            "RemovePrice": 0.0,
+            "DefaultChoices": 0,
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "NutritionalInfo": null,
+            "NumberOfServings": null
+        }
+    }
+]

@@ -1,1122 +1,1827 @@
 {
-    "MenuVersion": "ZkTOsnbxPsZn3J0mILDknB1Yl91XUfUz",
-    "RestaurantId": "9396843",
-    "CountryCode": "nl",
-    "MessageSentTimestamp": "2026-01-27T09:01:57.5128365Z",
-    "RestaurantInfo": {
-        "Name": "Anne&Max Delft Stationsplein",
-        "SeoName": "annemax-14",
-        "Email": "delftwesterkwartier@annemax.nl",
-        "Description": "",
-        "LogoUrl": "https://res.cloudinary.com/tkwy-prod-eu/image/upload/c_pad,h_100,w_100/v1/static-takeaway-com/images/chains/nl/annemax/logo_465x320.png",
-        "BannerUrl": "https://res.cloudinary.com/tkwy-prod-eu/image/upload/{transformations}/v1/static-takeaway-com/images/chains/nl/annemax/headers/header.jpg",
-        "HeaderInfo": {
-            "Images": {
-                "9396843": {
-                    "UrlTemplate": "https://res.cloudinary.com/tkwy-prod-eu/image/upload/{transformations}/v1/static-takeaway-com/images/chains/nl/annemax/headers/header.jpg",
-                    "AltText": null
-                }
-            },
-            "DefaultImageRefs": [
-                "9396843"
-            ],
-            "ScheduledHeaders": {}
-        },
-        "AlcoholLicenseId": null,
-        "IsOffline": false,
-        "AllergenPhoneNumber": "0153030638",
-        "AllergenUrl": null,
-        "Location": {
-            "Address": "Stationsplein 303",
-            "PostCode": "2611 BV",
-            "City": "Delft",
-            "Latitude": 52.00607,
-            "Longitude": 4.356338
-        },
-        "Colophon": {
-            "RestaurantName": "Anne&Max Delft Stationsplein",
-            "CustomerFacingEmail": "delftwesterkwartier@annemax.nl",
-            "LegalAddress": {
-                "Address": "Stationsplein 303",
-                "PostCode": "2611 BV",
-                "City": "Delft",
-                "Latitude": 0.0,
-                "Longitude": 0.0
-            },
-            "TraderStatusLink": "https://www.thuisbezorgd.nl/klantenservice/artikel/wat-is-de-status-van-restaurants-welke-samenwerken"
-        },
-        "TimeZone": "Europe/Warsaw",
-        "NewUntilDate": "2024-08-09T10:17:25+00:00",
-        "Tags": [],
-        "CuisineTypes": [
-            {
-                "Id": "24",
-                "Name": "Veganistisch",
-                "SeoName": "veganistisch-eten",
-                "Language": "nl"
-            },
-            {
-                "Id": "93",
-                "Name": "Ontbijt",
-                "SeoName": "ontbijt",
-                "Language": "nl"
-            },
-            {
-                "Id": "63",
-                "Name": "Lunch",
-                "SeoName": "lunch",
-                "Language": "nl"
-            }
-        ],
-        "IsHalal": false,
-        "RestaurantOpeningTimes": [
-            {
-                "ServiceType": "delivery",
-                "TimesPerDay": [
-                    {
-                        "DayOfWeek": "Sunday",
-                        "Times": [
-                            {
-                                "FromLocalTime": "11:00",
-                                "ToLocalTime": "16:30"
-                            }
-                        ]
-                    },
-                    {
-                        "DayOfWeek": "Monday",
-                        "Times": [
-                            {
-                                "FromLocalTime": "11:00",
-                                "ToLocalTime": "16:30"
-                            }
-                        ]
-                    },
-                    {
-                        "DayOfWeek": "Tuesday",
-                        "Times": [
-                            {
-                                "FromLocalTime": "11:00",
-                                "ToLocalTime": "16:30"
-                            }
-                        ]
-                    },
-                    {
-                        "DayOfWeek": "Wednesday",
-                        "Times": [
-                            {
-                                "FromLocalTime": "11:00",
-                                "ToLocalTime": "16:30"
-                            }
-                        ]
-                    },
-                    {
-                        "DayOfWeek": "Thursday",
-                        "Times": [
-                            {
-                                "FromLocalTime": "11:00",
-                                "ToLocalTime": "16:30"
-                            }
-                        ]
-                    },
-                    {
-                        "DayOfWeek": "Friday",
-                        "Times": [
-                            {
-                                "FromLocalTime": "11:00",
-                                "ToLocalTime": "16:30"
-                            }
-                        ]
-                    },
-                    {
-                        "DayOfWeek": "Saturday",
-                        "Times": [
-                            {
-                                "FromLocalTime": "11:00",
-                                "ToLocalTime": "16:30"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "ServiceType": "collection",
-                "TimesPerDay": [
-                    {
-                        "DayOfWeek": "Sunday",
-                        "Times": [
-                            {
-                                "FromLocalTime": "08:45",
-                                "ToLocalTime": "16:30"
-                            }
-                        ]
-                    },
-                    {
-                        "DayOfWeek": "Monday",
-                        "Times": [
-                            {
-                                "FromLocalTime": "08:15",
-                                "ToLocalTime": "16:30"
-                            }
-                        ]
-                    },
-                    {
-                        "DayOfWeek": "Tuesday",
-                        "Times": [
-                            {
-                                "FromLocalTime": "08:15",
-                                "ToLocalTime": "16:30"
-                            }
-                        ]
-                    },
-                    {
-                        "DayOfWeek": "Wednesday",
-                        "Times": [
-                            {
-                                "FromLocalTime": "08:15",
-                                "ToLocalTime": "16:30"
-                            }
-                        ]
-                    },
-                    {
-                        "DayOfWeek": "Thursday",
-                        "Times": [
-                            {
-                                "FromLocalTime": "08:15",
-                                "ToLocalTime": "16:30"
-                            }
-                        ]
-                    },
-                    {
-                        "DayOfWeek": "Friday",
-                        "Times": [
-                            {
-                                "FromLocalTime": "08:15",
-                                "ToLocalTime": "16:30"
-                            }
-                        ]
-                    },
-                    {
-                        "DayOfWeek": "Saturday",
-                        "Times": [
-                            {
-                                "FromLocalTime": "08:15",
-                                "ToLocalTime": "16:30"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ],
-        "EnergyUnits": "none",
-        "StoreFrontType": "Restaurant",
-        "IsTestRestaurant": false,
-        "IsCertifiedPharmacy": false,
-        "Features": [
-            "ItemLevelNotes"
-        ],
-        "ShareableLink": "https://www.thuisbezorgd.nl/menu/annemax-14",
-        "HideOfflineItems": false
-    },
-    "Menus": [
+    "ModifierGroups": [
         {
-            "MenuGroupId": "E2C0913E9912932CDFA4D831A00EF828",
-            "Description": "",
-            "ServiceTypes": [
-                "delivery"
-            ],
-            "Schedules": [
-                {
-                    "DayOfWeek": "Sunday",
-                    "Times": [
-                        {
-                            "FromLocalTime": "11:00:00",
-                            "ToLocalTime": "16:29:59"
-                        }
-                    ],
-                    "BaseWorkingTimeMinutes": 45,
-                    "OrderTimeSchedule": [
-                        {
-                            "StartTime": "00:00:00",
-                            "EndTime": "1.00:00:00",
-                            "LowerBound": 35,
-                            "UpperBound": 50
-                        }
-                    ]
-                },
-                {
-                    "DayOfWeek": "Monday",
-                    "Times": [
-                        {
-                            "FromLocalTime": "11:00:00",
-                            "ToLocalTime": "16:29:59"
-                        }
-                    ],
-                    "BaseWorkingTimeMinutes": 45,
-                    "OrderTimeSchedule": [
-                        {
-                            "StartTime": "00:00:00",
-                            "EndTime": "1.00:00:00",
-                            "LowerBound": 35,
-                            "UpperBound": 50
-                        }
-                    ]
-                },
-                {
-                    "DayOfWeek": "Tuesday",
-                    "Times": [
-                        {
-                            "FromLocalTime": "11:00:00",
-                            "ToLocalTime": "16:29:59"
-                        }
-                    ],
-                    "BaseWorkingTimeMinutes": 45,
-                    "OrderTimeSchedule": [
-                        {
-                            "StartTime": "00:00:00",
-                            "EndTime": "1.00:00:00",
-                            "LowerBound": 35,
-                            "UpperBound": 50
-                        }
-                    ]
-                },
-                {
-                    "DayOfWeek": "Wednesday",
-                    "Times": [
-                        {
-                            "FromLocalTime": "11:00:00",
-                            "ToLocalTime": "16:29:59"
-                        }
-                    ],
-                    "BaseWorkingTimeMinutes": 45,
-                    "OrderTimeSchedule": [
-                        {
-                            "StartTime": "00:00:00",
-                            "EndTime": "1.00:00:00",
-                            "LowerBound": 35,
-                            "UpperBound": 50
-                        }
-                    ]
-                },
-                {
-                    "DayOfWeek": "Thursday",
-                    "Times": [
-                        {
-                            "FromLocalTime": "11:00:00",
-                            "ToLocalTime": "16:29:59"
-                        }
-                    ],
-                    "BaseWorkingTimeMinutes": 45,
-                    "OrderTimeSchedule": [
-                        {
-                            "StartTime": "00:00:00",
-                            "EndTime": "1.00:00:00",
-                            "LowerBound": 35,
-                            "UpperBound": 50
-                        }
-                    ]
-                },
-                {
-                    "DayOfWeek": "Friday",
-                    "Times": [
-                        {
-                            "FromLocalTime": "11:00:00",
-                            "ToLocalTime": "16:29:59"
-                        }
-                    ],
-                    "BaseWorkingTimeMinutes": 45,
-                    "OrderTimeSchedule": [
-                        {
-                            "StartTime": "00:00:00",
-                            "EndTime": "1.00:00:00",
-                            "LowerBound": 35,
-                            "UpperBound": 50
-                        }
-                    ]
-                },
-                {
-                    "DayOfWeek": "Saturday",
-                    "Times": [
-                        {
-                            "FromLocalTime": "11:00:00",
-                            "ToLocalTime": "16:29:59"
-                        }
-                    ],
-                    "BaseWorkingTimeMinutes": 45,
-                    "OrderTimeSchedule": [
-                        {
-                            "StartTime": "00:00:00",
-                            "EndTime": "1.00:00:00",
-                            "LowerBound": 35,
-                            "UpperBound": 50
-                        }
-                    ]
-                }
-            ],
-            "Categories": [
-                {
-                    "Id": "67350ebf-bdc6-4a40-9a97-17aa3d6f1c0d",
-                    "Name": "Lunch combo",
-                    "Description": "",
-                    "Preview": "Lunch combo superclub, Lunch combo de kas, Lunch combo Italian, Lunch combo yacht",
-                    "ItemIds": [
-                        "0eb1da1a-0c13-4fa5-95bd-ae5f0c8fbc54",
-                        "e373abaf-57cd-4de6-9945-cb31cff68351",
-                        "0338fb52-2cea-4d0d-bf52-9a737f823994",
-                        "b9dfa90b-16c7-4f23-a597-d69f31f013fc"
-                    ],
-                    "ParentIds": null,
-                    "ImageSources": []
-                },
-                {
-                    "Id": "637cf09f-2fe4-46e0-a4cc-ecf01a136c5e",
-                    "Name": "Boxen",
-                    "Description": "",
-                    "Preview": "De Anne&Max ontbijtbox, De Anne&Max lunchbox, High tea box",
-                    "ItemIds": [
-                        "a76b8867-e2c1-4f9f-b052-f80c1441422c",
-                        "461863cb-2c75-4d31-9e0a-8386e7ab014e",
-                        "a02d286a-a4a9-4981-b46a-1938a6b89285"
-                    ],
-                    "ParentIds": null,
-                    "ImageSources": [
-                        {
-                            "Path": "https://just-eat-prod-eu-res.cloudinary.com/image/upload/{transformations}/v1/nl/dishes/9396843/fe6feaf54f9efa34c6ac5d81ec2765f8",
-                            "Source": "Cloudinaryv2"
-                        }
-                    ]
-                },
-                {
-                    "Id": "0dc591bd-7feb-4480-a300-a68e06153131",
-                    "Name": "Ontbijt en brunch",
-                    "Description": "",
-                    "Preview": "Acai bowl, Droomcroissant, Pistache croissant, Croissant, Fruit en granen",
-                    "ItemIds": [
-                        "4b6a6f29-1f69-40d8-8d23-aae15f986482",
-                        "590ade7a-3bd1-4241-9c76-d7d22e69913c",
-                        "12f56fed-b328-4e30-8061-f78e641da42d",
-                        "7d922003-0dc9-43a8-85b5-3f78ac8c589b",
-                        "17b1ee7d-a862-4e4f-af33-3f696c69ebf6"
-                    ],
-                    "ParentIds": null,
-                    "ImageSources": [
-                        {
-                            "Path": "https://just-eat-prod-eu-res.cloudinary.com/image/upload/{transformations}/v1/nl/dishes/9396843/f24f1465e2673567c20aeabead346b29",
-                            "Source": "Cloudinaryv2"
-                        }
-                    ]
-                },
-                {
-                    "Id": "f11cbd9e-af68-4e03-901d-b1edf15b8a2d",
-                    "Name": "Lunch",
-                    "Description": "",
-                    "Preview": "Focaccia dubbelkaas tosti, Focaccia roerei, Italian club, Focaccia tuna melt, Super club",
-                    "ItemIds": [
-                        "215fe5fd-e568-4a84-a44e-067bb43b57a0",
-                        "970336a2-2ccd-430c-83f0-f3a7af4a59b7",
-                        "b2d097ed-f87c-4a24-a083-2a97bf2358af",
-                        "98a71ca9-1cd1-458f-a81a-00819a0f1cee",
-                        "bfeccad2-7b45-4acc-8997-53eb210baf85",
-                        "220e7d3e-fea3-45ee-a22b-a67ed39f69dd",
-                        "012d7bda-b223-4ea5-ac9b-da6bd37315ab",
-                        "a8d41e3b-2e50-454a-a520-b7ece77ab8d9",
-                        "59b74a8e-8a6e-4d13-8d35-7a14ecdd6f27"
-                    ],
-                    "ParentIds": null,
-                    "ImageSources": [
-                        {
-                            "Path": "https://just-eat-prod-eu-res.cloudinary.com/image/upload/{transformations}/v1/nl/dishes/9396843/cffb5794b4f87d1cb7d7dc3f85457a76",
-                            "Source": "Cloudinaryv2"
-                        }
-                    ]
-                },
-                {
-                    "Id": "43cf3aec-d9f6-4580-8d11-6a151d85b857",
-                    "Name": "Bowls",
-                    "Description": "",
-                    "Preview": "Winterbowl, Burratabowl",
-                    "ItemIds": [
-                        "3cbf1dbf-be7f-4a6d-8b98-c5d25b62a51d",
-                        "93fb7a03-818d-4a6a-b5ec-ee008e0bb6be"
-                    ],
-                    "ParentIds": null,
-                    "ImageSources": [
-                        {
-                            "Path": "https://just-eat-prod-eu-res.cloudinary.com/image/upload/{transformations}/v1/nl/dishes/9396843/9ef0538296dcc1c11ce93ef5d17ced72",
-                            "Source": "Cloudinaryv2"
-                        }
-                    ]
-                },
-                {
-                    "Id": "20190a48-c50f-438f-ad1e-abfcfd526a0c",
-                    "Name": "Kids eten",
-                    "Description": "",
-                    "Preview": "Kids boterham, Kids bananenbrood, Kids tosti kaas",
-                    "ItemIds": [
-                        "a9f5292a-39d3-4bb3-b0c1-e2e5a69ec937",
-                        "001c7d62-437d-44f0-881a-2ed486441791",
-                        "1451505f-1b37-419b-926e-e33a3a1304cd"
-                    ],
-                    "ParentIds": null,
-                    "ImageSources": [
-                        {
-                            "Path": "https://just-eat-prod-eu-res.cloudinary.com/image/upload/{transformations}/v1/nl/dishes/9396843/ffe251a9ca2dbeb43fdf07a910b86989",
-                            "Source": "Cloudinaryv2"
-                        }
-                    ]
-                },
-                {
-                    "Id": "ea15d2eb-f39c-444b-a784-942759f94502",
-                    "Name": "Taart en zoetigheden",
-                    "Description": "",
-                    "Preview": "No cheesecake, Anne&Max worteltaart, Haverkoek, Dubbel chocoladecake, Roze koek",
-                    "ItemIds": [
-                        "87077890-c0ce-4e99-a2f8-bf5b2a3670df",
-                        "64e6ff0c-facf-43d2-b872-1846a3bb5942",
-                        "327ae7e3-7766-4380-a3cc-c9e4511ec293",
-                        "a56a7326-48ac-496a-a834-394bf73b5244",
-                        "7e732730-bb56-49e8-b937-32fcfa55b262",
-                        "abdc1e28-99f5-4386-99bb-5a3d0bb06aec",
-                        "144574a5-0af6-4859-810e-9c2fd345c3fe",
-                        "aa939625-dcd9-4989-8b76-2584185d3a0f",
-                        "9d93d6b6-c761-47aa-ab46-fedf587e8079",
-                        "352f9bf6-7d09-4960-9c02-a20dd077c83f",
-                        "506133ff-0054-4c3d-aed5-8e0dad5fd888",
-                        "a75cedf1-e2ca-4dbf-974f-633f6cc06517"
-                    ],
-                    "ParentIds": null,
-                    "ImageSources": [
-                        {
-                            "Path": "https://just-eat-prod-eu-res.cloudinary.com/image/upload/{transformations}/v1/nl/dishes/9396843/60e58f819b10525463e46d8ce57e4ac0",
-                            "Source": "Cloudinaryv2"
-                        }
-                    ]
-                },
-                {
-                    "Id": "68b00f9a-a48a-4341-933f-ba002d9bd608",
-                    "Name": "IJskoffies",
-                    "Description": "",
-                    "Preview": "Iced matcha latte, Cold drip, Iced matcha mango, IJslatte",
-                    "ItemIds": [
-                        "5dc7ed86-edae-4a9d-b14e-0bb73ae8a117",
-                        "b13953cc-35e8-4370-8f69-d34f5c7e1a2a",
-                        "b94c1cb7-2d7e-46f5-968a-4ee70bac8845",
-                        "025fc0bc-db32-4969-aa0b-6c30f4d8257e"
-                    ],
-                    "ParentIds": null,
-                    "ImageSources": [
-                        {
-                            "Path": "https://just-eat-prod-eu-res.cloudinary.com/image/upload/{transformations}/v1/nl/dishes/9396843/7907ce69f5be0a6cadea9dbb01665767",
-                            "Source": "Cloudinaryv2"
-                        }
-                    ]
-                },
-                {
-                    "Id": "32ffc6ef-28f5-4b56-8aab-2d076c8e566f",
-                    "Name": "Sappen en shakes",
-                    "Description": "",
-                    "Preview": "Verse sinaasappelsap, Kokosnood, Blauw&bes, Energie, Alles-in-één",
-                    "ItemIds": [
-                        "ad7b0044-ad5c-44e7-9234-34a273c93c3c",
-                        "fed915d9-0e80-484a-8ba7-12a35755955f",
-                        "721d789f-0456-41d2-a446-71fda20277da",
-                        "ee5f427d-c263-4b38-99fb-5f97ec31bfe3",
-                        "6013f6a0-bc13-44f7-8598-0c7dee63db74"
-                    ],
-                    "ParentIds": null,
-                    "ImageSources": [
-                        {
-                            "Path": "https://just-eat-prod-eu-res.cloudinary.com/image/upload/{transformations}/v1/nl/dishes/9396843/3f4d31519588c322510d0b2f3fa03c27",
-                            "Source": "Cloudinaryv2"
-                        }
-                    ]
-                },
-                {
-                    "Id": "9f50dad8-4e72-46f5-b396-e307b210dc22",
-                    "Name": "Frisdranken",
-                    "Description": "",
-                    "Preview": "Winterbubbel, IJsthee citroen en munt, Fritz orange, Kompassie, Fritz kola",
-                    "ItemIds": [
-                        "0f0382c7-903e-4328-b389-da27e43cfc9c",
-                        "03c59c05-c240-45f8-a4d9-5405bd2e1c37",
-                        "885760f5-4b8f-4860-840e-5578b9df2616",
-                        "bb0035c2-b63a-446c-ab00-7c4dcde7d6bf",
-                        "2ca5d22e-792b-404d-b670-7826952380d8",
-                        "80d50d43-cb58-4763-bf41-4228ec9ccc65",
-                        "fa7017e0-2973-4d4a-976a-63cfdc6f774b",
-                        "22def186-1fc8-4b0f-a55b-383547c52de1",
-                        "c7972abf-0292-41ee-9883-92c261472bb7",
-                        "f503826b-920c-4e7f-8aca-6ec2ca0a3655"
-                    ],
-                    "ParentIds": null,
-                    "ImageSources": [
-                        {
-                            "Path": "https://just-eat-prod-eu-res.cloudinary.com/image/upload/{transformations}/v1/nl/dishes/9396843/06e8e1e205a97d62b3a603dbeb6cc423",
-                            "Source": "Cloudinaryv2"
-                        }
-                    ]
-                },
-                {
-                    "Id": "df98bfd9-d695-48c4-aa46-635dcf5c88f8",
-                    "Name": "Voor thuis",
-                    "Description": "",
-                    "Preview": "Even niks, Max's mints menthol, Zomerdag, Kurkumma latte, Huiskamer espresso 500 gram",
-                    "ItemIds": [
-                        "677cfa79-7cd8-4183-a84e-3764b36e0be3",
-                        "77e7bb13-c3b6-4f0f-b7e5-778b3f11318a",
-                        "4b9076fb-ed8a-4ef4-beaf-990d5468b91a",
-                        "46e4df38-46e1-4452-870e-5f5c02444c80",
-                        "49675218-21c0-4bbc-95f9-21bc9db90a6b",
-                        "4a93e010-a20b-4c49-873a-7f253060d8fc",
-                        "794433a5-f303-4d43-92c0-e9fff4cd64e7",
-                        "9d00f4c7-db80-4cac-81ca-39c5e793c2c6",
-                        "fc37a556-87a7-413e-874d-f11701822e28",
-                        "ef53a34b-3f9e-4962-8739-4542e93bf9c3",
-                        "a1cf4a5c-75c7-4ade-a1af-8cdf9fc65c1c",
-                        "4f8f0b79-711b-4a09-9d74-a5c356cbd0ab",
-                        "8e9d09d8-0472-41d4-b295-ddd81b9b1320",
-                        "25415255-d988-4b6c-964e-773974accb03",
-                        "6aa69100-fc11-4595-b1e3-1f7172b511ff",
-                        "55b4012f-95fc-4d82-a250-5b3df35c80c4",
-                        "e9953ff8-7b66-49c5-919e-01f8b57127d1"
-                    ],
-                    "ParentIds": null,
-                    "ImageSources": [
-                        {
-                            "Path": "https://just-eat-prod-eu-res.cloudinary.com/image/upload/{transformations}/v1/nl/dishes/9396843/b8723c8946e08eec34f73245ba1a1741",
-                            "Source": "Cloudinaryv2"
-                        }
-                    ]
-                }
-            ],
-            "PreOrderEnabledTimes": [
-                {
-                    "DayOfWeek": "Sunday",
-                    "Times": [
-                        {
-                            "FromLocalTime": "07:00:00",
-                            "ToLocalTime": "10:59:59"
-                        }
-                    ]
-                },
-                {
-                    "DayOfWeek": "Monday",
-                    "Times": [
-                        {
-                            "FromLocalTime": "07:00:00",
-                            "ToLocalTime": "10:59:59"
-                        }
-                    ]
-                },
-                {
-                    "DayOfWeek": "Tuesday",
-                    "Times": [
-                        {
-                            "FromLocalTime": "07:00:00",
-                            "ToLocalTime": "10:59:59"
-                        }
-                    ]
-                },
-                {
-                    "DayOfWeek": "Wednesday",
-                    "Times": [
-                        {
-                            "FromLocalTime": "07:00:00",
-                            "ToLocalTime": "10:59:59"
-                        }
-                    ]
-                },
-                {
-                    "DayOfWeek": "Thursday",
-                    "Times": [
-                        {
-                            "FromLocalTime": "07:00:00",
-                            "ToLocalTime": "10:59:59"
-                        }
-                    ]
-                },
-                {
-                    "DayOfWeek": "Friday",
-                    "Times": [
-                        {
-                            "FromLocalTime": "07:00:00",
-                            "ToLocalTime": "10:59:59"
-                        }
-                    ]
-                },
-                {
-                    "DayOfWeek": "Saturday",
-                    "Times": [
-                        {
-                            "FromLocalTime": "07:00:00",
-                            "ToLocalTime": "10:59:59"
-                        }
-                    ]
-                }
-            ],
-            "HasManyCategoryImages": true,
-            "HasManyProductImages": true
+            "Id": "8c0e7036-7244-4ba0-9c63-4d4e917df484",
+            "Name": "Formaat",
+            "MinChoices": 1,
+            "MaxChoices": 1,
+            "Modifiers": [
+                "1",
+                "2",
+                "3"
+            ]
         },
         {
-            "MenuGroupId": "06835A039C5BF3862D400DABE791510F",
-            "Description": "",
-            "ServiceTypes": [
-                "collection"
-            ],
-            "Schedules": [
-                {
-                    "DayOfWeek": "Sunday",
-                    "Times": [
-                        {
-                            "FromLocalTime": "08:45:00",
-                            "ToLocalTime": "16:29:59"
-                        }
-                    ],
-                    "BaseWorkingTimeMinutes": 15,
-                    "OrderTimeSchedule": [
-                        {
-                            "StartTime": "00:00:00",
-                            "EndTime": "1.00:00:00",
-                            "LowerBound": 15,
-                            "UpperBound": 20
-                        }
-                    ]
-                },
-                {
-                    "DayOfWeek": "Monday",
-                    "Times": [
-                        {
-                            "FromLocalTime": "08:15:00",
-                            "ToLocalTime": "16:29:59"
-                        }
-                    ],
-                    "BaseWorkingTimeMinutes": 15,
-                    "OrderTimeSchedule": [
-                        {
-                            "StartTime": "00:00:00",
-                            "EndTime": "1.00:00:00",
-                            "LowerBound": 15,
-                            "UpperBound": 20
-                        }
-                    ]
-                },
-                {
-                    "DayOfWeek": "Tuesday",
-                    "Times": [
-                        {
-                            "FromLocalTime": "08:15:00",
-                            "ToLocalTime": "16:29:59"
-                        }
-                    ],
-                    "BaseWorkingTimeMinutes": 15,
-                    "OrderTimeSchedule": [
-                        {
-                            "StartTime": "00:00:00",
-                            "EndTime": "1.00:00:00",
-                            "LowerBound": 15,
-                            "UpperBound": 20
-                        }
-                    ]
-                },
-                {
-                    "DayOfWeek": "Wednesday",
-                    "Times": [
-                        {
-                            "FromLocalTime": "08:15:00",
-                            "ToLocalTime": "16:29:59"
-                        }
-                    ],
-                    "BaseWorkingTimeMinutes": 15,
-                    "OrderTimeSchedule": [
-                        {
-                            "StartTime": "00:00:00",
-                            "EndTime": "1.00:00:00",
-                            "LowerBound": 15,
-                            "UpperBound": 20
-                        }
-                    ]
-                },
-                {
-                    "DayOfWeek": "Thursday",
-                    "Times": [
-                        {
-                            "FromLocalTime": "08:15:00",
-                            "ToLocalTime": "16:29:59"
-                        }
-                    ],
-                    "BaseWorkingTimeMinutes": 15,
-                    "OrderTimeSchedule": [
-                        {
-                            "StartTime": "00:00:00",
-                            "EndTime": "1.00:00:00",
-                            "LowerBound": 15,
-                            "UpperBound": 20
-                        }
-                    ]
-                },
-                {
-                    "DayOfWeek": "Friday",
-                    "Times": [
-                        {
-                            "FromLocalTime": "08:15:00",
-                            "ToLocalTime": "16:29:59"
-                        }
-                    ],
-                    "BaseWorkingTimeMinutes": 15,
-                    "OrderTimeSchedule": [
-                        {
-                            "StartTime": "00:00:00",
-                            "EndTime": "1.00:00:00",
-                            "LowerBound": 15,
-                            "UpperBound": 20
-                        }
-                    ]
-                },
-                {
-                    "DayOfWeek": "Saturday",
-                    "Times": [
-                        {
-                            "FromLocalTime": "08:15:00",
-                            "ToLocalTime": "16:29:59"
-                        }
-                    ],
-                    "BaseWorkingTimeMinutes": 15,
-                    "OrderTimeSchedule": [
-                        {
-                            "StartTime": "00:00:00",
-                            "EndTime": "1.00:00:00",
-                            "LowerBound": 15,
-                            "UpperBound": 20
-                        }
-                    ]
-                }
-            ],
-            "Categories": [
-                {
-                    "Id": "67350ebf-bdc6-4a40-9a97-17aa3d6f1c0d",
-                    "Name": "Lunch combo",
-                    "Description": "",
-                    "Preview": "Lunch combo superclub, Lunch combo de kas, Lunch combo Italian, Lunch combo yacht",
-                    "ItemIds": [
-                        "0eb1da1a-0c13-4fa5-95bd-ae5f0c8fbc54",
-                        "e373abaf-57cd-4de6-9945-cb31cff68351",
-                        "0338fb52-2cea-4d0d-bf52-9a737f823994",
-                        "b9dfa90b-16c7-4f23-a597-d69f31f013fc"
-                    ],
-                    "ParentIds": null,
-                    "ImageSources": []
-                },
-                {
-                    "Id": "637cf09f-2fe4-46e0-a4cc-ecf01a136c5e",
-                    "Name": "Boxen",
-                    "Description": "",
-                    "Preview": "De Anne&Max ontbijtbox, De Anne&Max lunchbox, High tea box",
-                    "ItemIds": [
-                        "a76b8867-e2c1-4f9f-b052-f80c1441422c",
-                        "461863cb-2c75-4d31-9e0a-8386e7ab014e",
-                        "a02d286a-a4a9-4981-b46a-1938a6b89285"
-                    ],
-                    "ParentIds": null,
-                    "ImageSources": [
-                        {
-                            "Path": "https://just-eat-prod-eu-res.cloudinary.com/image/upload/{transformations}/v1/nl/dishes/9396843/fe6feaf54f9efa34c6ac5d81ec2765f8",
-                            "Source": "Cloudinaryv2"
-                        }
-                    ]
-                },
-                {
-                    "Id": "0dc591bd-7feb-4480-a300-a68e06153131",
-                    "Name": "Ontbijt en brunch",
-                    "Description": "",
-                    "Preview": "Acai bowl, Droomcroissant, Pistache croissant, Croissant, Fruit en granen",
-                    "ItemIds": [
-                        "4b6a6f29-1f69-40d8-8d23-aae15f986482",
-                        "590ade7a-3bd1-4241-9c76-d7d22e69913c",
-                        "12f56fed-b328-4e30-8061-f78e641da42d",
-                        "7d922003-0dc9-43a8-85b5-3f78ac8c589b",
-                        "17b1ee7d-a862-4e4f-af33-3f696c69ebf6"
-                    ],
-                    "ParentIds": null,
-                    "ImageSources": [
-                        {
-                            "Path": "https://just-eat-prod-eu-res.cloudinary.com/image/upload/{transformations}/v1/nl/dishes/9396843/f24f1465e2673567c20aeabead346b29",
-                            "Source": "Cloudinaryv2"
-                        }
-                    ]
-                },
-                {
-                    "Id": "f11cbd9e-af68-4e03-901d-b1edf15b8a2d",
-                    "Name": "Lunch",
-                    "Description": "",
-                    "Preview": "Focaccia dubbelkaas tosti, Focaccia roerei, Italian club, Focaccia tuna melt, Super club",
-                    "ItemIds": [
-                        "215fe5fd-e568-4a84-a44e-067bb43b57a0",
-                        "970336a2-2ccd-430c-83f0-f3a7af4a59b7",
-                        "b2d097ed-f87c-4a24-a083-2a97bf2358af",
-                        "98a71ca9-1cd1-458f-a81a-00819a0f1cee",
-                        "bfeccad2-7b45-4acc-8997-53eb210baf85",
-                        "220e7d3e-fea3-45ee-a22b-a67ed39f69dd",
-                        "012d7bda-b223-4ea5-ac9b-da6bd37315ab",
-                        "a8d41e3b-2e50-454a-a520-b7ece77ab8d9",
-                        "59b74a8e-8a6e-4d13-8d35-7a14ecdd6f27"
-                    ],
-                    "ParentIds": null,
-                    "ImageSources": [
-                        {
-                            "Path": "https://just-eat-prod-eu-res.cloudinary.com/image/upload/{transformations}/v1/nl/dishes/9396843/cffb5794b4f87d1cb7d7dc3f85457a76",
-                            "Source": "Cloudinaryv2"
-                        }
-                    ]
-                },
-                {
-                    "Id": "43cf3aec-d9f6-4580-8d11-6a151d85b857",
-                    "Name": "Bowls",
-                    "Description": "",
-                    "Preview": "Winterbowl, Burratabowl",
-                    "ItemIds": [
-                        "3cbf1dbf-be7f-4a6d-8b98-c5d25b62a51d",
-                        "93fb7a03-818d-4a6a-b5ec-ee008e0bb6be"
-                    ],
-                    "ParentIds": null,
-                    "ImageSources": [
-                        {
-                            "Path": "https://just-eat-prod-eu-res.cloudinary.com/image/upload/{transformations}/v1/nl/dishes/9396843/9ef0538296dcc1c11ce93ef5d17ced72",
-                            "Source": "Cloudinaryv2"
-                        }
-                    ]
-                },
-                {
-                    "Id": "20190a48-c50f-438f-ad1e-abfcfd526a0c",
-                    "Name": "Kids eten",
-                    "Description": "",
-                    "Preview": "Kids boterham, Kids bananenbrood, Kids tosti kaas",
-                    "ItemIds": [
-                        "a9f5292a-39d3-4bb3-b0c1-e2e5a69ec937",
-                        "001c7d62-437d-44f0-881a-2ed486441791",
-                        "1451505f-1b37-419b-926e-e33a3a1304cd"
-                    ],
-                    "ParentIds": null,
-                    "ImageSources": [
-                        {
-                            "Path": "https://just-eat-prod-eu-res.cloudinary.com/image/upload/{transformations}/v1/nl/dishes/9396843/ffe251a9ca2dbeb43fdf07a910b86989",
-                            "Source": "Cloudinaryv2"
-                        }
-                    ]
-                },
-                {
-                    "Id": "ea15d2eb-f39c-444b-a784-942759f94502",
-                    "Name": "Taart en zoetigheden",
-                    "Description": "",
-                    "Preview": "No cheesecake, Anne&Max worteltaart, Haverkoek, Dubbel chocoladecake, Roze koek",
-                    "ItemIds": [
-                        "87077890-c0ce-4e99-a2f8-bf5b2a3670df",
-                        "64e6ff0c-facf-43d2-b872-1846a3bb5942",
-                        "327ae7e3-7766-4380-a3cc-c9e4511ec293",
-                        "a56a7326-48ac-496a-a834-394bf73b5244",
-                        "7e732730-bb56-49e8-b937-32fcfa55b262",
-                        "abdc1e28-99f5-4386-99bb-5a3d0bb06aec",
-                        "144574a5-0af6-4859-810e-9c2fd345c3fe",
-                        "aa939625-dcd9-4989-8b76-2584185d3a0f",
-                        "9d93d6b6-c761-47aa-ab46-fedf587e8079",
-                        "352f9bf6-7d09-4960-9c02-a20dd077c83f",
-                        "506133ff-0054-4c3d-aed5-8e0dad5fd888",
-                        "a75cedf1-e2ca-4dbf-974f-633f6cc06517"
-                    ],
-                    "ParentIds": null,
-                    "ImageSources": [
-                        {
-                            "Path": "https://just-eat-prod-eu-res.cloudinary.com/image/upload/{transformations}/v1/nl/dishes/9396843/60e58f819b10525463e46d8ce57e4ac0",
-                            "Source": "Cloudinaryv2"
-                        }
-                    ]
-                },
-                {
-                    "Id": "68b00f9a-a48a-4341-933f-ba002d9bd608",
-                    "Name": "IJskoffies",
-                    "Description": "",
-                    "Preview": "Iced matcha latte, Cold drip, Iced matcha mango, IJslatte",
-                    "ItemIds": [
-                        "5dc7ed86-edae-4a9d-b14e-0bb73ae8a117",
-                        "b13953cc-35e8-4370-8f69-d34f5c7e1a2a",
-                        "b94c1cb7-2d7e-46f5-968a-4ee70bac8845",
-                        "025fc0bc-db32-4969-aa0b-6c30f4d8257e"
-                    ],
-                    "ParentIds": null,
-                    "ImageSources": [
-                        {
-                            "Path": "https://just-eat-prod-eu-res.cloudinary.com/image/upload/{transformations}/v1/nl/dishes/9396843/7907ce69f5be0a6cadea9dbb01665767",
-                            "Source": "Cloudinaryv2"
-                        }
-                    ]
-                },
-                {
-                    "Id": "32ffc6ef-28f5-4b56-8aab-2d076c8e566f",
-                    "Name": "Sappen en shakes",
-                    "Description": "",
-                    "Preview": "Verse sinaasappelsap, Kokosnood, Blauw&bes, Energie, Alles-in-één",
-                    "ItemIds": [
-                        "ad7b0044-ad5c-44e7-9234-34a273c93c3c",
-                        "fed915d9-0e80-484a-8ba7-12a35755955f",
-                        "721d789f-0456-41d2-a446-71fda20277da",
-                        "ee5f427d-c263-4b38-99fb-5f97ec31bfe3",
-                        "6013f6a0-bc13-44f7-8598-0c7dee63db74"
-                    ],
-                    "ParentIds": null,
-                    "ImageSources": [
-                        {
-                            "Path": "https://just-eat-prod-eu-res.cloudinary.com/image/upload/{transformations}/v1/nl/dishes/9396843/3f4d31519588c322510d0b2f3fa03c27",
-                            "Source": "Cloudinaryv2"
-                        }
-                    ]
-                },
-                {
-                    "Id": "9f50dad8-4e72-46f5-b396-e307b210dc22",
-                    "Name": "Frisdranken",
-                    "Description": "",
-                    "Preview": "Winterbubbel, IJsthee citroen en munt, Fritz orange, Kompassie, Fritz kola",
-                    "ItemIds": [
-                        "0f0382c7-903e-4328-b389-da27e43cfc9c",
-                        "03c59c05-c240-45f8-a4d9-5405bd2e1c37",
-                        "885760f5-4b8f-4860-840e-5578b9df2616",
-                        "bb0035c2-b63a-446c-ab00-7c4dcde7d6bf",
-                        "2ca5d22e-792b-404d-b670-7826952380d8",
-                        "80d50d43-cb58-4763-bf41-4228ec9ccc65",
-                        "fa7017e0-2973-4d4a-976a-63cfdc6f774b",
-                        "22def186-1fc8-4b0f-a55b-383547c52de1",
-                        "c7972abf-0292-41ee-9883-92c261472bb7",
-                        "f503826b-920c-4e7f-8aca-6ec2ca0a3655"
-                    ],
-                    "ParentIds": null,
-                    "ImageSources": [
-                        {
-                            "Path": "https://just-eat-prod-eu-res.cloudinary.com/image/upload/{transformations}/v1/nl/dishes/9396843/06e8e1e205a97d62b3a603dbeb6cc423",
-                            "Source": "Cloudinaryv2"
-                        }
-                    ]
-                },
-                {
-                    "Id": "df98bfd9-d695-48c4-aa46-635dcf5c88f8",
-                    "Name": "Voor thuis",
-                    "Description": "",
-                    "Preview": "Even niks, Max's mints menthol, Zomerdag, Kurkumma latte, Huiskamer espresso 500 gram",
-                    "ItemIds": [
-                        "677cfa79-7cd8-4183-a84e-3764b36e0be3",
-                        "77e7bb13-c3b6-4f0f-b7e5-778b3f11318a",
-                        "4b9076fb-ed8a-4ef4-beaf-990d5468b91a",
-                        "46e4df38-46e1-4452-870e-5f5c02444c80",
-                        "49675218-21c0-4bbc-95f9-21bc9db90a6b",
-                        "4a93e010-a20b-4c49-873a-7f253060d8fc",
-                        "794433a5-f303-4d43-92c0-e9fff4cd64e7",
-                        "9d00f4c7-db80-4cac-81ca-39c5e793c2c6",
-                        "fc37a556-87a7-413e-874d-f11701822e28",
-                        "ef53a34b-3f9e-4962-8739-4542e93bf9c3",
-                        "a1cf4a5c-75c7-4ade-a1af-8cdf9fc65c1c",
-                        "4f8f0b79-711b-4a09-9d74-a5c356cbd0ab",
-                        "8e9d09d8-0472-41d4-b295-ddd81b9b1320",
-                        "25415255-d988-4b6c-964e-773974accb03",
-                        "6aa69100-fc11-4595-b1e3-1f7172b511ff",
-                        "55b4012f-95fc-4d82-a250-5b3df35c80c4",
-                        "e9953ff8-7b66-49c5-919e-01f8b57127d1"
-                    ],
-                    "ParentIds": null,
-                    "ImageSources": [
-                        {
-                            "Path": "https://just-eat-prod-eu-res.cloudinary.com/image/upload/{transformations}/v1/nl/dishes/9396843/b8723c8946e08eec34f73245ba1a1741",
-                            "Source": "Cloudinaryv2"
-                        }
-                    ]
-                }
-            ],
-            "PreOrderEnabledTimes": [
-                {
-                    "DayOfWeek": "Sunday",
-                    "Times": [
-                        {
-                            "FromLocalTime": "07:00:00",
-                            "ToLocalTime": "08:44:59"
-                        }
-                    ]
-                },
-                {
-                    "DayOfWeek": "Monday",
-                    "Times": [
-                        {
-                            "FromLocalTime": "07:00:00",
-                            "ToLocalTime": "08:14:59"
-                        }
-                    ]
-                },
-                {
-                    "DayOfWeek": "Tuesday",
-                    "Times": [
-                        {
-                            "FromLocalTime": "07:00:00",
-                            "ToLocalTime": "08:14:59"
-                        }
-                    ]
-                },
-                {
-                    "DayOfWeek": "Wednesday",
-                    "Times": [
-                        {
-                            "FromLocalTime": "07:00:00",
-                            "ToLocalTime": "08:14:59"
-                        }
-                    ]
-                },
-                {
-                    "DayOfWeek": "Thursday",
-                    "Times": [
-                        {
-                            "FromLocalTime": "07:00:00",
-                            "ToLocalTime": "08:14:59"
-                        }
-                    ]
-                },
-                {
-                    "DayOfWeek": "Friday",
-                    "Times": [
-                        {
-                            "FromLocalTime": "07:00:00",
-                            "ToLocalTime": "08:14:59"
-                        }
-                    ]
-                },
-                {
-                    "DayOfWeek": "Saturday",
-                    "Times": [
-                        {
-                            "FromLocalTime": "07:00:00",
-                            "ToLocalTime": "08:14:59"
-                        }
-                    ]
-                }
-            ],
-            "HasManyCategoryImages": true,
-            "HasManyProductImages": true
+            "Id": "7f201993-9bd9-49c3-915f-0044bb8fbb8d",
+            "Name": "Toppings",
+            "MinChoices": 0,
+            "MaxChoices": 21,
+            "Modifiers": [
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24"
+            ]
+        },
+        {
+            "Id": "972e2edc-c314-416e-bed9-0fd1509aaf4a",
+            "Name": "Sausje erbij?",
+            "MinChoices": 0,
+            "MaxChoices": 6,
+            "Modifiers": [
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        {
+            "Id": "6392d0e7-6ccf-4179-b3f8-4070a309d1de",
+            "Name": "Drankje erbij?",
+            "MinChoices": 0,
+            "MaxChoices": 16,
+            "Modifiers": [
+                "31",
+                "32",
+                "33",
+                "34",
+                "35",
+                "36",
+                "37",
+                "38",
+                "39",
+                "40",
+                "41",
+                "42",
+                "43",
+                "44",
+                "45",
+                "46"
+            ]
+        },
+        {
+            "Id": "b82e91e6-81ab-40f6-86c4-6c0b7c1fc22e",
+            "Name": "Dessert erbij?",
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "Modifiers": [
+                "47"
+            ]
+        },
+        {
+            "Id": "37f923ed-bba2-456a-a013-63f9b1f3195d",
+            "Name": "Formaat",
+            "MinChoices": 1,
+            "MaxChoices": 1,
+            "Modifiers": [
+                "1",
+                "48",
+                "49"
+            ]
+        },
+        {
+            "Id": "6fd31dd5-3b5d-4d66-842a-08f108d5d53e",
+            "Name": "Toppings",
+            "MinChoices": 0,
+            "MaxChoices": 22,
+            "Modifiers": [
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "50",
+                "51",
+                "52",
+                "53",
+                "54",
+                "55",
+                "56",
+                "57",
+                "58",
+                "59"
+            ]
+        },
+        {
+            "Id": "7bea4754-b47a-405b-9962-5807b95fa728",
+            "Name": "Toppings",
+            "MinChoices": 0,
+            "MaxChoices": 22,
+            "Modifiers": [
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "60",
+                "61",
+                "62",
+                "59",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "58"
+            ]
+        },
+        {
+            "Id": "1f566c70-ddcb-4166-b9cf-3c804a51adf3",
+            "Name": "Extra saus",
+            "MinChoices": 0,
+            "MaxChoices": 6,
+            "Modifiers": [
+                "63",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        {
+            "Id": "3117e26d-3d7a-4fce-9d5f-b1fe70e1b774",
+            "Name": "Kies je pasta",
+            "MinChoices": 1,
+            "MaxChoices": 1,
+            "Modifiers": [
+                "64",
+                "65"
+            ]
+        },
+        {
+            "Id": "d9d468f5-985d-4fd6-8907-cf13c0a62a10",
+            "Name": "Wil je er extra toppings bij?",
+            "MinChoices": 0,
+            "MaxChoices": 22,
+            "Modifiers": [
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "59"
+            ]
+        },
+        {
+            "Id": "86d49f8b-8e9a-44b6-ad87-ed83e2180dda",
+            "Name": "Wil je er saus bij?",
+            "MinChoices": 0,
+            "MaxChoices": 6,
+            "Modifiers": [
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+            ]
+        },
+        {
+            "Id": "f72446f8-ead3-4313-bf9c-59f518fc0fb0",
+            "Name": "Wil je er een drankje bij?",
+            "MinChoices": 0,
+            "MaxChoices": 16,
+            "Modifiers": [
+                "31",
+                "32",
+                "33",
+                "34",
+                "35",
+                "36",
+                "37",
+                "66",
+                "67",
+                "40",
+                "41",
+                "42",
+                "43",
+                "44",
+                "45",
+                "46"
+            ]
+        },
+        {
+            "Id": "eb93bd48-0166-4d0c-b051-cb0fd622124f",
+            "Name": "Wil je er een dessert bij?",
+            "MinChoices": 0,
+            "MaxChoices": 1,
+            "Modifiers": [
+                "47"
+            ]
+        },
+        {
+            "Id": "b11e8a10-911b-45f1-bf0e-4febdc41201c",
+            "Name": "Formaat",
+            "MinChoices": 1,
+            "MaxChoices": 1,
+            "Modifiers": [
+                "1",
+                "68",
+                "3"
+            ]
+        },
+        {
+            "Id": "be51209d-9072-4b93-b253-efcaf5ab3e37",
+            "Name": "Toppings",
+            "MinChoices": 0,
+            "MaxChoices": 22,
+            "Modifiers": [
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "59",
+                "50",
+                "51",
+                "52",
+                "53",
+                "54",
+                "55",
+                "56",
+                "57",
+                "24"
+            ]
+        },
+        {
+            "Id": "aca91517-cb44-4aea-98d9-b9eab4da47aa",
+            "Name": "Bijgerecht",
+            "MinChoices": 1,
+            "MaxChoices": 1,
+            "Modifiers": [
+                "69"
+            ]
+        },
+        {
+            "Id": "3b5842c1-3a8e-483e-87f4-96933e5b8848",
+            "Name": "Drinken",
+            "MinChoices": 1,
+            "MaxChoices": 1,
+            "Modifiers": [
+                "70",
+                "71",
+                "72",
+                "73",
+                "74",
+                "75",
+                "76",
+                "77",
+                "78"
+            ]
+        },
+        {
+            "Id": "68babf8c-275d-4940-81b5-59392976f9b7",
+            "Name": "Extra saus",
+            "MinChoices": 0,
+            "MaxChoices": 4,
+            "Modifiers": [
+                "79",
+                "29",
+                "80",
+                "81"
+            ]
+        },
+        {
+            "Id": "e1c1071a-7401-4d6a-9b12-5ee6390b4c03",
+            "Name": "Formaat",
+            "MinChoices": 1,
+            "MaxChoices": 1,
+            "Modifiers": [
+                "1",
+                "68",
+                "49"
+            ]
+        },
+        {
+            "Id": "6156e1c4-7f5d-408c-a996-f703eff1542c",
+            "Name": "Toppings",
+            "MinChoices": 0,
+            "MaxChoices": 21,
+            "Modifiers": [
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "50",
+                "51",
+                "52",
+                "53",
+                "54",
+                "55",
+                "56",
+                "57",
+                "58"
+            ]
+        },
+        {
+            "Id": "10bf10e2-963f-4925-ab3c-5cd7a906677c",
+            "Name": "Formaat",
+            "MinChoices": 1,
+            "MaxChoices": 1,
+            "Modifiers": [
+                "1",
+                "82",
+                "83"
+            ]
+        },
+        {
+            "Id": "12e6184f-e60f-42b8-9aba-d4ceffffc340",
+            "Name": "Toppings",
+            "MinChoices": 0,
+            "MaxChoices": 22,
+            "Modifiers": [
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "58",
+                "59"
+            ]
+        },
+        {
+            "Id": "87cde09f-4f5e-4913-b153-0f5fb650b8dc",
+            "Name": "Formaat",
+            "MinChoices": 1,
+            "MaxChoices": 1,
+            "Modifiers": [
+                "1",
+                "84",
+                "85"
+            ]
+        },
+        {
+            "Id": "18ce220a-cb18-48fe-a710-e49a593cb04a",
+            "Name": "Formaat",
+            "MinChoices": 1,
+            "MaxChoices": 1,
+            "Modifiers": [
+                "1",
+                "68",
+                "83"
+            ]
+        },
+        {
+            "Id": "bcc4a209-a807-4d98-8e1c-78e4b890fee9",
+            "Name": "Toppings",
+            "MinChoices": 0,
+            "MaxChoices": 21,
+            "Modifiers": [
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "58"
+            ]
+        },
+        {
+            "Id": "39c45400-9df3-4388-b16d-3c0a480e967b",
+            "Name": "Formaat",
+            "MinChoices": 1,
+            "MaxChoices": 1,
+            "Modifiers": [
+                "1",
+                "84",
+                "83"
+            ]
+        },
+        {
+            "Id": "8ec24857-0f41-4728-8037-68a6c16708d4",
+            "Name": "Formaat",
+            "MinChoices": 1,
+            "MaxChoices": 1,
+            "Modifiers": [
+                "1",
+                "84",
+                "3"
+            ]
+        },
+        {
+            "Id": "7c8bf090-4398-45ed-a5f4-08fc49198bd6",
+            "Name": "Toppings",
+            "MinChoices": 0,
+            "MaxChoices": 21,
+            "Modifiers": [
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "50",
+                "51",
+                "52",
+                "53",
+                "54",
+                "55",
+                "56",
+                "57",
+                "24"
+            ]
+        },
+        {
+            "Id": "657f7035-ad00-462b-aaec-56bed4fb03c4",
+            "Name": "Kies je saus",
+            "MinChoices": 1,
+            "MaxChoices": 1,
+            "Modifiers": [
+                "86",
+                "87",
+                "88"
+            ]
+        },
+        {
+            "Id": "ec8ce67b-6624-412a-be1c-7c210595c9fd",
+            "Name": "Toppings",
+            "MinChoices": 0,
+            "MaxChoices": 22,
+            "Modifiers": [
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "59"
+            ]
         }
     ],
-    "ItemsUrl": "annemax-14_nl_items.json",
-    "ItemDetailsUrl": "annemax-14_nl_itemDetails.json",
-    "TruncatedUrl": null,
-    "Language": "nl",
-    "FallbackLanguage": "en",
-    "SupportedLanguages": [
+    "DealGroups": [],
+    "ModifierSets": [
         {
-            "Language": "nl",
-            "ManifestUrl": "annemax-14_nl_manifest.json"
+            "Id": "1",
+            "Modifier": {
+                "Id": "dd6c0572-a64d-406e-ad99-49c46253692b",
+                "Name": "30 cm",
+                "AdditionPrice": 0.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
         },
         {
-            "Language": "de",
-            "ManifestUrl": "annemax-14_nl_manifest_de.json"
+            "Id": "2",
+            "Modifier": {
+                "Id": "a6ed8de8-3417-41fc-a5f3-edee34fb35a7",
+                "Name": "36 cm",
+                "AdditionPrice": 5.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
         },
         {
-            "Language": "en",
-            "ManifestUrl": "annemax-14_nl_manifest_en.json"
+            "Id": "3",
+            "Modifier": {
+                "Id": "af966698-dc1c-49d8-b6a0-44d19919fdfd",
+                "Name": "40 cm",
+                "AdditionPrice": 8.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "4",
+            "Modifier": {
+                "Id": "48af8bbe-6c95-494d-bf30-77ac9dc0a956",
+                "Name": "Champignons",
+                "AdditionPrice": 2.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "5",
+            "Modifier": {
+                "Id": "8e4d8358-9f9e-4afa-9067-2a0e2559200e",
+                "Name": "Ui",
+                "AdditionPrice": 2.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "6",
+            "Modifier": {
+                "Id": "212b2051-c949-4f99-9bfe-8fbbbbb3be47",
+                "Name": "Paprika",
+                "AdditionPrice": 2.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "7",
+            "Modifier": {
+                "Id": "ed4d5852-96ab-4128-99ed-67315ef6388f",
+                "Name": "Olijven",
+                "AdditionPrice": 2.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "8",
+            "Modifier": {
+                "Id": "73767a05-635f-4165-9d99-8de08d67cf60",
+                "Name": "Mais",
+                "AdditionPrice": 2.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "9",
+            "Modifier": {
+                "Id": "0f468622-1c08-411d-8127-f7d84fc42d2c",
+                "Name": "Jalapeños",
+                "AdditionPrice": 2.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "10",
+            "Modifier": {
+                "Id": "99deb333-67a4-4d46-8b5c-5b2076e41b76",
+                "Name": "Courgette",
+                "AdditionPrice": 2.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "11",
+            "Modifier": {
+                "Id": "cfe9ad88-ba56-434e-87eb-426a4e11ecbe",
+                "Name": "Aubergine",
+                "AdditionPrice": 2.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "12",
+            "Modifier": {
+                "Id": "cad15fb8-68e3-434a-adac-e83a05e04969",
+                "Name": "Tomaat",
+                "AdditionPrice": 2.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "13",
+            "Modifier": {
+                "Id": "904cf82d-b29b-4b10-af8d-da0f2459ff21",
+                "Name": "Artisjok",
+                "AdditionPrice": 2.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "14",
+            "Modifier": {
+                "Id": "7d40bded-9a21-4e0d-8ed6-74b061b6f8a5",
+                "Name": "Spinazie",
+                "AdditionPrice": 2.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "15",
+            "Modifier": {
+                "Id": "3d5e7e47-2080-4449-aa37-b2fbe720ae95",
+                "Name": "Rucola",
+                "AdditionPrice": 2.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "16",
+            "Modifier": {
+                "Id": "7f218551-ecad-4ec9-b970-ed072057d54b",
+                "Name": "Gorgonzola",
+                "AdditionPrice": 1.5,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "17",
+            "Modifier": {
+                "Id": "4bce1d29-f59e-47c8-95b2-88f7ab17994b",
+                "Name": "Mozzarella",
+                "AdditionPrice": 1.5,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "18",
+            "Modifier": {
+                "Id": "51905f0f-7170-432f-a914-db7627928246",
+                "Name": "Tonijn",
+                "AdditionPrice": 2.5,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "19",
+            "Modifier": {
+                "Id": "eee372bd-fdfb-4107-adff-8367f734e806",
+                "Name": "Ansjovis",
+                "AdditionPrice": 2.5,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "20",
+            "Modifier": {
+                "Id": "3a4eb89f-c82c-4c4b-8fd4-7178230da6a4",
+                "Name": "Groene pesto",
+                "AdditionPrice": 2.5,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "21",
+            "Modifier": {
+                "Id": "79e4f06d-4544-4fde-ba28-24ec151e82fc",
+                "Name": "Ham",
+                "AdditionPrice": 2.5,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "22",
+            "Modifier": {
+                "Id": "44627765-5d46-4311-b317-ff4ffe72b01c",
+                "Name": "Salami",
+                "AdditionPrice": 2.5,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "23",
+            "Modifier": {
+                "Id": "1630ee9f-49be-4e08-9e95-322900b69c6a",
+                "Name": "Pepperoni",
+                "AdditionPrice": 2.5,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "24",
+            "Modifier": {
+                "Id": "5bb2c220-05da-4dbb-a4e9-0b5f37304779",
+                "Name": "Hete kip shoarma",
+                "AdditionPrice": 2.5,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "25",
+            "Modifier": {
+                "Id": "8879ad76-7cb4-44ae-8936-e29fade7192e",
+                "Name": "Knoflooksaus",
+                "AdditionPrice": 1.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "26",
+            "Modifier": {
+                "Id": "abc53810-74bd-46c9-8a91-9fe35f0f4e24",
+                "Name": "Sambal",
+                "AdditionPrice": 1.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "27",
+            "Modifier": {
+                "Id": "bec5fbb3-9115-4850-8ff0-9c5272bb3fd4",
+                "Name": "Mayonaise",
+                "AdditionPrice": 1.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "28",
+            "Modifier": {
+                "Id": "10575597-7896-4d2f-8a6b-f8fb95c269d2",
+                "Name": "BBQ saus",
+                "AdditionPrice": 1.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "29",
+            "Modifier": {
+                "Id": "da4c0f73-43ab-4e82-b298-c8b9fa4115b1",
+                "Name": "Ketchup",
+                "AdditionPrice": 1.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "30",
+            "Modifier": {
+                "Id": "4b9379da-2e43-4fe4-8603-7476e61fcf4f",
+                "Name": "Alberto saus",
+                "AdditionPrice": 1.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "31",
+            "Modifier": {
+                "Id": "703b8310-7060-4f62-b112-6fbd368d0178",
+                "Name": "Coca-Cola 300ml",
+                "AdditionPrice": 2.5,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "32",
+            "Modifier": {
+                "Id": "237e0231-6255-4f03-babd-30c3010b4414",
+                "Name": "Coca-Cola Zero Sugar 300ml",
+                "AdditionPrice": 2.5,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "33",
+            "Modifier": {
+                "Id": "ddf0a2e4-6599-494f-840a-ed9294ac003e",
+                "Name": "Sprite Zero Sugar 300ml",
+                "AdditionPrice": 2.5,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "34",
+            "Modifier": {
+                "Id": "7047554f-db5a-4f15-9a98-1267c5135b97",
+                "Name": "Fanta Orange 300ml",
+                "AdditionPrice": 2.5,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "35",
+            "Modifier": {
+                "Id": "13cde432-57fb-443b-948a-6f040b7e79a5",
+                "Name": "Fanta Exotic Zero Sugar 300ml",
+                "AdditionPrice": 2.5,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "36",
+            "Modifier": {
+                "Id": "9530a63e-1562-4c7d-8c47-923fdd0daafe",
+                "Name": "Fernandes Cherry Bouquet 300ml",
+                "AdditionPrice": 2.5,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "37",
+            "Modifier": {
+                "Id": "9fbc5614-72dc-41e0-ba98-f62ac0fcb40b",
+                "Name": "Fernandes Super Pineapple 300ml",
+                "AdditionPrice": 2.5,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "38",
+            "Modifier": {
+                "Id": "37ca92a0-cd19-4145-b6b0-096dcba35127",
+                "Name": "Fernandes Green Punch 330ml",
+                "AdditionPrice": 2.35,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null,
+                "InitialProductInformation": {
+                    "Deposit": {
+                        "Value": 0.15,
+                        "Type": "exclusive"
+                    }
+                },
+                "Gtin": "8710642037303"
+            }
+        },
+        {
+            "Id": "39",
+            "Modifier": {
+                "Id": "9b06cfde-5aed-484a-94c6-795155af8f6c",
+                "Name": "Fernandes Red Grape 330ml",
+                "AdditionPrice": 2.35,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null,
+                "InitialProductInformation": {
+                    "Deposit": {
+                        "Value": 0.15,
+                        "Type": "exclusive"
+                    }
+                },
+                "Gtin": "8710642037365"
+            }
+        },
+        {
+            "Id": "40",
+            "Modifier": {
+                "Id": "fecfa286-9011-489f-8b06-dddc3156d679",
+                "Name": "Fuze Tea Sparkling 300ml",
+                "AdditionPrice": 2.5,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "41",
+            "Modifier": {
+                "Id": "e505f9a3-52bf-4369-88f4-9cb1099b4b71",
+                "Name": "Spa blauw 300ml",
+                "AdditionPrice": 2.5,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "42",
+            "Modifier": {
+                "Id": "819084af-0556-4b11-a7e1-1f8354722f33",
+                "Name": "Red Bull Energy Drink 250ml",
+                "AdditionPrice": 3.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "43",
+            "Modifier": {
+                "Id": "0b65cda7-524c-4f73-92c2-6dbb86628f60",
+                "Name": "AA Drink 300ml",
+                "AdditionPrice": 3.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "44",
+            "Modifier": {
+                "Id": "8bb0aa34-9a80-4361-be5d-d4b683668551",
+                "Name": "Capri-Sun orange 200ml",
+                "AdditionPrice": 1.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "45",
+            "Modifier": {
+                "Id": "8f95a112-e0c3-4d89-917c-d72bd2b4a827",
+                "Name": "Chocomel 250ml",
+                "AdditionPrice": 2.5,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "46",
+            "Modifier": {
+                "Id": "67c21180-c592-493f-8446-d2ddba73aa08",
+                "Name": "Fristi 250ml",
+                "AdditionPrice": 2.5,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "47",
+            "Modifier": {
+                "Id": "0433abae-a765-43a6-a456-6ea5b0a7ef52",
+                "Name": "Tiramisu",
+                "AdditionPrice": 7.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "48",
+            "Modifier": {
+                "Id": "140e035d-92a1-44bb-8c1d-73b67d7bcd53",
+                "Name": "36 cm",
+                "AdditionPrice": 3.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "49",
+            "Modifier": {
+                "Id": "cd9aa4e6-36d2-4a37-9ed9-6c8f4d8fa87d",
+                "Name": "40 cm",
+                "AdditionPrice": 7.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "50",
+            "Modifier": {
+                "Id": "fdaa1c52-f32d-4622-ba88-1012de3f26bc",
+                "Name": "Gorgonzola",
+                "AdditionPrice": 1.5,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "51",
+            "Modifier": {
+                "Id": "c6278407-5230-484d-90be-9d4b09edb529",
+                "Name": "Mozzarella",
+                "AdditionPrice": 1.5,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "52",
+            "Modifier": {
+                "Id": "8b5768b0-218e-4e8b-b1c3-b734ee1e5779",
+                "Name": "Tonijn",
+                "AdditionPrice": 2.5,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "53",
+            "Modifier": {
+                "Id": "e6a4cf9d-e5cb-4b44-97e6-33a576029575",
+                "Name": "Ansjovis",
+                "AdditionPrice": 2.5,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "54",
+            "Modifier": {
+                "Id": "c379fa14-6ada-4931-ae03-9dc6f6342c1b",
+                "Name": "Groene pesto",
+                "AdditionPrice": 2.5,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "55",
+            "Modifier": {
+                "Id": "b955e5cf-80c0-4716-a9ed-42da83515897",
+                "Name": "Ham",
+                "AdditionPrice": 2.5,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "56",
+            "Modifier": {
+                "Id": "15a6dde9-bc1f-450e-9530-b8a44476c216",
+                "Name": "Salami",
+                "AdditionPrice": 2.5,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "57",
+            "Modifier": {
+                "Id": "c95aa83b-c98a-4bba-b3ff-4e45c64bd9e1",
+                "Name": "Pepperoni",
+                "AdditionPrice": 2.5,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "58",
+            "Modifier": {
+                "Id": "15ce7361-2aa8-4658-9504-d3c635077f06",
+                "Name": "Hete kip shoarma",
+                "AdditionPrice": 3.5,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "59",
+            "Modifier": {
+                "Id": "6babcc09-1031-4668-b43c-1a3f9c35fed7",
+                "Name": "Cheddar kaas",
+                "AdditionPrice": 1.5,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "60",
+            "Modifier": {
+                "Id": "b5ae7c65-0d96-46d1-b966-1cc7d111cea3",
+                "Name": "Artisjok",
+                "AdditionPrice": 1.5,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "61",
+            "Modifier": {
+                "Id": "2ec50af2-e2c7-4dc4-91db-6da71bd22522",
+                "Name": "Spinazie",
+                "AdditionPrice": 1.5,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "62",
+            "Modifier": {
+                "Id": "054816c1-f1dd-4490-b4cc-b2b24edf976a",
+                "Name": "Rucola",
+                "AdditionPrice": 1.5,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "63",
+            "Modifier": {
+                "Id": "16df5098-9c5b-4173-b2d8-7f3a35135df8",
+                "Name": "Knoflook saus",
+                "AdditionPrice": 1.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "64",
+            "Modifier": {
+                "Id": "b48bd691-e3cb-4c09-bf5c-62543a18776f",
+                "Name": "Spaghetti",
+                "AdditionPrice": 0.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "65",
+            "Modifier": {
+                "Id": "8477869a-fab5-422e-a4f8-e02a2f99f23e",
+                "Name": "Penne",
+                "AdditionPrice": 0.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "66",
+            "Modifier": {
+                "Id": "22520316-4604-4316-95cf-641ce65c1084",
+                "Name": "Fernandes Green Punch 330ml",
+                "AdditionPrice": 2.35,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null,
+                "InitialProductInformation": {
+                    "Deposit": {
+                        "Value": 0.15,
+                        "Type": "exclusive"
+                    }
+                }
+            }
+        },
+        {
+            "Id": "67",
+            "Modifier": {
+                "Id": "fc37f4a2-6b81-408d-8d6b-f0b391d1cae0",
+                "Name": "Fernandes Red Grape 330ml",
+                "AdditionPrice": 2.35,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null,
+                "InitialProductInformation": {
+                    "Deposit": {
+                        "Value": 0.15,
+                        "Type": "exclusive"
+                    }
+                }
+            }
+        },
+        {
+            "Id": "68",
+            "Modifier": {
+                "Id": "59a2a3b8-4d4b-4aff-a982-f70d36d85dda",
+                "Name": "36 cm",
+                "AdditionPrice": 4.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "69",
+            "Modifier": {
+                "Id": "81102525-3acd-4ab4-adc5-1f8719a6c7f4",
+                "Name": "Patat",
+                "AdditionPrice": 0.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "70",
+            "Modifier": {
+                "Id": "5ef5fa07-8779-4c87-833f-24398a85d6d5",
+                "Name": "Coca-Cola 330 ml",
+                "AdditionPrice": 0.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "71",
+            "Modifier": {
+                "Id": "669f5921-d8f5-490a-acb2-fe9a00b26faa",
+                "Name": "Coca-Cola Zero 330ml",
+                "AdditionPrice": 0.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "72",
+            "Modifier": {
+                "Id": "5c96c146-ac4f-4f6c-8820-315555c3607a",
+                "Name": "Fanta Orange 330ml",
+                "AdditionPrice": 0.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "73",
+            "Modifier": {
+                "Id": "10f38b63-f6b6-4d3f-8a91-8161f8560622",
+                "Name": "Fanta Exotic Zero Sugar 330 ml",
+                "AdditionPrice": 0.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "74",
+            "Modifier": {
+                "Id": "889a9f25-f712-4c34-ab0e-9b18ec0ace55",
+                "Name": "Sprite Zero Sugar 330ml",
+                "AdditionPrice": 0.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "75",
+            "Modifier": {
+                "Id": "49fb3919-c815-4a76-81c9-6906054e5bb1",
+                "Name": "Fernandes Green Punch 330 ml",
+                "AdditionPrice": 0.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "76",
+            "Modifier": {
+                "Id": "916c81fd-81ce-4475-8486-f6f6b3815e68",
+                "Name": "Fernandes Cherry Bouquet 330ml",
+                "AdditionPrice": 0.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "77",
+            "Modifier": {
+                "Id": "97e8db89-3aec-416d-9733-592cd9d5ebd3",
+                "Name": "Lipton Ice Tea Peach 330ml",
+                "AdditionPrice": 0.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "78",
+            "Modifier": {
+                "Id": "a5bd880b-aa88-4632-bd2a-4ce56173d4c2",
+                "Name": "Lipton Ice Tea Sparkling 330ml",
+                "AdditionPrice": 0.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "79",
+            "Modifier": {
+                "Id": "23bb6fe6-9e98-4748-a747-8bd804ab4db7",
+                "Name": "Mayonaise",
+                "AdditionPrice": 1.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "80",
+            "Modifier": {
+                "Id": "d4eac883-fa17-4814-aeb1-10a90f3ac9e3",
+                "Name": "Knoflooksaus",
+                "AdditionPrice": 1.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "81",
+            "Modifier": {
+                "Id": "8224080f-0add-4db0-a35c-7ddb8bc35666",
+                "Name": "Sambal",
+                "AdditionPrice": 1.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "82",
+            "Modifier": {
+                "Id": "3c422cb5-552a-47fe-8192-aad494ba3eb9",
+                "Name": "36 cm",
+                "AdditionPrice": 3.5,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "83",
+            "Modifier": {
+                "Id": "0d7e535a-a662-435b-8485-097bca7873db",
+                "Name": "40 cm",
+                "AdditionPrice": 7.5,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "84",
+            "Modifier": {
+                "Id": "62443b5e-a311-487d-a603-701f3c4c5599",
+                "Name": "36 cm",
+                "AdditionPrice": 4.5,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "85",
+            "Modifier": {
+                "Id": "6f73276a-06cd-49dc-bebc-98d0e6a734a7",
+                "Name": "40 cm",
+                "AdditionPrice": 8.5,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "86",
+            "Modifier": {
+                "Id": "7f2db77f-7e51-4df9-9a5e-b50d420b3dbf",
+                "Name": "Mayonaise",
+                "AdditionPrice": 0.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "87",
+            "Modifier": {
+                "Id": "790c0035-3aa7-4e29-bfd3-cd6e135dbe3d",
+                "Name": "Ketchup",
+                "AdditionPrice": 0.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
+        },
+        {
+            "Id": "88",
+            "Modifier": {
+                "Id": "cba882fe-ec19-4e6f-9e38-b4eef8c336b5",
+                "Name": "Speciaal",
+                "AdditionPrice": 0.0,
+                "RemovePrice": 0.0,
+                "DefaultChoices": 0,
+                "MinChoices": 0,
+                "MaxChoices": 1,
+                "NutritionalInfo": null,
+                "NumberOfServings": null
+            }
         }
-    ],
-    "Layout": {
-        "CategoryViewLayout": "None",
-        "ItemViewLayout": "List",
-        "SingleCategoryView": false
-    }
+    ]
 }

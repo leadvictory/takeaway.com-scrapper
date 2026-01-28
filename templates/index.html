@@ -27,7 +27,7 @@
         text-align: center;
       }
 
-      input[type="text"] {
+      input[type="url"] {
         width: 90%;
         padding: 10px;
         font-size: 16px;
@@ -43,11 +43,16 @@
   </head>
   <body>
     <div class="container">
-      <h2>Enter URL to Scrape:</h2>
-      <form action="/run" method="post" enctype="multipart/form-data">
-          <label for="html_file">Upload menu_name.html:</label>
-          <input type="file" name="html_file" accept=".html" required>
-          <button type="submit">Run Scraper</button>
+      <h2>Enter Menu URL to Scrape:</h2>
+      <form action="/run" method="post">
+        <input
+          type="url"
+          name="menu_url"
+          placeholder="https://www.thuisbezorgd.nl/menu/annemax-14"
+          required
+        />
+        <br />
+        <button type="submit">Run Scraper</button>
       </form>
     </div>
   </body>
