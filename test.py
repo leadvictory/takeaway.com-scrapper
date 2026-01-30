@@ -254,7 +254,7 @@ def save_all(menu_url):
 
             writer.writerow([
                 group_id, option_id, option_id, "", "", name, "", price, price, price,
-                "0", "0", "0", "0", "delivery,takeaway", "1", "9"
+                "0", "0", "0", "0", "delivery,takeaway", "1", "9", "", ""
             ])
             option_id += 1
             written += 1
